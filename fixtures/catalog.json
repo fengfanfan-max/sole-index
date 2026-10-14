@@ -1,0 +1,6103 @@
+{
+  "brands": [
+    {
+      "id": "nike",
+      "name": "Nike",
+      "slug": "nike"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "slug": "jordan"
+    },
+    {
+      "id": "adidas",
+      "name": "adidas",
+      "slug": "adidas"
+    },
+    {
+      "id": "new-balance",
+      "name": "New Balance",
+      "slug": "new-balance"
+    },
+    {
+      "id": "asics",
+      "name": "ASICS",
+      "slug": "asics"
+    },
+    {
+      "id": "salomon",
+      "name": "Salomon",
+      "slug": "salomon"
+    },
+    {
+      "id": "puma",
+      "name": "PUMA",
+      "slug": "puma"
+    },
+    {
+      "id": "vans",
+      "name": "Vans",
+      "slug": "vans"
+    },
+    {
+      "id": "converse",
+      "name": "Converse",
+      "slug": "converse"
+    },
+    {
+      "id": "reebok",
+      "name": "Reebok",
+      "slug": "reebok"
+    },
+    {
+      "id": "hoka",
+      "name": "HOKA",
+      "slug": "hoka"
+    },
+    {
+      "id": "saucony",
+      "name": "Saucony",
+      "slug": "saucony"
+    }
+  ],
+  "categories": [
+    {
+      "id": "lifestyle",
+      "name": "Lifestyle",
+      "slug": "lifestyle",
+      "description": "Everyday silhouettes where resale is driven by colourway and cultural heat rather than performance."
+    },
+    {
+      "id": "basketball",
+      "name": "Basketball",
+      "slug": "basketball",
+      "description": "On-court heritage models. Historically the deepest resale premiums and the most restock-sensitive."
+    },
+    {
+      "id": "running",
+      "name": "Running",
+      "slug": "running",
+      "description": "Performance and retro-running. Widely distributed, so premiums are thinner but volume is high."
+    },
+    {
+      "id": "skateboarding",
+      "name": "Skateboarding",
+      "slug": "skateboarding",
+      "description": "Skate tooling. Demand is durable and less correlated with the broader sneaker cycle."
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "slug": "training",
+      "description": "Cross-training and gym models. Smallest resale segment, largely retail-priced."
+    },
+    {
+      "id": "trail",
+      "name": "Trail",
+      "slug": "trail",
+      "description": "Technical outdoor footwear. Functional materials create a distinct premium tier."
+    }
+  ],
+  "platforms": [
+    {
+      "id": "stockx",
+      "name": "StockX",
+      "homepage": "https://stockx.com"
+    },
+    {
+      "id": "goat",
+      "name": "GOAT",
+      "homepage": "https://www.goat.com"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "homepage": "https://www.ebay.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "DZAA1000-100",
+      "slug": "nike-air-max-1-taxi",
+      "name": "Nike Air Max 1 \"Taxi\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 1",
+      "colorway": "Taxi",
+      "primaryColor": "yellow",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-09-10",
+      "retailPriceCents": 14100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-1-taxi.jpg",
+      "description": "Nike Air Max 1 \"Taxi\" in a mesh and knit build. Running tier, retail $141."
+    },
+    {
+      "id": "FQBH1613-137",
+      "slug": "jordan-air-jordan-3-clay",
+      "name": "Jordan Air Jordan 3 \"Clay\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 3",
+      "colorway": "Clay",
+      "primaryColor": "orange",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "knit"
+      ],
+      "releaseDate": "2023-03-29",
+      "retailPriceCents": 19800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-3-clay.jpg",
+      "description": "Jordan Air Jordan 3 \"Clay\" in a leather and suede and knit build. Basketball tier, retail $198."
+    },
+    {
+      "id": "IECO2226-174",
+      "slug": "adidas-forum-low-steel",
+      "name": "adidas Forum Low \"Steel\"",
+      "brandId": "adidas",
+      "categoryId": "basketball",
+      "silhouette": "Forum Low",
+      "colorway": "Steel",
+      "primaryColor": "grey",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-02-09",
+      "retailPriceCents": 11200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-forum-low-steel.jpg",
+      "description": "adidas Forum Low \"Steel\" in a leather and suede build. Basketball tier, retail $112."
+    },
+    {
+      "id": "MDV2839-211",
+      "slug": "new-balance-2002r-smoke-grey",
+      "name": "New Balance 2002R \"Smoke Grey\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "2002R",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2026-06-26",
+      "retailPriceCents": 14500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-2002r-smoke-grey.jpg",
+      "description": "New Balance 2002R \"Smoke Grey\" in a mesh and knit and nubuck build. Running tier, retail $145."
+    },
+    {
+      "id": "SXEC3452-248",
+      "slug": "asics-gel-1130-white-cement",
+      "name": "ASICS GEL-1130 \"White Cement\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "White Cement",
+      "primaryColor": "white",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2026-02-28",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-white-cement.jpg",
+      "description": "ASICS GEL-1130 \"White Cement\" in a mesh and knit and gore-tex build. Running tier, retail $115."
+    },
+    {
+      "id": "LFJ4065-285",
+      "slug": "salomon-xa-pro-3d-varsity-maize",
+      "name": "Salomon XA Pro 3D \"Varsity Maize\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XA Pro 3D",
+      "colorway": "Varsity Maize",
+      "primaryColor": "yellow",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "suede"
+      ],
+      "releaseDate": "2023-05-31",
+      "retailPriceCents": 16100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xa-pro-3d-varsity-maize.jpg",
+      "description": "Salomon XA Pro 3D \"Varsity Maize\" in a mesh and ripstop and suede build. Trail tier, retail $161."
+    },
+    {
+      "id": "SXGQ4678-322",
+      "slug": "puma-mostro-plum-fog",
+      "name": "PUMA Mostro \"Plum Fog\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2024-11-04",
+      "retailPriceCents": 12400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-plum-fog.jpg",
+      "description": "PUMA Mostro \"Plum Fog\" in a leather and suede and nubuck build. Lifestyle tier, retail $124."
+    },
+    {
+      "id": "VNHX5291-359",
+      "slug": "vans-knu-skool-taupe",
+      "name": "Vans Knu Skool \"Taupe\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "Taupe",
+      "primaryColor": "brown",
+      "secondaryColor": "white",
+      "materials": [
+        "suede",
+        "canvas",
+        "leather"
+      ],
+      "releaseDate": "2026-07-08",
+      "retailPriceCents": 7600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-taupe.jpg",
+      "description": "Vans Knu Skool \"Taupe\" in a suede and canvas and leather build. Skateboarding tier, retail $76."
+    },
+    {
+      "id": "AIE5904-396",
+      "slug": "converse-run-star-hike-cool-grey",
+      "name": "Converse Run Star Hike \"Cool Grey\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Cool Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-02-21",
+      "retailPriceCents": 11300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-cool-grey.jpg",
+      "description": "Converse Run Star Hike \"Cool Grey\" in a leather and suede build. Lifestyle tier, retail $113."
+    },
+    {
+      "id": "SXJL6517-433",
+      "slug": "reebok-premier-road-plus-shattered-backboard",
+      "name": "Reebok Premier Road Plus \"Shattered Backboard\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Premier Road Plus",
+      "colorway": "Shattered Backboard",
+      "primaryColor": "orange",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2023-09-18",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-premier-road-plus-shattered-backboard.jpg",
+      "description": "Reebok Premier Road Plus \"Shattered Backboard\" in a mesh and knit build. Running tier, retail $115."
+    },
+    {
+      "id": "SXKS7130-470",
+      "slug": "hoka-mafate-speed-2-oatmeal",
+      "name": "HOKA Mafate Speed 2 \"Oatmeal\"",
+      "brandId": "hoka",
+      "categoryId": "trail",
+      "silhouette": "Mafate Speed 2",
+      "colorway": "Oatmeal",
+      "primaryColor": "beige",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "gore-tex"
+      ],
+      "releaseDate": "2025-12-19",
+      "retailPriceCents": 18800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-mafate-speed-2-oatmeal.jpg",
+      "description": "HOKA Mafate Speed 2 \"Oatmeal\" in a mesh and ripstop and gore-tex build. Trail tier, retail $188."
+    },
+    {
+      "id": "SLZ7743-507",
+      "slug": "saucony-grid-jazz-9-grape",
+      "name": "Saucony Grid Jazz 9 \"Grape\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Grape",
+      "primaryColor": "purple",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2023-12-30",
+      "retailPriceCents": 11400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-grape.jpg",
+      "description": "Saucony Grid Jazz 9 \"Grape\" in a mesh and knit build. Running tier, retail $114."
+    },
+    {
+      "id": "DZMG8356-544",
+      "slug": "nike-air-max-1-court-purple",
+      "name": "Nike Air Max 1 \"Court Purple\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 1",
+      "colorway": "Court Purple",
+      "primaryColor": "purple",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-10-01",
+      "retailPriceCents": 14200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-1-court-purple.jpg",
+      "description": "Nike Air Max 1 \"Court Purple\" in a mesh and knit build. Running tier, retail $142."
+    },
+    {
+      "id": "FQNN8969-581",
+      "slug": "jordan-air-jordan-1-high-og-university-blue",
+      "name": "Jordan Air Jordan 1 High OG \"University Blue\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 1 High OG",
+      "colorway": "University Blue",
+      "primaryColor": "blue",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-02-24",
+      "retailPriceCents": 18300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-1-high-og-university-blue.jpg",
+      "description": "Jordan Air Jordan 1 High OG \"University Blue\" in a leather and suede build. Basketball tier, retail $183."
+    },
+    {
+      "id": "IEOU9582-618",
+      "slug": "adidas-campus-00s-plum-fog",
+      "name": "adidas Campus 00s \"Plum Fog\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Campus 00s",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "knit"
+      ],
+      "releaseDate": "2024-08-03",
+      "retailPriceCents": 11300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-campus-00s-plum-fog.jpg",
+      "description": "adidas Campus 00s \"Plum Fog\" in a leather and suede and knit build. Lifestyle tier, retail $113."
+    },
+    {
+      "id": "MPB1196-655",
+      "slug": "new-balance-990v6-cream",
+      "name": "New Balance 990v6 \"Cream\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "990v6",
+      "colorway": "Cream",
+      "primaryColor": "beige",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2026-06-28",
+      "retailPriceCents": 19900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-990v6-cream.jpg",
+      "description": "New Balance 990v6 \"Cream\" in a mesh and knit and nubuck build. Running tier, retail $199."
+    },
+    {
+      "id": "SXQI1809-692",
+      "slug": "asics-gt-2160-black-phantom",
+      "name": "ASICS GT-2160 \"Black Phantom\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GT-2160",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2023-04-20",
+      "retailPriceCents": 12300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gt-2160-black-phantom.jpg",
+      "description": "ASICS GT-2160 \"Black Phantom\" in a mesh and knit build. Running tier, retail $123."
+    },
+    {
+      "id": "LRP2422-729",
+      "slug": "salomon-acs-pro-sunset",
+      "name": "Salomon ACS Pro \"Sunset\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "ACS Pro",
+      "colorway": "Sunset",
+      "primaryColor": "orange",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2021-05-05",
+      "retailPriceCents": 19300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-acs-pro-sunset.jpg",
+      "description": "Salomon ACS Pro \"Sunset\" in a mesh and ripstop build. Trail tier, retail $193."
+    },
+    {
+      "id": "SXSW3035-766",
+      "slug": "puma-palermo-varsity-maize",
+      "name": "PUMA Palermo \"Varsity Maize\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Palermo",
+      "colorway": "Varsity Maize",
+      "primaryColor": "yellow",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-05-30",
+      "retailPriceCents": 8800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-palermo-varsity-maize.jpg",
+      "description": "PUMA Palermo \"Varsity Maize\" in a leather and suede build. Lifestyle tier, retail $88."
+    },
+    {
+      "id": "VNTD3648-803",
+      "slug": "vans-old-skool-cacao",
+      "name": "Vans Old Skool \"Cacao\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Old Skool",
+      "colorway": "Cacao",
+      "primaryColor": "brown",
+      "secondaryColor": "pink",
+      "materials": [
+        "suede",
+        "canvas",
+        "mesh"
+      ],
+      "releaseDate": "2023-03-20",
+      "retailPriceCents": 6700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-old-skool-cacao.jpg",
+      "description": "Vans Old Skool \"Cacao\" in a suede and canvas and mesh build. Skateboarding tier, retail $67."
+    },
+    {
+      "id": "AUK4261-840",
+      "slug": "converse-chuck-70-high-shadow",
+      "name": "Converse Chuck 70 High \"Shadow\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 High",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-06-07",
+      "retailPriceCents": 9100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-high-shadow.jpg",
+      "description": "Converse Chuck 70 High \"Shadow\" in a leather and suede build. Lifestyle tier, retail $91."
+    },
+    {
+      "id": "SXVR4874-877",
+      "slug": "reebok-instapump-fury-sail",
+      "name": "Reebok Instapump Fury \"Sail\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-08-21",
+      "retailPriceCents": 20000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-sail.jpg",
+      "description": "Reebok Instapump Fury \"Sail\" in a mesh and knit build. Running tier, retail $200."
+    },
+    {
+      "id": "SXWY5487-914",
+      "slug": "hoka-bondi-8-university-blue",
+      "name": "HOKA Bondi 8 \"University Blue\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Bondi 8",
+      "colorway": "University Blue",
+      "primaryColor": "blue",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit",
+        "suede"
+      ],
+      "releaseDate": "2023-05-07",
+      "retailPriceCents": 16000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-bondi-8-university-blue.jpg",
+      "description": "HOKA Bondi 8 \"University Blue\" in a mesh and knit and suede build. Running tier, retail $160."
+    },
+    {
+      "id": "SXF6100-951",
+      "slug": "saucony-grid-jazz-9-smoke-grey",
+      "name": "Saucony Grid Jazz 9 \"Smoke Grey\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2024-07-06",
+      "retailPriceCents": 11200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-smoke-grey.jpg",
+      "description": "Saucony Grid Jazz 9 \"Smoke Grey\" in a mesh and knit and ripstop build. Running tier, retail $112."
+    },
+    {
+      "id": "DZYM6713-988",
+      "slug": "nike-air-max-1-black-cat",
+      "name": "Nike Air Max 1 \"Black Cat\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 1",
+      "colorway": "Black Cat",
+      "primaryColor": "black",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-11-15",
+      "retailPriceCents": 14000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-1-black-cat.jpg",
+      "description": "Nike Air Max 1 \"Black Cat\" in a mesh and knit build. Running tier, retail $140."
+    },
+    {
+      "id": "FQZT7326-126",
+      "slug": "jordan-air-jordan-1-high-og-desert-ore",
+      "name": "Jordan Air Jordan 1 High OG \"Desert Ore\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 1 High OG",
+      "colorway": "Desert Ore",
+      "primaryColor": "beige",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-09-25",
+      "retailPriceCents": 18100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-1-high-og-desert-ore.jpg",
+      "description": "Jordan Air Jordan 1 High OG \"Desert Ore\" in a leather and suede build. Basketball tier, retail $181."
+    },
+    {
+      "id": "IEAA7939-163",
+      "slug": "adidas-campus-00s-crimson-tint",
+      "name": "adidas Campus 00s \"Crimson Tint\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Campus 00s",
+      "colorway": "Crimson Tint",
+      "primaryColor": "red",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-03-04",
+      "retailPriceCents": 10900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-campus-00s-crimson-tint.jpg",
+      "description": "adidas Campus 00s \"Crimson Tint\" in a leather and suede build. Lifestyle tier, retail $109."
+    },
+    {
+      "id": "MBH8552-200",
+      "slug": "new-balance-2002r-shattered-backboard",
+      "name": "New Balance 2002R \"Shattered Backboard\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "2002R",
+      "colorway": "Shattered Backboard",
+      "primaryColor": "orange",
+      "secondaryColor": "grey",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-05-31",
+      "retailPriceCents": 14900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-2002r-shattered-backboard.jpg",
+      "description": "New Balance 2002R \"Shattered Backboard\" in a mesh and knit build. Running tier, retail $149."
+    },
+    {
+      "id": "SXCO9165-237",
+      "slug": "asics-gel-1130-celtics",
+      "name": "ASICS GEL-1130 \"Celtics\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Celtics",
+      "primaryColor": "green",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2022-11-17",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-celtics.jpg",
+      "description": "ASICS GEL-1130 \"Celtics\" in a mesh and knit and canvas build. Running tier, retail $110."
+    },
+    {
+      "id": "LDV9778-274",
+      "slug": "salomon-acs-pro-arctic-pink",
+      "name": "Salomon ACS Pro \"Arctic Pink\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "ACS Pro",
+      "colorway": "Arctic Pink",
+      "primaryColor": "pink",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2025-09-18",
+      "retailPriceCents": 20000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-acs-pro-arctic-pink.jpg",
+      "description": "Salomon ACS Pro \"Arctic Pink\" in a mesh and ripstop build. Trail tier, retail $200."
+    },
+    {
+      "id": "SXEC1392-311",
+      "slug": "puma-speedcat-og-cool-grey",
+      "name": "PUMA Speedcat OG \"Cool Grey\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Speedcat OG",
+      "colorway": "Cool Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-04-09",
+      "retailPriceCents": 9900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-speedcat-og-cool-grey.jpg",
+      "description": "PUMA Speedcat OG \"Cool Grey\" in a leather and suede build. Lifestyle tier, retail $99."
+    },
+    {
+      "id": "VNFJ2005-348",
+      "slug": "vans-knu-skool-court-purple",
+      "name": "Vans Knu Skool \"Court Purple\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "Court Purple",
+      "primaryColor": "purple",
+      "secondaryColor": "pink",
+      "materials": [
+        "suede",
+        "canvas",
+        "ripstop"
+      ],
+      "releaseDate": "2026-05-25",
+      "retailPriceCents": 7500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-court-purple.jpg",
+      "description": "Vans Knu Skool \"Court Purple\" in a suede and canvas and ripstop build. Skateboarding tier, retail $75."
+    },
+    {
+      "id": "AGQ2618-385",
+      "slug": "converse-chuck-70-low-gorge-green",
+      "name": "Converse Chuck 70 Low \"Gorge Green\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 Low",
+      "colorway": "Gorge Green",
+      "primaryColor": "green",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede",
+        "gore-tex"
+      ],
+      "releaseDate": "2023-12-08",
+      "retailPriceCents": 8700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-low-gorge-green.jpg",
+      "description": "Converse Chuck 70 Low \"Gorge Green\" in a leather and suede and gore-tex build. Lifestyle tier, retail $87."
+    },
+    {
+      "id": "SXHX3231-422",
+      "slug": "reebok-club-c-85-bubblegum",
+      "name": "Reebok Club C 85 \"Bubblegum\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2025-07-27",
+      "retailPriceCents": 8000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-bubblegum.jpg",
+      "description": "Reebok Club C 85 \"Bubblegum\" in a leather and suede build. Lifestyle tier, retail $80."
+    },
+    {
+      "id": "SXIE3844-459",
+      "slug": "hoka-mafate-speed-2-pure-platinum",
+      "name": "HOKA Mafate Speed 2 \"Pure Platinum\"",
+      "brandId": "hoka",
+      "categoryId": "trail",
+      "silhouette": "Mafate Speed 2",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "nubuck"
+      ],
+      "releaseDate": "2026-05-11",
+      "retailPriceCents": 18100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-mafate-speed-2-pure-platinum.jpg",
+      "description": "HOKA Mafate Speed 2 \"Pure Platinum\" in a mesh and ripstop and nubuck build. Trail tier, retail $181."
+    },
+    {
+      "id": "SJL4457-496",
+      "slug": "saucony-progrid-omni-9-olive",
+      "name": "Saucony ProGrid Omni 9 \"Olive\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "ProGrid Omni 9",
+      "colorway": "Olive",
+      "primaryColor": "green",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-05-27",
+      "retailPriceCents": 15100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-progrid-omni-9-olive.jpg",
+      "description": "Saucony ProGrid Omni 9 \"Olive\" in a mesh and knit build. Running tier, retail $151."
+    },
+    {
+      "id": "DZKS5070-533",
+      "slug": "nike-air-max-90-varsity-red",
+      "name": "Nike Air Max 90 \"Varsity Red\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 90",
+      "colorway": "Varsity Red",
+      "primaryColor": "red",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2024-07-25",
+      "retailPriceCents": 12500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-90-varsity-red.jpg",
+      "description": "Nike Air Max 90 \"Varsity Red\" in a mesh and knit and nubuck build. Running tier, retail $125."
+    },
+    {
+      "id": "FQLZ5683-570",
+      "slug": "jordan-air-jordan-4-sail",
+      "name": "Jordan Air Jordan 4 \"Sail\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 4",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-08-09",
+      "retailPriceCents": 21200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-4-sail.jpg",
+      "description": "Jordan Air Jordan 4 \"Sail\" in a leather and suede build. Basketball tier, retail $212."
+    },
+    {
+      "id": "IEMG6296-607",
+      "slug": "adidas-gazelle-indoor-sail",
+      "name": "adidas Gazelle Indoor \"Sail\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2025-07-29",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-sail.jpg",
+      "description": "adidas Gazelle Indoor \"Sail\" in a leather and suede build. Lifestyle tier, retail $110."
+    },
+    {
+      "id": "MNN6909-644",
+      "slug": "new-balance-9060-sand",
+      "name": "New Balance 9060 \"Sand\"",
+      "brandId": "new-balance",
+      "categoryId": "lifestyle",
+      "silhouette": "9060",
+      "colorway": "Sand",
+      "primaryColor": "beige",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede",
+        "mesh"
+      ],
+      "releaseDate": "2025-06-07",
+      "retailPriceCents": 14500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-9060-sand.jpg",
+      "description": "New Balance 9060 \"Sand\" in a leather and suede and mesh build. Lifestyle tier, retail $145."
+    },
+    {
+      "id": "SXOU7522-681",
+      "slug": "asics-gel-1130-arctic-pink",
+      "name": "ASICS GEL-1130 \"Arctic Pink\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Arctic Pink",
+      "primaryColor": "pink",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit",
+        "suede"
+      ],
+      "releaseDate": "2021-11-14",
+      "retailPriceCents": 11400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-arctic-pink.jpg",
+      "description": "ASICS GEL-1130 \"Arctic Pink\" in a mesh and knit and suede build. Running tier, retail $114."
+    },
+    {
+      "id": "LPB8135-718",
+      "slug": "salomon-speedcross-3-cloud-white",
+      "name": "Salomon Speedcross 3 \"Cloud White\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "Speedcross 3",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2024-07-18",
+      "retailPriceCents": 14900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-speedcross-3-cloud-white.jpg",
+      "description": "Salomon Speedcross 3 \"Cloud White\" in a mesh and ripstop build. Trail tier, retail $149."
+    },
+    {
+      "id": "SXQI8748-755",
+      "slug": "puma-mostro-bubblegum",
+      "name": "PUMA Mostro \"Bubblegum\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2022-09-11",
+      "retailPriceCents": 12200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-bubblegum.jpg",
+      "description": "PUMA Mostro \"Bubblegum\" in a leather and suede and nubuck build. Lifestyle tier, retail $122."
+    },
+    {
+      "id": "VNRP9361-792",
+      "slug": "vans-knu-skool-blush",
+      "name": "Vans Knu Skool \"Blush\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "Blush",
+      "primaryColor": "pink",
+      "secondaryColor": "red",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2023-01-30",
+      "retailPriceCents": 8100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-blush.jpg",
+      "description": "Vans Knu Skool \"Blush\" in a suede and canvas build. Skateboarding tier, retail $81."
+    },
+    {
+      "id": "ASW9974-829",
+      "slug": "converse-chuck-70-high-bubblegum",
+      "name": "Converse Chuck 70 High \"Bubblegum\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 High",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-05-12",
+      "retailPriceCents": 9300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-high-bubblegum.jpg",
+      "description": "Converse Chuck 70 High \"Bubblegum\" in a leather and suede build. Lifestyle tier, retail $93."
+    },
+    {
+      "id": "SXTD1588-866",
+      "slug": "reebok-instapump-fury-marina",
+      "name": "Reebok Instapump Fury \"Marina\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Marina",
+      "primaryColor": "blue",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2024-11-09",
+      "retailPriceCents": 19700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-marina.jpg",
+      "description": "Reebok Instapump Fury \"Marina\" in a mesh and knit and ripstop build. Running tier, retail $197."
+    },
+    {
+      "id": "SXUK2201-903",
+      "slug": "hoka-mafate-speed-2-smoke-grey",
+      "name": "HOKA Mafate Speed 2 \"Smoke Grey\"",
+      "brandId": "hoka",
+      "categoryId": "trail",
+      "silhouette": "Mafate Speed 2",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "canvas"
+      ],
+      "releaseDate": "2023-04-16",
+      "retailPriceCents": 18000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-mafate-speed-2-smoke-grey.jpg",
+      "description": "HOKA Mafate Speed 2 \"Smoke Grey\" in a mesh and ripstop and canvas build. Trail tier, retail $180."
+    },
+    {
+      "id": "SVR2814-940",
+      "slug": "saucony-shadow-6000-ash-grey",
+      "name": "Saucony Shadow 6000 \"Ash Grey\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Shadow 6000",
+      "colorway": "Ash Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-01-25",
+      "retailPriceCents": 12600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-shadow-6000-ash-grey.jpg",
+      "description": "Saucony Shadow 6000 \"Ash Grey\" in a mesh and knit build. Running tier, retail $126."
+    },
+    {
+      "id": "DZWY3427-977",
+      "slug": "nike-air-max-95-black-phantom",
+      "name": "Nike Air Max 95 \"Black Phantom\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 95",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2023-06-08",
+      "retailPriceCents": 17600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-95-black-phantom.jpg",
+      "description": "Nike Air Max 95 \"Black Phantom\" in a mesh and knit and canvas build. Running tier, retail $176."
+    },
+    {
+      "id": "FQXF4040-115",
+      "slug": "jordan-air-jordan-1-high-og-taxi",
+      "name": "Jordan Air Jordan 1 High OG \"Taxi\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 1 High OG",
+      "colorway": "Taxi",
+      "primaryColor": "yellow",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-04-05",
+      "retailPriceCents": 17600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-1-high-og-taxi.jpg",
+      "description": "Jordan Air Jordan 1 High OG \"Taxi\" in a leather and suede build. Basketball tier, retail $176."
+    },
+    {
+      "id": "IEYM4653-152",
+      "slug": "adidas-samba-og-cloud-white",
+      "name": "adidas Samba OG \"Cloud White\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Samba OG",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede",
+        "corduroy"
+      ],
+      "releaseDate": "2022-05-06",
+      "retailPriceCents": 9500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-samba-og-cloud-white.jpg",
+      "description": "adidas Samba OG \"Cloud White\" in a leather and suede and corduroy build. Lifestyle tier, retail $95."
+    },
+    {
+      "id": "MZT5266-189",
+      "slug": "new-balance-1906r-obsidian",
+      "name": "New Balance 1906R \"Obsidian\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "1906R",
+      "colorway": "Obsidian",
+      "primaryColor": "blue",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2022-01-25",
+      "retailPriceCents": 15600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-1906r-obsidian.jpg",
+      "description": "New Balance 1906R \"Obsidian\" in a mesh and knit and canvas build. Running tier, retail $156."
+    },
+    {
+      "id": "SXAA5879-226",
+      "slug": "asics-gel-nyc-obsidian",
+      "name": "ASICS GEL-NYC \"Obsidian\"",
+      "brandId": "asics",
+      "categoryId": "lifestyle",
+      "silhouette": "GEL-NYC",
+      "colorway": "Obsidian",
+      "primaryColor": "blue",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-05-14",
+      "retailPriceCents": 12800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-nyc-obsidian.jpg",
+      "description": "ASICS GEL-NYC \"Obsidian\" in a leather and suede build. Lifestyle tier, retail $128."
+    },
+    {
+      "id": "LBH6492-263",
+      "slug": "salomon-speedcross-3-obsidian",
+      "name": "Salomon Speedcross 3 \"Obsidian\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "Speedcross 3",
+      "colorway": "Obsidian",
+      "primaryColor": "blue",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "suede"
+      ],
+      "releaseDate": "2022-05-25",
+      "retailPriceCents": 14800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-speedcross-3-obsidian.jpg",
+      "description": "Salomon Speedcross 3 \"Obsidian\" in a mesh and ripstop and suede build. Trail tier, retail $148."
+    },
+    {
+      "id": "SXCO7105-300",
+      "slug": "puma-suede-classic-xxi-white-cement",
+      "name": "PUMA Suede Classic XXI \"White Cement\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Suede Classic XXI",
+      "colorway": "White Cement",
+      "primaryColor": "white",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2024-12-14",
+      "retailPriceCents": 8400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-suede-classic-xxi-white-cement.jpg",
+      "description": "PUMA Suede Classic XXI \"White Cement\" in a leather and suede and canvas build. Lifestyle tier, retail $84."
+    },
+    {
+      "id": "VNDV7718-337",
+      "slug": "vans-authentic-anthracite",
+      "name": "Vans Authentic \"Anthracite\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Authentic",
+      "colorway": "Anthracite",
+      "primaryColor": "black",
+      "secondaryColor": "blue",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2024-10-19",
+      "retailPriceCents": 5900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-authentic-anthracite.jpg",
+      "description": "Vans Authentic \"Anthracite\" in a suede and canvas build. Skateboarding tier, retail $59."
+    },
+    {
+      "id": "AEC8331-374",
+      "slug": "converse-run-star-hike-triple-white",
+      "name": "Converse Run Star Hike \"Triple White\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-01-12",
+      "retailPriceCents": 11300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-triple-white.jpg",
+      "description": "Converse Run Star Hike \"Triple White\" in a leather and suede build. Lifestyle tier, retail $113."
+    },
+    {
+      "id": "SXFJ8944-411",
+      "slug": "reebok-club-c-85-military-blue",
+      "name": "Reebok Club C 85 \"Military Blue\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Military Blue",
+      "primaryColor": "blue",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-03-31",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-military-blue.jpg",
+      "description": "Reebok Club C 85 \"Military Blue\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXGQ9557-448",
+      "slug": "hoka-clifton-9-black-cat",
+      "name": "HOKA Clifton 9 \"Black Cat\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Black Cat",
+      "primaryColor": "black",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2023-03-14",
+      "retailPriceCents": 14600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-black-cat.jpg",
+      "description": "HOKA Clifton 9 \"Black Cat\" in a mesh and knit build. Running tier, retail $146."
+    },
+    {
+      "id": "SHX1171-485",
+      "slug": "saucony-progrid-omni-9-plum-fog",
+      "name": "Saucony ProGrid Omni 9 \"Plum Fog\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "ProGrid Omni 9",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-08-14",
+      "retailPriceCents": 15300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-progrid-omni-9-plum-fog.jpg",
+      "description": "Saucony ProGrid Omni 9 \"Plum Fog\" in a mesh and knit build. Running tier, retail $153."
+    },
+    {
+      "id": "DZIE1784-522",
+      "slug": "nike-sb-dunk-low-cloud-white",
+      "name": "Nike SB Dunk Low \"Cloud White\"",
+      "brandId": "nike",
+      "categoryId": "skateboarding",
+      "silhouette": "SB Dunk Low",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "purple",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2023-08-30",
+      "retailPriceCents": 11200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-sb-dunk-low-cloud-white.jpg",
+      "description": "Nike SB Dunk Low \"Cloud White\" in a suede and canvas build. Skateboarding tier, retail $112."
+    },
+    {
+      "id": "FQJL2397-559",
+      "slug": "jordan-air-jordan-5-triple-white",
+      "name": "Jordan Air Jordan 5 \"Triple White\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 5",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-08-17",
+      "retailPriceCents": 20800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-5-triple-white.jpg",
+      "description": "Jordan Air Jordan 5 \"Triple White\" in a leather and suede build. Basketball tier, retail $208."
+    },
+    {
+      "id": "IEKS3010-596",
+      "slug": "adidas-samba-og-black-cat",
+      "name": "adidas Samba OG \"Black Cat\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Samba OG",
+      "colorway": "Black Cat",
+      "primaryColor": "black",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-06-07",
+      "retailPriceCents": 9500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-samba-og-black-cat.jpg",
+      "description": "adidas Samba OG \"Black Cat\" in a leather and suede build. Lifestyle tier, retail $95."
+    },
+    {
+      "id": "MLZ3623-633",
+      "slug": "new-balance-9060-court-purple",
+      "name": "New Balance 9060 \"Court Purple\"",
+      "brandId": "new-balance",
+      "categoryId": "lifestyle",
+      "silhouette": "9060",
+      "colorway": "Court Purple",
+      "primaryColor": "purple",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2025-10-03",
+      "retailPriceCents": 15000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-9060-court-purple.jpg",
+      "description": "New Balance 9060 \"Court Purple\" in a leather and suede build. Lifestyle tier, retail $150."
+    },
+    {
+      "id": "SXMG4236-670",
+      "slug": "asics-gel-1130-pure-platinum",
+      "name": "ASICS GEL-1130 \"Pure Platinum\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-06-07",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-pure-platinum.jpg",
+      "description": "ASICS GEL-1130 \"Pure Platinum\" in a mesh and knit build. Running tier, retail $105."
+    },
+    {
+      "id": "LNN4849-707",
+      "slug": "salomon-speedcross-3-steel",
+      "name": "Salomon Speedcross 3 \"Steel\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "Speedcross 3",
+      "colorway": "Steel",
+      "primaryColor": "grey",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2024-03-28",
+      "retailPriceCents": 14900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-speedcross-3-steel.jpg",
+      "description": "Salomon Speedcross 3 \"Steel\" in a mesh and ripstop build. Trail tier, retail $149."
+    },
+    {
+      "id": "SXOU5462-744",
+      "slug": "puma-suede-classic-xxi-cloud-white",
+      "name": "PUMA Suede Classic XXI \"Cloud White\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Suede Classic XXI",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2024-11-04",
+      "retailPriceCents": 7500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-suede-classic-xxi-cloud-white.jpg",
+      "description": "PUMA Suede Classic XXI \"Cloud White\" in a leather and suede build. Lifestyle tier, retail $75."
+    },
+    {
+      "id": "VNPB6075-781",
+      "slug": "vans-knu-skool-black-phantom",
+      "name": "Vans Knu Skool \"Black Phantom\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "brown",
+      "materials": [
+        "suede",
+        "canvas",
+        "ripstop"
+      ],
+      "releaseDate": "2024-04-21",
+      "retailPriceCents": 8400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-black-phantom.jpg",
+      "description": "Vans Knu Skool \"Black Phantom\" in a suede and canvas and ripstop build. Skateboarding tier, retail $84."
+    },
+    {
+      "id": "AQI6688-818",
+      "slug": "converse-chuck-70-high-chestnut",
+      "name": "Converse Chuck 70 High \"Chestnut\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 High",
+      "colorway": "Chestnut",
+      "primaryColor": "brown",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-11-04",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-high-chestnut.jpg",
+      "description": "Converse Chuck 70 High \"Chestnut\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXRP7301-855",
+      "slug": "reebok-premier-road-plus-shadow",
+      "name": "Reebok Premier Road Plus \"Shadow\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Premier Road Plus",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-07-09",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-premier-road-plus-shadow.jpg",
+      "description": "Reebok Premier Road Plus \"Shadow\" in a mesh and knit build. Running tier, retail $115."
+    },
+    {
+      "id": "SXSW7914-892",
+      "slug": "hoka-clifton-9-triple-white",
+      "name": "HOKA Clifton 9 \"Triple White\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2026-06-23",
+      "retailPriceCents": 14200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-triple-white.jpg",
+      "description": "HOKA Clifton 9 \"Triple White\" in a mesh and knit and ripstop build. Running tier, retail $142."
+    },
+    {
+      "id": "STD8527-929",
+      "slug": "saucony-grid-jazz-9-team-red",
+      "name": "Saucony Grid Jazz 9 \"Team Red\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Team Red",
+      "primaryColor": "red",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2026-01-15",
+      "retailPriceCents": 10800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-team-red.jpg",
+      "description": "Saucony Grid Jazz 9 \"Team Red\" in a mesh and knit and gore-tex build. Running tier, retail $108."
+    },
+    {
+      "id": "DZUK9140-966",
+      "slug": "nike-air-huarache-cacao",
+      "name": "Nike Air Huarache \"Cacao\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Huarache",
+      "colorway": "Cacao",
+      "primaryColor": "brown",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-12-17",
+      "retailPriceCents": 12400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-huarache-cacao.jpg",
+      "description": "Nike Air Huarache \"Cacao\" in a mesh and knit build. Running tier, retail $124."
+    },
+    {
+      "id": "FQVR9753-104",
+      "slug": "jordan-air-jordan-5-chicago",
+      "name": "Jordan Air Jordan 5 \"Chicago\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 5",
+      "colorway": "Chicago",
+      "primaryColor": "red",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2022-06-20",
+      "retailPriceCents": 21200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-5-chicago.jpg",
+      "description": "Jordan Air Jordan 5 \"Chicago\" in a leather and suede and canvas build. Basketball tier, retail $212."
+    },
+    {
+      "id": "IEWY1367-141",
+      "slug": "adidas-forum-low-pine-green",
+      "name": "adidas Forum Low \"Pine Green\"",
+      "brandId": "adidas",
+      "categoryId": "basketball",
+      "silhouette": "Forum Low",
+      "colorway": "Pine Green",
+      "primaryColor": "green",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-01-22",
+      "retailPriceCents": 10900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-forum-low-pine-green.jpg",
+      "description": "adidas Forum Low \"Pine Green\" in a leather and suede build. Basketball tier, retail $109."
+    },
+    {
+      "id": "MXF1980-178",
+      "slug": "new-balance-9060-pine-green",
+      "name": "New Balance 9060 \"Pine Green\"",
+      "brandId": "new-balance",
+      "categoryId": "lifestyle",
+      "silhouette": "9060",
+      "colorway": "Pine Green",
+      "primaryColor": "green",
+      "secondaryColor": "purple",
+      "materials": [
+        "leather",
+        "suede",
+        "corduroy"
+      ],
+      "releaseDate": "2024-02-17",
+      "retailPriceCents": 14900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-9060-pine-green.jpg",
+      "description": "New Balance 9060 \"Pine Green\" in a leather and suede and corduroy build. Lifestyle tier, retail $149."
+    },
+    {
+      "id": "SXYM2593-215",
+      "slug": "asics-gt-2160-butter",
+      "name": "ASICS GT-2160 \"Butter\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GT-2160",
+      "colorway": "Butter",
+      "primaryColor": "yellow",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2022-08-01",
+      "retailPriceCents": 11700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gt-2160-butter.jpg",
+      "description": "ASICS GT-2160 \"Butter\" in a mesh and knit and ripstop build. Running tier, retail $117."
+    },
+    {
+      "id": "LZT3206-252",
+      "slug": "salomon-xt-6-clay",
+      "name": "Salomon XT-6 \"Clay\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XT-6",
+      "colorway": "Clay",
+      "primaryColor": "orange",
+      "secondaryColor": "grey",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "gore-tex"
+      ],
+      "releaseDate": "2022-08-31",
+      "retailPriceCents": 19700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xt-6-clay.jpg",
+      "description": "Salomon XT-6 \"Clay\" in a mesh and ripstop and gore-tex build. Trail tier, retail $197."
+    },
+    {
+      "id": "SXAA3819-289",
+      "slug": "puma-mostro-taxi",
+      "name": "PUMA Mostro \"Taxi\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Taxi",
+      "primaryColor": "yellow",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-04-06",
+      "retailPriceCents": 12200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-taxi.jpg",
+      "description": "PUMA Mostro \"Taxi\" in a leather and suede build. Lifestyle tier, retail $122."
+    },
+    {
+      "id": "VNBH4432-326",
+      "slug": "vans-old-skool-clay",
+      "name": "Vans Old Skool \"Clay\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Old Skool",
+      "colorway": "Clay",
+      "primaryColor": "orange",
+      "secondaryColor": "pink",
+      "materials": [
+        "suede",
+        "canvas",
+        "mesh"
+      ],
+      "releaseDate": "2026-07-23",
+      "retailPriceCents": 6600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-old-skool-clay.jpg",
+      "description": "Vans Old Skool \"Clay\" in a suede and canvas and mesh build. Skateboarding tier, retail $66."
+    },
+    {
+      "id": "ACO5045-363",
+      "slug": "converse-run-star-hike-anthracite",
+      "name": "Converse Run Star Hike \"Anthracite\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Anthracite",
+      "primaryColor": "black",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-10-04",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-anthracite.jpg",
+      "description": "Converse Run Star Hike \"Anthracite\" in a leather and suede build. Lifestyle tier, retail $110."
+    },
+    {
+      "id": "SXDV5658-400",
+      "slug": "reebok-club-c-85-pure-platinum",
+      "name": "Reebok Club C 85 \"Pure Platinum\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-08-22",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-pure-platinum.jpg",
+      "description": "Reebok Club C 85 \"Pure Platinum\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXEC6271-437",
+      "slug": "hoka-clifton-9-bred",
+      "name": "HOKA Clifton 9 \"Bred\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Bred",
+      "primaryColor": "red",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "knit",
+        "leather"
+      ],
+      "releaseDate": "2023-09-22",
+      "retailPriceCents": 14800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-bred.jpg",
+      "description": "HOKA Clifton 9 \"Bred\" in a mesh and knit and leather build. Running tier, retail $148."
+    },
+    {
+      "id": "SFJ6884-474",
+      "slug": "saucony-shadow-6000-black-cat",
+      "name": "Saucony Shadow 6000 \"Black Cat\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Shadow 6000",
+      "colorway": "Black Cat",
+      "primaryColor": "black",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "suede"
+      ],
+      "releaseDate": "2025-04-27",
+      "retailPriceCents": 13300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-shadow-6000-black-cat.jpg",
+      "description": "Saucony Shadow 6000 \"Black Cat\" in a mesh and knit and suede build. Running tier, retail $133."
+    },
+    {
+      "id": "DZGQ7497-511",
+      "slug": "nike-air-force-1-low-cream",
+      "name": "Nike Air Force 1 Low \"Cream\"",
+      "brandId": "nike",
+      "categoryId": "lifestyle",
+      "silhouette": "Air Force 1 Low",
+      "colorway": "Cream",
+      "primaryColor": "beige",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede",
+        "ripstop"
+      ],
+      "releaseDate": "2021-04-26",
+      "retailPriceCents": 11300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-force-1-low-cream.jpg",
+      "description": "Nike Air Force 1 Low \"Cream\" in a leather and suede and ripstop build. Lifestyle tier, retail $113."
+    },
+    {
+      "id": "FQHX8110-548",
+      "slug": "jordan-air-jordan-3-sail",
+      "name": "Jordan Air Jordan 3 \"Sail\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 3",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "purple",
+      "materials": [
+        "leather",
+        "suede",
+        "patent"
+      ],
+      "releaseDate": "2024-07-18",
+      "retailPriceCents": 20100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-3-sail.jpg",
+      "description": "Jordan Air Jordan 3 \"Sail\" in a leather and suede and patent build. Basketball tier, retail $201."
+    },
+    {
+      "id": "IEIE8723-585",
+      "slug": "adidas-superstar-ii-clay",
+      "name": "adidas Superstar II \"Clay\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Superstar II",
+      "colorway": "Clay",
+      "primaryColor": "orange",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2022-01-30",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-superstar-ii-clay.jpg",
+      "description": "adidas Superstar II \"Clay\" in a leather and suede and nubuck build. Lifestyle tier, retail $105."
+    },
+    {
+      "id": "MJL9336-622",
+      "slug": "new-balance-530-varsity-red",
+      "name": "New Balance 530 \"Varsity Red\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "530",
+      "colorway": "Varsity Red",
+      "primaryColor": "red",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2024-11-05",
+      "retailPriceCents": 10000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-530-varsity-red.jpg",
+      "description": "New Balance 530 \"Varsity Red\" in a mesh and knit build. Running tier, retail $100."
+    },
+    {
+      "id": "SXKS9949-659",
+      "slug": "asics-gel-nyc-white-cement",
+      "name": "ASICS GEL-NYC \"White Cement\"",
+      "brandId": "asics",
+      "categoryId": "lifestyle",
+      "silhouette": "GEL-NYC",
+      "colorway": "White Cement",
+      "primaryColor": "white",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede",
+        "mesh"
+      ],
+      "releaseDate": "2022-04-10",
+      "retailPriceCents": 13200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-nyc-white-cement.jpg",
+      "description": "ASICS GEL-NYC \"White Cement\" in a leather and suede and mesh build. Lifestyle tier, retail $132."
+    },
+    {
+      "id": "LLZ1563-696",
+      "slug": "salomon-xa-pro-3d-crimson-tint",
+      "name": "Salomon XA Pro 3D \"Crimson Tint\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XA Pro 3D",
+      "colorway": "Crimson Tint",
+      "primaryColor": "red",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2025-07-21",
+      "retailPriceCents": 16100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xa-pro-3d-crimson-tint.jpg",
+      "description": "Salomon XA Pro 3D \"Crimson Tint\" in a mesh and ripstop build. Trail tier, retail $161."
+    },
+    {
+      "id": "SXMG2176-733",
+      "slug": "puma-mostro-safety-orange",
+      "name": "PUMA Mostro \"Safety Orange\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Safety Orange",
+      "primaryColor": "orange",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede",
+        "patent"
+      ],
+      "releaseDate": "2022-06-13",
+      "retailPriceCents": 11600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-safety-orange.jpg",
+      "description": "PUMA Mostro \"Safety Orange\" in a leather and suede and patent build. Lifestyle tier, retail $116."
+    },
+    {
+      "id": "VNNN2789-770",
+      "slug": "vans-sk8-hi-sail",
+      "name": "Vans Sk8-Hi \"Sail\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Sk8-Hi",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "green",
+      "materials": [
+        "suede",
+        "canvas",
+        "corduroy"
+      ],
+      "releaseDate": "2023-07-24",
+      "retailPriceCents": 7000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-sk8-hi-sail.jpg",
+      "description": "Vans Sk8-Hi \"Sail\" in a suede and canvas and corduroy build. Skateboarding tier, retail $70."
+    },
+    {
+      "id": "AOU3402-807",
+      "slug": "converse-chuck-70-high-cream",
+      "name": "Converse Chuck 70 High \"Cream\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 High",
+      "colorway": "Cream",
+      "primaryColor": "beige",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2026-03-03",
+      "retailPriceCents": 9400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-high-cream.jpg",
+      "description": "Converse Chuck 70 High \"Cream\" in a leather and suede and canvas build. Lifestyle tier, retail $94."
+    },
+    {
+      "id": "SXPB4015-844",
+      "slug": "reebok-club-c-85-marina",
+      "name": "Reebok Club C 85 \"Marina\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Marina",
+      "primaryColor": "blue",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-10-03",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-marina.jpg",
+      "description": "Reebok Club C 85 \"Marina\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXQI4628-881",
+      "slug": "hoka-clifton-9-plum-fog",
+      "name": "HOKA Clifton 9 \"Plum Fog\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-04-21",
+      "retailPriceCents": 14800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-plum-fog.jpg",
+      "description": "HOKA Clifton 9 \"Plum Fog\" in a mesh and knit build. Running tier, retail $148."
+    },
+    {
+      "id": "SRP5241-918",
+      "slug": "saucony-shadow-6000-taxi",
+      "name": "Saucony Shadow 6000 \"Taxi\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Shadow 6000",
+      "colorway": "Taxi",
+      "primaryColor": "yellow",
+      "secondaryColor": "grey",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-02-09",
+      "retailPriceCents": 12500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-shadow-6000-taxi.jpg",
+      "description": "Saucony Shadow 6000 \"Taxi\" in a mesh and knit build. Running tier, retail $125."
+    },
+    {
+      "id": "DZSW5854-955",
+      "slug": "nike-air-huarache-plum-fog",
+      "name": "Nike Air Huarache \"Plum Fog\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Huarache",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-08-03",
+      "retailPriceCents": 12000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-huarache-plum-fog.jpg",
+      "description": "Nike Air Huarache \"Plum Fog\" in a mesh and knit build. Running tier, retail $120."
+    },
+    {
+      "id": "FQTD6467-992",
+      "slug": "jordan-air-jordan-4-grape",
+      "name": "Jordan Air Jordan 4 \"Grape\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 4",
+      "colorway": "Grape",
+      "primaryColor": "purple",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2024-12-17",
+      "retailPriceCents": 21000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-4-grape.jpg",
+      "description": "Jordan Air Jordan 4 \"Grape\" in a leather and suede and nubuck build. Basketball tier, retail $210."
+    },
+    {
+      "id": "IEUK7080-130",
+      "slug": "adidas-handball-spezial-triple-white",
+      "name": "adidas Handball Spezial \"Triple White\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Handball Spezial",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2024-08-24",
+      "retailPriceCents": 11300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-handball-spezial-triple-white.jpg",
+      "description": "adidas Handball Spezial \"Triple White\" in a leather and suede build. Lifestyle tier, retail $113."
+    },
+    {
+      "id": "MVR7693-167",
+      "slug": "new-balance-1906r-bubblegum",
+      "name": "New Balance 1906R \"Bubblegum\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "1906R",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2026-09-06",
+      "retailPriceCents": 15400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-1906r-bubblegum.jpg",
+      "description": "New Balance 1906R \"Bubblegum\" in a mesh and knit and canvas build. Running tier, retail $154."
+    },
+    {
+      "id": "SXWY8306-204",
+      "slug": "asics-gt-2160-pine-green",
+      "name": "ASICS GT-2160 \"Pine Green\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GT-2160",
+      "colorway": "Pine Green",
+      "primaryColor": "green",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "knit",
+        "corduroy"
+      ],
+      "releaseDate": "2025-07-31",
+      "retailPriceCents": 11700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gt-2160-pine-green.jpg",
+      "description": "ASICS GT-2160 \"Pine Green\" in a mesh and knit and corduroy build. Running tier, retail $117."
+    },
+    {
+      "id": "LXF8919-241",
+      "slug": "salomon-acs-pro-chicago",
+      "name": "Salomon ACS Pro \"Chicago\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "ACS Pro",
+      "colorway": "Chicago",
+      "primaryColor": "red",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "knit"
+      ],
+      "releaseDate": "2025-11-23",
+      "retailPriceCents": 20000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-acs-pro-chicago.jpg",
+      "description": "Salomon ACS Pro \"Chicago\" in a mesh and ripstop and knit build. Trail tier, retail $200."
+    },
+    {
+      "id": "SXYM9532-278",
+      "slug": "puma-palermo-varsity-maize-278",
+      "name": "PUMA Palermo \"Varsity Maize\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Palermo",
+      "colorway": "Varsity Maize",
+      "primaryColor": "yellow",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2024-01-12",
+      "retailPriceCents": 9000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-palermo-varsity-maize-278.jpg",
+      "description": "PUMA Palermo \"Varsity Maize\" in a leather and suede build. Lifestyle tier, retail $90."
+    },
+    {
+      "id": "VNZT1146-315",
+      "slug": "vans-knu-skool-white-cement",
+      "name": "Vans Knu Skool \"White Cement\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "White Cement",
+      "primaryColor": "white",
+      "secondaryColor": "red",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2026-09-12",
+      "retailPriceCents": 8300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-white-cement.jpg",
+      "description": "Vans Knu Skool \"White Cement\" in a suede and canvas build. Skateboarding tier, retail $83."
+    },
+    {
+      "id": "AAA1759-352",
+      "slug": "converse-chuck-70-low-court-purple",
+      "name": "Converse Chuck 70 Low \"Court Purple\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 Low",
+      "colorway": "Court Purple",
+      "primaryColor": "purple",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-09-09",
+      "retailPriceCents": 8500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-low-court-purple.jpg",
+      "description": "Converse Chuck 70 Low \"Court Purple\" in a leather and suede build. Lifestyle tier, retail $85."
+    },
+    {
+      "id": "SXBH2372-389",
+      "slug": "reebok-instapump-fury-taupe",
+      "name": "Reebok Instapump Fury \"Taupe\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Taupe",
+      "primaryColor": "brown",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2026-06-11",
+      "retailPriceCents": 19900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-taupe.jpg",
+      "description": "Reebok Instapump Fury \"Taupe\" in a mesh and knit build. Running tier, retail $199."
+    },
+    {
+      "id": "SXCO2985-426",
+      "slug": "hoka-mafate-speed-2-lemon-wash",
+      "name": "HOKA Mafate Speed 2 \"Lemon Wash\"",
+      "brandId": "hoka",
+      "categoryId": "trail",
+      "silhouette": "Mafate Speed 2",
+      "colorway": "Lemon Wash",
+      "primaryColor": "yellow",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "corduroy"
+      ],
+      "releaseDate": "2024-06-09",
+      "retailPriceCents": 18300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-mafate-speed-2-lemon-wash.jpg",
+      "description": "HOKA Mafate Speed 2 \"Lemon Wash\" in a mesh and ripstop and corduroy build. Trail tier, retail $183."
+    },
+    {
+      "id": "SDV3598-463",
+      "slug": "saucony-grid-jazz-9-taxi",
+      "name": "Saucony Grid Jazz 9 \"Taxi\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Taxi",
+      "primaryColor": "yellow",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit",
+        "suede"
+      ],
+      "releaseDate": "2025-12-24",
+      "retailPriceCents": 10600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-taxi.jpg",
+      "description": "Saucony Grid Jazz 9 \"Taxi\" in a mesh and knit and suede build. Running tier, retail $106."
+    },
+    {
+      "id": "DZEC4211-500",
+      "slug": "nike-vomero-5-triple-white",
+      "name": "Nike Vomero 5 \"Triple White\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Vomero 5",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2021-09-13",
+      "retailPriceCents": 15600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-vomero-5-triple-white.jpg",
+      "description": "Nike Vomero 5 \"Triple White\" in a mesh and knit and gore-tex build. Running tier, retail $156."
+    },
+    {
+      "id": "FQFJ4824-537",
+      "slug": "jordan-air-jordan-1-high-og-rose-quartz",
+      "name": "Jordan Air Jordan 1 High OG \"Rose Quartz\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 1 High OG",
+      "colorway": "Rose Quartz",
+      "primaryColor": "pink",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2026-01-27",
+      "retailPriceCents": 18200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-1-high-og-rose-quartz.jpg",
+      "description": "Jordan Air Jordan 1 High OG \"Rose Quartz\" in a leather and suede and nubuck build. Basketball tier, retail $182."
+    },
+    {
+      "id": "IEGQ5437-574",
+      "slug": "adidas-gazelle-indoor-black-phantom",
+      "name": "adidas Gazelle Indoor \"Black Phantom\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "gore-tex"
+      ],
+      "releaseDate": "2026-01-22",
+      "retailPriceCents": 10700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-black-phantom.jpg",
+      "description": "adidas Gazelle Indoor \"Black Phantom\" in a leather and suede and gore-tex build. Lifestyle tier, retail $107."
+    },
+    {
+      "id": "MHX6050-611",
+      "slug": "new-balance-530-black-phantom",
+      "name": "New Balance 530 \"Black Phantom\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "530",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-03-21",
+      "retailPriceCents": 10300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-530-black-phantom.jpg",
+      "description": "New Balance 530 \"Black Phantom\" in a mesh and knit build. Running tier, retail $103."
+    },
+    {
+      "id": "SXIE6663-648",
+      "slug": "asics-gt-2160-celtics",
+      "name": "ASICS GT-2160 \"Celtics\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GT-2160",
+      "colorway": "Celtics",
+      "primaryColor": "green",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2023-10-07",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gt-2160-celtics.jpg",
+      "description": "ASICS GT-2160 \"Celtics\" in a mesh and knit build. Running tier, retail $115."
+    },
+    {
+      "id": "LJL7276-685",
+      "slug": "salomon-xt-6-grape",
+      "name": "Salomon XT-6 \"Grape\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XT-6",
+      "colorway": "Grape",
+      "primaryColor": "purple",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "leather"
+      ],
+      "releaseDate": "2026-05-14",
+      "retailPriceCents": 19800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xt-6-grape.jpg",
+      "description": "Salomon XT-6 \"Grape\" in a mesh and ripstop and leather build. Trail tier, retail $198."
+    },
+    {
+      "id": "SXKS7889-722",
+      "slug": "puma-speedcat-og-black-phantom",
+      "name": "PUMA Speedcat OG \"Black Phantom\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Speedcat OG",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-10-09",
+      "retailPriceCents": 9700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-speedcat-og-black-phantom.jpg",
+      "description": "PUMA Speedcat OG \"Black Phantom\" in a leather and suede build. Lifestyle tier, retail $97."
+    },
+    {
+      "id": "VNLZ8502-759",
+      "slug": "vans-sk8-hi-chestnut",
+      "name": "Vans Sk8-Hi \"Chestnut\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Sk8-Hi",
+      "colorway": "Chestnut",
+      "primaryColor": "brown",
+      "secondaryColor": "blue",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2026-02-09",
+      "retailPriceCents": 7000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-sk8-hi-chestnut.jpg",
+      "description": "Vans Sk8-Hi \"Chestnut\" in a suede and canvas build. Skateboarding tier, retail $70."
+    },
+    {
+      "id": "AMG9115-796",
+      "slug": "converse-run-star-hike-pine-green",
+      "name": "Converse Run Star Hike \"Pine Green\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Pine Green",
+      "primaryColor": "green",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede",
+        "mesh"
+      ],
+      "releaseDate": "2024-12-16",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-pine-green.jpg",
+      "description": "Converse Run Star Hike \"Pine Green\" in a leather and suede and mesh build. Lifestyle tier, retail $115."
+    },
+    {
+      "id": "SXNN9728-833",
+      "slug": "reebok-premier-road-plus-smoke-grey",
+      "name": "Reebok Premier Road Plus \"Smoke Grey\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Premier Road Plus",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2021-04-01",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-premier-road-plus-smoke-grey.jpg",
+      "description": "Reebok Premier Road Plus \"Smoke Grey\" in a mesh and knit and gore-tex build. Running tier, retail $110."
+    },
+    {
+      "id": "SXOU1342-870",
+      "slug": "hoka-bondi-8-shadow",
+      "name": "HOKA Bondi 8 \"Shadow\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Bondi 8",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-11-24",
+      "retailPriceCents": 16000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-bondi-8-shadow.jpg",
+      "description": "HOKA Bondi 8 \"Shadow\" in a mesh and knit build. Running tier, retail $160."
+    },
+    {
+      "id": "SPB1955-907",
+      "slug": "saucony-grid-jazz-9-chestnut",
+      "name": "Saucony Grid Jazz 9 \"Chestnut\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Chestnut",
+      "primaryColor": "brown",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "corduroy"
+      ],
+      "releaseDate": "2026-09-10",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-chestnut.jpg",
+      "description": "Saucony Grid Jazz 9 \"Chestnut\" in a mesh and knit and corduroy build. Running tier, retail $105."
+    },
+    {
+      "id": "DZQI2568-944",
+      "slug": "nike-air-max-97-smoke-grey",
+      "name": "Nike Air Max 97 \"Smoke Grey\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 97",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-09-02",
+      "retailPriceCents": 18500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-97-smoke-grey.jpg",
+      "description": "Nike Air Max 97 \"Smoke Grey\" in a mesh and knit build. Running tier, retail $185."
+    },
+    {
+      "id": "FQRP3181-981",
+      "slug": "jordan-air-jordan-11-triple-white",
+      "name": "Jordan Air Jordan 11 \"Triple White\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 11",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-09-22",
+      "retailPriceCents": 23500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-11-triple-white.jpg",
+      "description": "Jordan Air Jordan 11 \"Triple White\" in a leather and suede build. Basketball tier, retail $235."
+    },
+    {
+      "id": "IESW3794-119",
+      "slug": "adidas-forum-low-pure-platinum",
+      "name": "adidas Forum Low \"Pure Platinum\"",
+      "brandId": "adidas",
+      "categoryId": "basketball",
+      "silhouette": "Forum Low",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-10-06",
+      "retailPriceCents": 11200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-forum-low-pure-platinum.jpg",
+      "description": "adidas Forum Low \"Pure Platinum\" in a leather and suede build. Basketball tier, retail $112."
+    },
+    {
+      "id": "MTD4407-156",
+      "slug": "new-balance-2002r-taxi",
+      "name": "New Balance 2002R \"Taxi\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "2002R",
+      "colorway": "Taxi",
+      "primaryColor": "yellow",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2023-03-31",
+      "retailPriceCents": 14000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-2002r-taxi.jpg",
+      "description": "New Balance 2002R \"Taxi\" in a mesh and knit and nubuck build. Running tier, retail $140."
+    },
+    {
+      "id": "SXUK5020-193",
+      "slug": "asics-gel-1130-varsity-maize",
+      "name": "ASICS GEL-1130 \"Varsity Maize\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Varsity Maize",
+      "primaryColor": "yellow",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-07-13",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-varsity-maize.jpg",
+      "description": "ASICS GEL-1130 \"Varsity Maize\" in a mesh and knit build. Running tier, retail $110."
+    },
+    {
+      "id": "LVR5633-230",
+      "slug": "salomon-xt-6-mint-foam",
+      "name": "Salomon XT-6 \"Mint Foam\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XT-6",
+      "colorway": "Mint Foam",
+      "primaryColor": "green",
+      "secondaryColor": "grey",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "gore-tex"
+      ],
+      "releaseDate": "2023-12-13",
+      "retailPriceCents": 19700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xt-6-mint-foam.jpg",
+      "description": "Salomon XT-6 \"Mint Foam\" in a mesh and ripstop and gore-tex build. Trail tier, retail $197."
+    },
+    {
+      "id": "SXWY6246-267",
+      "slug": "puma-suede-classic-xxi-bone",
+      "name": "PUMA Suede Classic XXI \"Bone\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Suede Classic XXI",
+      "colorway": "Bone",
+      "primaryColor": "beige",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-06-08",
+      "retailPriceCents": 8300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-suede-classic-xxi-bone.jpg",
+      "description": "PUMA Suede Classic XXI \"Bone\" in a leather and suede build. Lifestyle tier, retail $83."
+    },
+    {
+      "id": "VNXF6859-304",
+      "slug": "vans-knu-skool-team-red",
+      "name": "Vans Knu Skool \"Team Red\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "Team Red",
+      "primaryColor": "red",
+      "secondaryColor": "yellow",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2022-09-13",
+      "retailPriceCents": 8300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-team-red.jpg",
+      "description": "Vans Knu Skool \"Team Red\" in a suede and canvas build. Skateboarding tier, retail $83."
+    },
+    {
+      "id": "AYM7472-341",
+      "slug": "converse-run-star-hike-celtics",
+      "name": "Converse Run Star Hike \"Celtics\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Celtics",
+      "primaryColor": "green",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-12-25",
+      "retailPriceCents": 10600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-celtics.jpg",
+      "description": "Converse Run Star Hike \"Celtics\" in a leather and suede build. Lifestyle tier, retail $106."
+    },
+    {
+      "id": "SXZT8085-378",
+      "slug": "reebok-club-c-85-triple-black",
+      "name": "Reebok Club C 85 \"Triple Black\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Triple Black",
+      "primaryColor": "black",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-05-12",
+      "retailPriceCents": 8400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-triple-black.jpg",
+      "description": "Reebok Club C 85 \"Triple Black\" in a leather and suede build. Lifestyle tier, retail $84."
+    },
+    {
+      "id": "SXAA8698-415",
+      "slug": "hoka-mafate-speed-2-mocha",
+      "name": "HOKA Mafate Speed 2 \"Mocha\"",
+      "brandId": "hoka",
+      "categoryId": "trail",
+      "silhouette": "Mafate Speed 2",
+      "colorway": "Mocha",
+      "primaryColor": "brown",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "patent"
+      ],
+      "releaseDate": "2021-11-22",
+      "retailPriceCents": 18000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-mafate-speed-2-mocha.jpg",
+      "description": "HOKA Mafate Speed 2 \"Mocha\" in a mesh and ripstop and patent build. Trail tier, retail $180."
+    },
+    {
+      "id": "SBH9311-452",
+      "slug": "saucony-progrid-omni-9-pure-platinum",
+      "name": "Saucony ProGrid Omni 9 \"Pure Platinum\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "ProGrid Omni 9",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2024-04-16",
+      "retailPriceCents": 15400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-progrid-omni-9-pure-platinum.jpg",
+      "description": "Saucony ProGrid Omni 9 \"Pure Platinum\" in a mesh and knit build. Running tier, retail $154."
+    },
+    {
+      "id": "DZCO9924-489",
+      "slug": "nike-sb-dunk-low-mocha",
+      "name": "Nike SB Dunk Low \"Mocha\"",
+      "brandId": "nike",
+      "categoryId": "skateboarding",
+      "silhouette": "SB Dunk Low",
+      "colorway": "Mocha",
+      "primaryColor": "brown",
+      "secondaryColor": "grey",
+      "materials": [
+        "suede",
+        "canvas",
+        "corduroy"
+      ],
+      "releaseDate": "2023-08-29",
+      "retailPriceCents": 11900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-sb-dunk-low-mocha.jpg",
+      "description": "Nike SB Dunk Low \"Mocha\" in a suede and canvas and corduroy build. Skateboarding tier, retail $119."
+    },
+    {
+      "id": "FQDV1538-526",
+      "slug": "jordan-air-jordan-5-varsity-red",
+      "name": "Jordan Air Jordan 5 \"Varsity Red\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 5",
+      "colorway": "Varsity Red",
+      "primaryColor": "red",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-12-19",
+      "retailPriceCents": 21500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-5-varsity-red.jpg",
+      "description": "Jordan Air Jordan 5 \"Varsity Red\" in a leather and suede build. Basketball tier, retail $215."
+    },
+    {
+      "id": "IEEC2151-563",
+      "slug": "adidas-gazelle-indoor-black-phantom-563",
+      "name": "adidas Gazelle Indoor \"Black Phantom\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2024-11-29",
+      "retailPriceCents": 10600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-black-phantom-563.jpg",
+      "description": "adidas Gazelle Indoor \"Black Phantom\" in a leather and suede build. Lifestyle tier, retail $106."
+    },
+    {
+      "id": "MFJ2764-600",
+      "slug": "new-balance-990v6-rose-quartz",
+      "name": "New Balance 990v6 \"Rose Quartz\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "990v6",
+      "colorway": "Rose Quartz",
+      "primaryColor": "pink",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2026-09-05",
+      "retailPriceCents": 20000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-990v6-rose-quartz.jpg",
+      "description": "New Balance 990v6 \"Rose Quartz\" in a mesh and knit and nubuck build. Running tier, retail $200."
+    },
+    {
+      "id": "SXGQ3377-637",
+      "slug": "asics-gt-2160-cacao",
+      "name": "ASICS GT-2160 \"Cacao\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GT-2160",
+      "colorway": "Cacao",
+      "primaryColor": "brown",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2021-09-10",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gt-2160-cacao.jpg",
+      "description": "ASICS GT-2160 \"Cacao\" in a mesh and knit and canvas build. Running tier, retail $115."
+    },
+    {
+      "id": "LHX3990-674",
+      "slug": "salomon-acs-pro-shadow",
+      "name": "Salomon ACS Pro \"Shadow\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "ACS Pro",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2024-07-08",
+      "retailPriceCents": 19400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-acs-pro-shadow.jpg",
+      "description": "Salomon ACS Pro \"Shadow\" in a mesh and ripstop build. Trail tier, retail $194."
+    },
+    {
+      "id": "SXIE4603-711",
+      "slug": "puma-speedcat-og-pine-green",
+      "name": "PUMA Speedcat OG \"Pine Green\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Speedcat OG",
+      "colorway": "Pine Green",
+      "primaryColor": "green",
+      "secondaryColor": "purple",
+      "materials": [
+        "leather",
+        "suede",
+        "knit"
+      ],
+      "releaseDate": "2024-01-23",
+      "retailPriceCents": 10100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-speedcat-og-pine-green.jpg",
+      "description": "PUMA Speedcat OG \"Pine Green\" in a leather and suede and knit build. Lifestyle tier, retail $101."
+    },
+    {
+      "id": "VNJL5216-748",
+      "slug": "vans-old-skool-olive",
+      "name": "Vans Old Skool \"Olive\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Old Skool",
+      "colorway": "Olive",
+      "primaryColor": "green",
+      "secondaryColor": "white",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2023-12-20",
+      "retailPriceCents": 7200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-old-skool-olive.jpg",
+      "description": "Vans Old Skool \"Olive\" in a suede and canvas build. Skateboarding tier, retail $72."
+    },
+    {
+      "id": "AKS5829-785",
+      "slug": "converse-chuck-70-high-sand",
+      "name": "Converse Chuck 70 High \"Sand\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 High",
+      "colorway": "Sand",
+      "primaryColor": "beige",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-02-05",
+      "retailPriceCents": 8500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-high-sand.jpg",
+      "description": "Converse Chuck 70 High \"Sand\" in a leather and suede build. Lifestyle tier, retail $85."
+    },
+    {
+      "id": "SXLZ6442-822",
+      "slug": "reebok-instapump-fury-bubblegum",
+      "name": "Reebok Instapump Fury \"Bubblegum\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-10-04",
+      "retailPriceCents": 20400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-bubblegum.jpg",
+      "description": "Reebok Instapump Fury \"Bubblegum\" in a mesh and knit build. Running tier, retail $204."
+    },
+    {
+      "id": "SXMG7055-859",
+      "slug": "hoka-clifton-9-butter",
+      "name": "HOKA Clifton 9 \"Butter\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Butter",
+      "primaryColor": "yellow",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2024-02-08",
+      "retailPriceCents": 14700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-butter.jpg",
+      "description": "HOKA Clifton 9 \"Butter\" in a mesh and knit and gore-tex build. Running tier, retail $147."
+    },
+    {
+      "id": "SNN7668-896",
+      "slug": "saucony-grid-jazz-9-blush",
+      "name": "Saucony Grid Jazz 9 \"Blush\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Blush",
+      "primaryColor": "pink",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2023-02-12",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-blush.jpg",
+      "description": "Saucony Grid Jazz 9 \"Blush\" in a mesh and knit and nubuck build. Running tier, retail $115."
+    },
+    {
+      "id": "DZOU8281-933",
+      "slug": "nike-air-max-90-varsity-red-933",
+      "name": "Nike Air Max 90 \"Varsity Red\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max 90",
+      "colorway": "Varsity Red",
+      "primaryColor": "red",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-04-26",
+      "retailPriceCents": 13100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-90-varsity-red-933.jpg",
+      "description": "Nike Air Max 90 \"Varsity Red\" in a mesh and knit build. Running tier, retail $131."
+    },
+    {
+      "id": "FQPB8894-970",
+      "slug": "jordan-air-jordan-5-bubblegum",
+      "name": "Jordan Air Jordan 5 \"Bubblegum\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 5",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede",
+        "knit"
+      ],
+      "releaseDate": "2023-06-26",
+      "retailPriceCents": 21000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-5-bubblegum.jpg",
+      "description": "Jordan Air Jordan 5 \"Bubblegum\" in a leather and suede and knit build. Basketball tier, retail $210."
+    },
+    {
+      "id": "IEQI9507-108",
+      "slug": "adidas-gazelle-indoor-anthracite",
+      "name": "adidas Gazelle Indoor \"Anthracite\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Anthracite",
+      "primaryColor": "black",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-07-13",
+      "retailPriceCents": 11300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-anthracite.jpg",
+      "description": "adidas Gazelle Indoor \"Anthracite\" in a leather and suede build. Lifestyle tier, retail $113."
+    },
+    {
+      "id": "MRP1121-145",
+      "slug": "new-balance-530-cloud-white",
+      "name": "New Balance 530 \"Cloud White\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "530",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2026-01-02",
+      "retailPriceCents": 10200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-530-cloud-white.jpg",
+      "description": "New Balance 530 \"Cloud White\" in a mesh and knit build. Running tier, retail $102."
+    },
+    {
+      "id": "SXSW1734-182",
+      "slug": "asics-gel-1130-shadow",
+      "name": "ASICS GEL-1130 \"Shadow\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "grey",
+      "materials": [
+        "mesh",
+        "knit",
+        "leather"
+      ],
+      "releaseDate": "2026-07-31",
+      "retailPriceCents": 11500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-shadow.jpg",
+      "description": "ASICS GEL-1130 \"Shadow\" in a mesh and knit and leather build. Running tier, retail $115."
+    },
+    {
+      "id": "LTD2347-219",
+      "slug": "salomon-xa-pro-3d-team-red",
+      "name": "Salomon XA Pro 3D \"Team Red\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XA Pro 3D",
+      "colorway": "Team Red",
+      "primaryColor": "red",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2023-05-25",
+      "retailPriceCents": 17000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xa-pro-3d-team-red.jpg",
+      "description": "Salomon XA Pro 3D \"Team Red\" in a mesh and ripstop build. Trail tier, retail $170."
+    },
+    {
+      "id": "SXUK2960-256",
+      "slug": "puma-mostro-plum-fog-256",
+      "name": "PUMA Mostro \"Plum Fog\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-12-03",
+      "retailPriceCents": 11800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-plum-fog-256.jpg",
+      "description": "PUMA Mostro \"Plum Fog\" in a leather and suede build. Lifestyle tier, retail $118."
+    },
+    {
+      "id": "VNVR3573-293",
+      "slug": "vans-old-skool-mushroom",
+      "name": "Vans Old Skool \"Mushroom\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Old Skool",
+      "colorway": "Mushroom",
+      "primaryColor": "brown",
+      "secondaryColor": "green",
+      "materials": [
+        "suede",
+        "canvas",
+        "mesh"
+      ],
+      "releaseDate": "2023-10-05",
+      "retailPriceCents": 6700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-old-skool-mushroom.jpg",
+      "description": "Vans Old Skool \"Mushroom\" in a suede and canvas and mesh build. Skateboarding tier, retail $67."
+    },
+    {
+      "id": "AWY4186-330",
+      "slug": "converse-run-star-hike-smoke-grey",
+      "name": "Converse Run Star Hike \"Smoke Grey\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "purple",
+      "materials": [
+        "leather",
+        "suede",
+        "patent"
+      ],
+      "releaseDate": "2024-08-23",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-smoke-grey.jpg",
+      "description": "Converse Run Star Hike \"Smoke Grey\" in a leather and suede and patent build. Lifestyle tier, retail $110."
+    },
+    {
+      "id": "SXXF4799-367",
+      "slug": "reebok-instapump-fury-olive",
+      "name": "Reebok Instapump Fury \"Olive\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Olive",
+      "primaryColor": "green",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2024-04-17",
+      "retailPriceCents": 20400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-olive.jpg",
+      "description": "Reebok Instapump Fury \"Olive\" in a mesh and knit and ripstop build. Running tier, retail $204."
+    },
+    {
+      "id": "SXYM5412-404",
+      "slug": "hoka-bondi-8-sunset",
+      "name": "HOKA Bondi 8 \"Sunset\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Bondi 8",
+      "colorway": "Sunset",
+      "primaryColor": "orange",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2026-05-14",
+      "retailPriceCents": 16800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-bondi-8-sunset.jpg",
+      "description": "HOKA Bondi 8 \"Sunset\" in a mesh and knit and canvas build. Running tier, retail $168."
+    },
+    {
+      "id": "SZT6025-441",
+      "slug": "saucony-progrid-omni-9-bone",
+      "name": "Saucony ProGrid Omni 9 \"Bone\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "ProGrid Omni 9",
+      "colorway": "Bone",
+      "primaryColor": "beige",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2023-01-26",
+      "retailPriceCents": 15300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-progrid-omni-9-bone.jpg",
+      "description": "Saucony ProGrid Omni 9 \"Bone\" in a mesh and knit and canvas build. Running tier, retail $153."
+    },
+    {
+      "id": "DZAA6638-478",
+      "slug": "nike-air-force-1-low-anthracite",
+      "name": "Nike Air Force 1 Low \"Anthracite\"",
+      "brandId": "nike",
+      "categoryId": "lifestyle",
+      "silhouette": "Air Force 1 Low",
+      "colorway": "Anthracite",
+      "primaryColor": "black",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2025-12-21",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-force-1-low-anthracite.jpg",
+      "description": "Nike Air Force 1 Low \"Anthracite\" in a leather and suede build. Lifestyle tier, retail $110."
+    },
+    {
+      "id": "FQBH7251-515",
+      "slug": "jordan-air-jordan-3-celtics",
+      "name": "Jordan Air Jordan 3 \"Celtics\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 3",
+      "colorway": "Celtics",
+      "primaryColor": "green",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-05-11",
+      "retailPriceCents": 20400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-3-celtics.jpg",
+      "description": "Jordan Air Jordan 3 \"Celtics\" in a leather and suede build. Basketball tier, retail $204."
+    },
+    {
+      "id": "IECO7864-552",
+      "slug": "adidas-gazelle-indoor-rose-quartz",
+      "name": "adidas Gazelle Indoor \"Rose Quartz\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Rose Quartz",
+      "primaryColor": "pink",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-07-16",
+      "retailPriceCents": 11400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-rose-quartz.jpg",
+      "description": "adidas Gazelle Indoor \"Rose Quartz\" in a leather and suede build. Lifestyle tier, retail $114."
+    },
+    {
+      "id": "MDV8477-589",
+      "slug": "new-balance-550-desert-ore",
+      "name": "New Balance 550 \"Desert Ore\"",
+      "brandId": "new-balance",
+      "categoryId": "basketball",
+      "silhouette": "550",
+      "colorway": "Desert Ore",
+      "primaryColor": "beige",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2026-08-21",
+      "retailPriceCents": 11100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-550-desert-ore.jpg",
+      "description": "New Balance 550 \"Desert Ore\" in a leather and suede and nubuck build. Basketball tier, retail $111."
+    },
+    {
+      "id": "SXEC9090-626",
+      "slug": "asics-gt-2160-pine-green-626",
+      "name": "ASICS GT-2160 \"Pine Green\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GT-2160",
+      "colorway": "Pine Green",
+      "primaryColor": "green",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-02-21",
+      "retailPriceCents": 11600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gt-2160-pine-green-626.jpg",
+      "description": "ASICS GT-2160 \"Pine Green\" in a mesh and knit build. Running tier, retail $116."
+    },
+    {
+      "id": "LFJ9703-663",
+      "slug": "salomon-acs-pro-white-cement",
+      "name": "Salomon ACS Pro \"White Cement\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "ACS Pro",
+      "colorway": "White Cement",
+      "primaryColor": "white",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "suede"
+      ],
+      "releaseDate": "2022-03-18",
+      "retailPriceCents": 19500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-acs-pro-white-cement.jpg",
+      "description": "Salomon ACS Pro \"White Cement\" in a mesh and ripstop and suede build. Trail tier, retail $195."
+    },
+    {
+      "id": "SXGQ1317-700",
+      "slug": "puma-suede-classic-xxi-cacao",
+      "name": "PUMA Suede Classic XXI \"Cacao\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Suede Classic XXI",
+      "colorway": "Cacao",
+      "primaryColor": "brown",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede",
+        "ripstop"
+      ],
+      "releaseDate": "2022-09-18",
+      "retailPriceCents": 8400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-suede-classic-xxi-cacao.jpg",
+      "description": "PUMA Suede Classic XXI \"Cacao\" in a leather and suede and ripstop build. Lifestyle tier, retail $84."
+    },
+    {
+      "id": "VNHX1930-737",
+      "slug": "vans-old-skool-black-phantom",
+      "name": "Vans Old Skool \"Black Phantom\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Old Skool",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "red",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2025-12-24",
+      "retailPriceCents": 6600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-old-skool-black-phantom.jpg",
+      "description": "Vans Old Skool \"Black Phantom\" in a suede and canvas build. Skateboarding tier, retail $66."
+    },
+    {
+      "id": "AIE2543-774",
+      "slug": "converse-run-star-hike-bubblegum",
+      "name": "Converse Run Star Hike \"Bubblegum\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede",
+        "ripstop"
+      ],
+      "releaseDate": "2024-01-10",
+      "retailPriceCents": 11100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-bubblegum.jpg",
+      "description": "Converse Run Star Hike \"Bubblegum\" in a leather and suede and ripstop build. Lifestyle tier, retail $111."
+    },
+    {
+      "id": "SXJL3156-811",
+      "slug": "reebok-club-c-85-cool-grey",
+      "name": "Reebok Club C 85 \"Cool Grey\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Cool Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede",
+        "knit"
+      ],
+      "releaseDate": "2025-10-03",
+      "retailPriceCents": 8500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-cool-grey.jpg",
+      "description": "Reebok Club C 85 \"Cool Grey\" in a leather and suede and knit build. Lifestyle tier, retail $85."
+    },
+    {
+      "id": "SXKS3769-848",
+      "slug": "hoka-bondi-8-anthracite",
+      "name": "HOKA Bondi 8 \"Anthracite\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Bondi 8",
+      "colorway": "Anthracite",
+      "primaryColor": "black",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-05-26",
+      "retailPriceCents": 16400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-bondi-8-anthracite.jpg",
+      "description": "HOKA Bondi 8 \"Anthracite\" in a mesh and knit build. Running tier, retail $164."
+    },
+    {
+      "id": "SLZ4382-885",
+      "slug": "saucony-shadow-6000-black-phantom",
+      "name": "Saucony Shadow 6000 \"Black Phantom\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Shadow 6000",
+      "colorway": "Black Phantom",
+      "primaryColor": "black",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2023-04-21",
+      "retailPriceCents": 12600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-shadow-6000-black-phantom.jpg",
+      "description": "Saucony Shadow 6000 \"Black Phantom\" in a mesh and knit build. Running tier, retail $126."
+    },
+    {
+      "id": "DZMG4995-922",
+      "slug": "nike-air-max-plus-sand",
+      "name": "Nike Air Max Plus \"Sand\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Max Plus",
+      "colorway": "Sand",
+      "primaryColor": "beige",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-11-26",
+      "retailPriceCents": 18000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-max-plus-sand.jpg",
+      "description": "Nike Air Max Plus \"Sand\" in a mesh and knit build. Running tier, retail $180."
+    },
+    {
+      "id": "FQNN5608-959",
+      "slug": "jordan-air-jordan-5-sail",
+      "name": "Jordan Air Jordan 5 \"Sail\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 5",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2024-10-04",
+      "retailPriceCents": 20600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-5-sail.jpg",
+      "description": "Jordan Air Jordan 5 \"Sail\" in a leather and suede and canvas build. Basketball tier, retail $206."
+    },
+    {
+      "id": "IEOU6221-996",
+      "slug": "adidas-campus-00s-clay",
+      "name": "adidas Campus 00s \"Clay\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Campus 00s",
+      "colorway": "Clay",
+      "primaryColor": "orange",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-09-23",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-campus-00s-clay.jpg",
+      "description": "adidas Campus 00s \"Clay\" in a leather and suede build. Lifestyle tier, retail $110."
+    },
+    {
+      "id": "MPB6834-134",
+      "slug": "new-balance-9060-varsity-maize",
+      "name": "New Balance 9060 \"Varsity Maize\"",
+      "brandId": "new-balance",
+      "categoryId": "lifestyle",
+      "silhouette": "9060",
+      "colorway": "Varsity Maize",
+      "primaryColor": "yellow",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede",
+        "gore-tex"
+      ],
+      "releaseDate": "2025-07-23",
+      "retailPriceCents": 15000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-9060-varsity-maize.jpg",
+      "description": "New Balance 9060 \"Varsity Maize\" in a leather and suede and gore-tex build. Lifestyle tier, retail $150."
+    },
+    {
+      "id": "SXQI7447-171",
+      "slug": "asics-gel-quantum-360-grape",
+      "name": "ASICS GEL-Quantum 360 \"Grape\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-Quantum 360",
+      "colorway": "Grape",
+      "primaryColor": "purple",
+      "secondaryColor": "grey",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2022-10-30",
+      "retailPriceCents": 17600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-quantum-360-grape.jpg",
+      "description": "ASICS GEL-Quantum 360 \"Grape\" in a mesh and knit and ripstop build. Running tier, retail $176."
+    },
+    {
+      "id": "LRP8060-208",
+      "slug": "salomon-xa-pro-3d-rose-quartz",
+      "name": "Salomon XA Pro 3D \"Rose Quartz\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XA Pro 3D",
+      "colorway": "Rose Quartz",
+      "primaryColor": "pink",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "gore-tex"
+      ],
+      "releaseDate": "2024-08-31",
+      "retailPriceCents": 16200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xa-pro-3d-rose-quartz.jpg",
+      "description": "Salomon XA Pro 3D \"Rose Quartz\" in a mesh and ripstop and gore-tex build. Trail tier, retail $162."
+    },
+    {
+      "id": "SXSW8673-245",
+      "slug": "puma-mostro-varsity-maize",
+      "name": "PUMA Mostro \"Varsity Maize\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Varsity Maize",
+      "primaryColor": "yellow",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede",
+        "knit"
+      ],
+      "releaseDate": "2025-06-05",
+      "retailPriceCents": 12300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-varsity-maize.jpg",
+      "description": "PUMA Mostro \"Varsity Maize\" in a leather and suede and knit build. Lifestyle tier, retail $123."
+    },
+    {
+      "id": "VNTD9286-282",
+      "slug": "vans-sk8-hi-clay",
+      "name": "Vans Sk8-Hi \"Clay\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Sk8-Hi",
+      "colorway": "Clay",
+      "primaryColor": "orange",
+      "secondaryColor": "grey",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2022-07-21",
+      "retailPriceCents": 7700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-sk8-hi-clay.jpg",
+      "description": "Vans Sk8-Hi \"Clay\" in a suede and canvas build. Skateboarding tier, retail $77."
+    },
+    {
+      "id": "AUK9899-319",
+      "slug": "converse-run-star-hike-triple-white-319",
+      "name": "Converse Run Star Hike \"Triple White\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Triple White",
+      "primaryColor": "white",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2024-09-05",
+      "retailPriceCents": 10900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-triple-white-319.jpg",
+      "description": "Converse Run Star Hike \"Triple White\" in a leather and suede build. Lifestyle tier, retail $109."
+    },
+    {
+      "id": "SXVR1513-356",
+      "slug": "reebok-club-c-85-obsidian",
+      "name": "Reebok Club C 85 \"Obsidian\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Obsidian",
+      "primaryColor": "blue",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-04-26",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-obsidian.jpg",
+      "description": "Reebok Club C 85 \"Obsidian\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXWY2126-393",
+      "slug": "hoka-bondi-8-cacao",
+      "name": "HOKA Bondi 8 \"Cacao\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Bondi 8",
+      "colorway": "Cacao",
+      "primaryColor": "brown",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2025-10-18",
+      "retailPriceCents": 16500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-bondi-8-cacao.jpg",
+      "description": "HOKA Bondi 8 \"Cacao\" in a mesh and knit build. Running tier, retail $165."
+    },
+    {
+      "id": "SXF2739-430",
+      "slug": "saucony-progrid-omni-9-lemon-wash",
+      "name": "Saucony ProGrid Omni 9 \"Lemon Wash\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "ProGrid Omni 9",
+      "colorway": "Lemon Wash",
+      "primaryColor": "yellow",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2025-11-20",
+      "retailPriceCents": 15200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-progrid-omni-9-lemon-wash.jpg",
+      "description": "Saucony ProGrid Omni 9 \"Lemon Wash\" in a mesh and knit and nubuck build. Running tier, retail $152."
+    },
+    {
+      "id": "DZYM3352-467",
+      "slug": "nike-dunk-low-cloud-white",
+      "name": "Nike Dunk Low \"Cloud White\"",
+      "brandId": "nike",
+      "categoryId": "lifestyle",
+      "silhouette": "Dunk Low",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2025-07-17",
+      "retailPriceCents": 11100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-dunk-low-cloud-white.jpg",
+      "description": "Nike Dunk Low \"Cloud White\" in a leather and suede build. Lifestyle tier, retail $111."
+    },
+    {
+      "id": "FQZT3965-504",
+      "slug": "jordan-air-jordan-1-low-blush",
+      "name": "Jordan Air Jordan 1 Low \"Blush\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 1 Low",
+      "colorway": "Blush",
+      "primaryColor": "pink",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-05-15",
+      "retailPriceCents": 14300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-1-low-blush.jpg",
+      "description": "Jordan Air Jordan 1 Low \"Blush\" in a leather and suede build. Basketball tier, retail $143."
+    },
+    {
+      "id": "IEAA4578-541",
+      "slug": "adidas-gazelle-indoor-oatmeal",
+      "name": "adidas Gazelle Indoor \"Oatmeal\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Oatmeal",
+      "primaryColor": "beige",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2025-11-19",
+      "retailPriceCents": 10700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-oatmeal.jpg",
+      "description": "adidas Gazelle Indoor \"Oatmeal\" in a leather and suede and canvas build. Lifestyle tier, retail $107."
+    },
+    {
+      "id": "MBH5191-578",
+      "slug": "new-balance-1906r-butter",
+      "name": "New Balance 1906R \"Butter\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "1906R",
+      "colorway": "Butter",
+      "primaryColor": "yellow",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2022-06-02",
+      "retailPriceCents": 15800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-1906r-butter.jpg",
+      "description": "New Balance 1906R \"Butter\" in a mesh and knit and nubuck build. Running tier, retail $158."
+    },
+    {
+      "id": "SXCO5804-615",
+      "slug": "asics-gel-1130-lemon-wash",
+      "name": "ASICS GEL-1130 \"Lemon Wash\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Lemon Wash",
+      "primaryColor": "yellow",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-10-07",
+      "retailPriceCents": 11400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-lemon-wash.jpg",
+      "description": "ASICS GEL-1130 \"Lemon Wash\" in a mesh and knit build. Running tier, retail $114."
+    },
+    {
+      "id": "LDV6417-652",
+      "slug": "salomon-acs-pro-olive",
+      "name": "Salomon ACS Pro \"Olive\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "ACS Pro",
+      "colorway": "Olive",
+      "primaryColor": "green",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2023-09-01",
+      "retailPriceCents": 19800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-acs-pro-olive.jpg",
+      "description": "Salomon ACS Pro \"Olive\" in a mesh and ripstop build. Trail tier, retail $198."
+    },
+    {
+      "id": "SXEC7030-689",
+      "slug": "puma-palermo-bubblegum",
+      "name": "PUMA Palermo \"Bubblegum\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Palermo",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede",
+        "corduroy"
+      ],
+      "releaseDate": "2025-08-14",
+      "retailPriceCents": 9300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-palermo-bubblegum.jpg",
+      "description": "PUMA Palermo \"Bubblegum\" in a leather and suede and corduroy build. Lifestyle tier, retail $93."
+    },
+    {
+      "id": "VNFJ7643-726",
+      "slug": "vans-sk8-hi-steel",
+      "name": "Vans Sk8-Hi \"Steel\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Sk8-Hi",
+      "colorway": "Steel",
+      "primaryColor": "grey",
+      "secondaryColor": "brown",
+      "materials": [
+        "suede",
+        "canvas",
+        "knit"
+      ],
+      "releaseDate": "2024-01-20",
+      "retailPriceCents": 7500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-sk8-hi-steel.jpg",
+      "description": "Vans Sk8-Hi \"Steel\" in a suede and canvas and knit build. Skateboarding tier, retail $75."
+    },
+    {
+      "id": "AGQ8256-763",
+      "slug": "converse-run-star-hike-butter",
+      "name": "Converse Run Star Hike \"Butter\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Butter",
+      "primaryColor": "yellow",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede",
+        "gore-tex"
+      ],
+      "releaseDate": "2023-05-15",
+      "retailPriceCents": 10700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-butter.jpg",
+      "description": "Converse Run Star Hike \"Butter\" in a leather and suede and gore-tex build. Lifestyle tier, retail $107."
+    },
+    {
+      "id": "SXHX8869-800",
+      "slug": "reebok-premier-road-plus-black-cat",
+      "name": "Reebok Premier Road Plus \"Black Cat\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Premier Road Plus",
+      "colorway": "Black Cat",
+      "primaryColor": "black",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-12-30",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-premier-road-plus-black-cat.jpg",
+      "description": "Reebok Premier Road Plus \"Black Cat\" in a mesh and knit build. Running tier, retail $105."
+    },
+    {
+      "id": "SXIE9482-837",
+      "slug": "hoka-clifton-9-smoke-grey",
+      "name": "HOKA Clifton 9 \"Smoke Grey\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2026-07-26",
+      "retailPriceCents": 14200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-smoke-grey.jpg",
+      "description": "HOKA Clifton 9 \"Smoke Grey\" in a mesh and knit and nubuck build. Running tier, retail $142."
+    },
+    {
+      "id": "SJL1096-874",
+      "slug": "saucony-shadow-6000-taupe",
+      "name": "Saucony Shadow 6000 \"Taupe\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Shadow 6000",
+      "colorway": "Taupe",
+      "primaryColor": "brown",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-07-05",
+      "retailPriceCents": 12700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-shadow-6000-taupe.jpg",
+      "description": "Saucony Shadow 6000 \"Taupe\" in a mesh and knit build. Running tier, retail $127."
+    },
+    {
+      "id": "DZKS1709-911",
+      "slug": "nike-air-huarache-team-red",
+      "name": "Nike Air Huarache \"Team Red\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Air Huarache",
+      "colorway": "Team Red",
+      "primaryColor": "red",
+      "secondaryColor": "green",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-06-17",
+      "retailPriceCents": 12100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-huarache-team-red.jpg",
+      "description": "Nike Air Huarache \"Team Red\" in a mesh and knit build. Running tier, retail $121."
+    },
+    {
+      "id": "FQLZ2322-948",
+      "slug": "jordan-air-jordan-4-olive",
+      "name": "Jordan Air Jordan 4 \"Olive\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 4",
+      "colorway": "Olive",
+      "primaryColor": "green",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-12-29",
+      "retailPriceCents": 21700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-4-olive.jpg",
+      "description": "Jordan Air Jordan 4 \"Olive\" in a leather and suede build. Basketball tier, retail $217."
+    },
+    {
+      "id": "IEMG2935-985",
+      "slug": "adidas-gazelle-indoor-bred",
+      "name": "adidas Gazelle Indoor \"Bred\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Gazelle Indoor",
+      "colorway": "Bred",
+      "primaryColor": "red",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2026-05-28",
+      "retailPriceCents": 11000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-gazelle-indoor-bred.jpg",
+      "description": "adidas Gazelle Indoor \"Bred\" in a leather and suede and canvas build. Lifestyle tier, retail $110."
+    },
+    {
+      "id": "MNN3548-123",
+      "slug": "new-balance-9060-varsity-red",
+      "name": "New Balance 9060 \"Varsity Red\"",
+      "brandId": "new-balance",
+      "categoryId": "lifestyle",
+      "silhouette": "9060",
+      "colorway": "Varsity Red",
+      "primaryColor": "red",
+      "secondaryColor": "beige",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-03-19",
+      "retailPriceCents": 15000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-9060-varsity-red.jpg",
+      "description": "New Balance 9060 \"Varsity Red\" in a leather and suede build. Lifestyle tier, retail $150."
+    },
+    {
+      "id": "SXOU4161-160",
+      "slug": "asics-gel-nyc-pure-platinum",
+      "name": "ASICS GEL-NYC \"Pure Platinum\"",
+      "brandId": "asics",
+      "categoryId": "lifestyle",
+      "silhouette": "GEL-NYC",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede",
+        "corduroy"
+      ],
+      "releaseDate": "2025-12-02",
+      "retailPriceCents": 13300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-nyc-pure-platinum.jpg",
+      "description": "ASICS GEL-NYC \"Pure Platinum\" in a leather and suede and corduroy build. Lifestyle tier, retail $133."
+    },
+    {
+      "id": "LPB4774-197",
+      "slug": "salomon-xa-pro-3d-varsity-red",
+      "name": "Salomon XA Pro 3D \"Varsity Red\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XA Pro 3D",
+      "colorway": "Varsity Red",
+      "primaryColor": "red",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "knit"
+      ],
+      "releaseDate": "2024-08-16",
+      "retailPriceCents": 16400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xa-pro-3d-varsity-red.jpg",
+      "description": "Salomon XA Pro 3D \"Varsity Red\" in a mesh and ripstop and knit build. Trail tier, retail $164."
+    },
+    {
+      "id": "SXQI5387-234",
+      "slug": "puma-speedcat-og-wolf-grey",
+      "name": "PUMA Speedcat OG \"Wolf Grey\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Speedcat OG",
+      "colorway": "Wolf Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-11-01",
+      "retailPriceCents": 9700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-speedcat-og-wolf-grey.jpg",
+      "description": "PUMA Speedcat OG \"Wolf Grey\" in a leather and suede build. Lifestyle tier, retail $97."
+    },
+    {
+      "id": "VNRP6000-271",
+      "slug": "vans-sk8-hi-sail-271",
+      "name": "Vans Sk8-Hi \"Sail\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Sk8-Hi",
+      "colorway": "Sail",
+      "primaryColor": "white",
+      "secondaryColor": "green",
+      "materials": [
+        "suede",
+        "canvas",
+        "gore-tex"
+      ],
+      "releaseDate": "2026-07-01",
+      "retailPriceCents": 7800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-sk8-hi-sail-271.jpg",
+      "description": "Vans Sk8-Hi \"Sail\" in a suede and canvas and gore-tex build. Skateboarding tier, retail $78."
+    },
+    {
+      "id": "ASW6613-308",
+      "slug": "converse-chuck-70-high-mushroom",
+      "name": "Converse Chuck 70 High \"Mushroom\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Chuck 70 High",
+      "colorway": "Mushroom",
+      "primaryColor": "brown",
+      "secondaryColor": "purple",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2025-08-08",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-chuck-70-high-mushroom.jpg",
+      "description": "Converse Chuck 70 High \"Mushroom\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXTD7226-345",
+      "slug": "reebok-club-c-85-chicago",
+      "name": "Reebok Club C 85 \"Chicago\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Chicago",
+      "primaryColor": "red",
+      "secondaryColor": "grey",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-01-16",
+      "retailPriceCents": 8600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-chicago.jpg",
+      "description": "Reebok Club C 85 \"Chicago\" in a leather and suede build. Lifestyle tier, retail $86."
+    },
+    {
+      "id": "SXUK7839-382",
+      "slug": "hoka-mafate-speed-2-pure-platinum-382",
+      "name": "HOKA Mafate Speed 2 \"Pure Platinum\"",
+      "brandId": "hoka",
+      "categoryId": "trail",
+      "silhouette": "Mafate Speed 2",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "brown",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "corduroy"
+      ],
+      "releaseDate": "2024-05-06",
+      "retailPriceCents": 18400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-mafate-speed-2-pure-platinum-382.jpg",
+      "description": "HOKA Mafate Speed 2 \"Pure Platinum\" in a mesh and ripstop and corduroy build. Trail tier, retail $184."
+    },
+    {
+      "id": "SVR8452-419",
+      "slug": "saucony-shadow-6000-shadow",
+      "name": "Saucony Shadow 6000 \"Shadow\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Shadow 6000",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2024-10-05",
+      "retailPriceCents": 13300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-shadow-6000-shadow.jpg",
+      "description": "Saucony Shadow 6000 \"Shadow\" in a mesh and knit build. Running tier, retail $133."
+    },
+    {
+      "id": "DZWY9065-456",
+      "slug": "nike-dunk-low-rose-quartz",
+      "name": "Nike Dunk Low \"Rose Quartz\"",
+      "brandId": "nike",
+      "categoryId": "lifestyle",
+      "silhouette": "Dunk Low",
+      "colorway": "Rose Quartz",
+      "primaryColor": "pink",
+      "secondaryColor": "red",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-12-02",
+      "retailPriceCents": 11600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-dunk-low-rose-quartz.jpg",
+      "description": "Nike Dunk Low \"Rose Quartz\" in a leather and suede build. Lifestyle tier, retail $116."
+    },
+    {
+      "id": "FQXF9678-493",
+      "slug": "jordan-air-jordan-11-military-blue",
+      "name": "Jordan Air Jordan 11 \"Military Blue\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 11",
+      "colorway": "Military Blue",
+      "primaryColor": "blue",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede",
+        "corduroy"
+      ],
+      "releaseDate": "2024-12-04",
+      "retailPriceCents": 23800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-11-military-blue.jpg",
+      "description": "Jordan Air Jordan 11 \"Military Blue\" in a leather and suede and corduroy build. Basketball tier, retail $238."
+    },
+    {
+      "id": "IEYM1292-530",
+      "slug": "adidas-samba-og-shadow",
+      "name": "adidas Samba OG \"Shadow\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Samba OG",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2023-08-02",
+      "retailPriceCents": 10300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-samba-og-shadow.jpg",
+      "description": "adidas Samba OG \"Shadow\" in a leather and suede and nubuck build. Lifestyle tier, retail $103."
+    },
+    {
+      "id": "MZT1905-567",
+      "slug": "new-balance-530-shadow",
+      "name": "New Balance 530 \"Shadow\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "530",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "beige",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2026-06-18",
+      "retailPriceCents": 9900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-530-shadow.jpg",
+      "description": "New Balance 530 \"Shadow\" in a mesh and knit build. Running tier, retail $99."
+    },
+    {
+      "id": "SXAA2518-604",
+      "slug": "asics-gel-kayano-14-royal",
+      "name": "ASICS GEL-KAYANO 14 \"Royal\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-KAYANO 14",
+      "colorway": "Royal",
+      "primaryColor": "blue",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2024-11-11",
+      "retailPriceCents": 15900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-kayano-14-royal.jpg",
+      "description": "ASICS GEL-KAYANO 14 \"Royal\" in a mesh and knit and nubuck build. Running tier, retail $159."
+    },
+    {
+      "id": "LBH3131-641",
+      "slug": "salomon-xt-6-taupe",
+      "name": "Salomon XT-6 \"Taupe\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XT-6",
+      "colorway": "Taupe",
+      "primaryColor": "brown",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "gore-tex"
+      ],
+      "releaseDate": "2021-09-02",
+      "retailPriceCents": 19600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xt-6-taupe.jpg",
+      "description": "Salomon XT-6 \"Taupe\" in a mesh and ripstop and gore-tex build. Trail tier, retail $196."
+    },
+    {
+      "id": "SXCO3744-678",
+      "slug": "puma-suede-classic-xxi-taupe",
+      "name": "PUMA Suede Classic XXI \"Taupe\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Suede Classic XXI",
+      "colorway": "Taupe",
+      "primaryColor": "brown",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2024-10-23",
+      "retailPriceCents": 7700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-suede-classic-xxi-taupe.jpg",
+      "description": "PUMA Suede Classic XXI \"Taupe\" in a leather and suede and nubuck build. Lifestyle tier, retail $77."
+    },
+    {
+      "id": "VNDV4357-715",
+      "slug": "vans-old-skool-court-purple",
+      "name": "Vans Old Skool \"Court Purple\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Old Skool",
+      "colorway": "Court Purple",
+      "primaryColor": "purple",
+      "secondaryColor": "white",
+      "materials": [
+        "suede",
+        "canvas",
+        "gore-tex"
+      ],
+      "releaseDate": "2022-06-09",
+      "retailPriceCents": 6700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-old-skool-court-purple.jpg",
+      "description": "Vans Old Skool \"Court Purple\" in a suede and canvas and gore-tex build. Skateboarding tier, retail $67."
+    },
+    {
+      "id": "AEC4970-752",
+      "slug": "converse-run-star-hike-lemon-wash",
+      "name": "Converse Run Star Hike \"Lemon Wash\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Lemon Wash",
+      "primaryColor": "yellow",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-06-03",
+      "retailPriceCents": 10900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-lemon-wash.jpg",
+      "description": "Converse Run Star Hike \"Lemon Wash\" in a leather and suede build. Lifestyle tier, retail $109."
+    },
+    {
+      "id": "SXFJ5583-789",
+      "slug": "reebok-instapump-fury-butter",
+      "name": "Reebok Instapump Fury \"Butter\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Butter",
+      "primaryColor": "yellow",
+      "secondaryColor": "purple",
+      "materials": [
+        "mesh",
+        "knit",
+        "canvas"
+      ],
+      "releaseDate": "2025-05-21",
+      "retailPriceCents": 20400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-butter.jpg",
+      "description": "Reebok Instapump Fury \"Butter\" in a mesh and knit and canvas build. Running tier, retail $204."
+    },
+    {
+      "id": "SXGQ6196-826",
+      "slug": "hoka-clifton-9-sand",
+      "name": "HOKA Clifton 9 \"Sand\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Sand",
+      "primaryColor": "beige",
+      "secondaryColor": "black",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2026-07-06",
+      "retailPriceCents": 14600,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-sand.jpg",
+      "description": "HOKA Clifton 9 \"Sand\" in a mesh and knit and gore-tex build. Running tier, retail $146."
+    },
+    {
+      "id": "SHX6809-863",
+      "slug": "saucony-grid-jazz-9-mint-foam",
+      "name": "Saucony Grid Jazz 9 \"Mint Foam\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Mint Foam",
+      "primaryColor": "green",
+      "secondaryColor": "orange",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-10-05",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-mint-foam.jpg",
+      "description": "Saucony Grid Jazz 9 \"Mint Foam\" in a mesh and knit build. Running tier, retail $105."
+    },
+    {
+      "id": "DZIE7422-900",
+      "slug": "nike-air-force-1-low-cool-grey",
+      "name": "Nike Air Force 1 Low \"Cool Grey\"",
+      "brandId": "nike",
+      "categoryId": "lifestyle",
+      "silhouette": "Air Force 1 Low",
+      "colorway": "Cool Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-08-18",
+      "retailPriceCents": 11900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-air-force-1-low-cool-grey.jpg",
+      "description": "Nike Air Force 1 Low \"Cool Grey\" in a leather and suede build. Lifestyle tier, retail $119."
+    },
+    {
+      "id": "FQJL8035-937",
+      "slug": "jordan-air-jordan-5-gorge-green",
+      "name": "Jordan Air Jordan 5 \"Gorge Green\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 5",
+      "colorway": "Gorge Green",
+      "primaryColor": "green",
+      "secondaryColor": "brown",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2021-11-16",
+      "retailPriceCents": 20800,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-5-gorge-green.jpg",
+      "description": "Jordan Air Jordan 5 \"Gorge Green\" in a leather and suede build. Basketball tier, retail $208."
+    },
+    {
+      "id": "IEKS8648-974",
+      "slug": "adidas-samba-og-shadow-974",
+      "name": "adidas Samba OG \"Shadow\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Samba OG",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "yellow",
+      "materials": [
+        "leather",
+        "suede",
+        "mesh"
+      ],
+      "releaseDate": "2021-10-15",
+      "retailPriceCents": 10000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-samba-og-shadow-974.jpg",
+      "description": "adidas Samba OG \"Shadow\" in a leather and suede and mesh build. Lifestyle tier, retail $100."
+    },
+    {
+      "id": "MLZ9261-112",
+      "slug": "new-balance-550-anthracite",
+      "name": "New Balance 550 \"Anthracite\"",
+      "brandId": "new-balance",
+      "categoryId": "basketball",
+      "silhouette": "550",
+      "colorway": "Anthracite",
+      "primaryColor": "black",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede",
+        "nubuck"
+      ],
+      "releaseDate": "2024-09-16",
+      "retailPriceCents": 11100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-550-anthracite.jpg",
+      "description": "New Balance 550 \"Anthracite\" in a leather and suede and nubuck build. Basketball tier, retail $111."
+    },
+    {
+      "id": "SXMG9874-149",
+      "slug": "asics-gel-1130-sand",
+      "name": "ASICS GEL-1130 \"Sand\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Sand",
+      "primaryColor": "beige",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit",
+        "nubuck"
+      ],
+      "releaseDate": "2024-03-03",
+      "retailPriceCents": 11400,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-sand.jpg",
+      "description": "ASICS GEL-1130 \"Sand\" in a mesh and knit and nubuck build. Running tier, retail $114."
+    },
+    {
+      "id": "LNN1488-186",
+      "slug": "salomon-speedcross-3-black-cat",
+      "name": "Salomon Speedcross 3 \"Black Cat\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "Speedcross 3",
+      "colorway": "Black Cat",
+      "primaryColor": "black",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "ripstop"
+      ],
+      "releaseDate": "2021-04-26",
+      "retailPriceCents": 14900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-speedcross-3-black-cat.jpg",
+      "description": "Salomon Speedcross 3 \"Black Cat\" in a mesh and ripstop build. Trail tier, retail $149."
+    },
+    {
+      "id": "SXOU2101-223",
+      "slug": "puma-mostro-triple-black",
+      "name": "PUMA Mostro \"Triple Black\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Mostro",
+      "colorway": "Triple Black",
+      "primaryColor": "black",
+      "secondaryColor": "green",
+      "materials": [
+        "leather",
+        "suede",
+        "corduroy"
+      ],
+      "releaseDate": "2022-07-24",
+      "retailPriceCents": 12100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-mostro-triple-black.jpg",
+      "description": "PUMA Mostro \"Triple Black\" in a leather and suede and corduroy build. Lifestyle tier, retail $121."
+    },
+    {
+      "id": "VNPB2714-260",
+      "slug": "vans-knu-skool-smoke-grey",
+      "name": "Vans Knu Skool \"Smoke Grey\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Knu Skool",
+      "colorway": "Smoke Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "brown",
+      "materials": [
+        "suede",
+        "canvas",
+        "patent"
+      ],
+      "releaseDate": "2026-09-05",
+      "retailPriceCents": 8000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-knu-skool-smoke-grey.jpg",
+      "description": "Vans Knu Skool \"Smoke Grey\" in a suede and canvas and patent build. Skateboarding tier, retail $80."
+    },
+    {
+      "id": "AQI3327-297",
+      "slug": "converse-run-star-hike-sunset",
+      "name": "Converse Run Star Hike \"Sunset\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Sunset",
+      "primaryColor": "orange",
+      "secondaryColor": "pink",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2026-08-24",
+      "retailPriceCents": 11200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-sunset.jpg",
+      "description": "Converse Run Star Hike \"Sunset\" in a leather and suede build. Lifestyle tier, retail $112."
+    },
+    {
+      "id": "SXRP3940-334",
+      "slug": "reebok-instapump-fury-bubblegum-334",
+      "name": "Reebok Instapump Fury \"Bubblegum\"",
+      "brandId": "reebok",
+      "categoryId": "running",
+      "silhouette": "Instapump Fury",
+      "colorway": "Bubblegum",
+      "primaryColor": "pink",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit",
+        "ripstop"
+      ],
+      "releaseDate": "2024-04-17",
+      "retailPriceCents": 19900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-instapump-fury-bubblegum-334.jpg",
+      "description": "Reebok Instapump Fury \"Bubblegum\" in a mesh and knit and ripstop build. Running tier, retail $199."
+    },
+    {
+      "id": "SXSW4553-371",
+      "slug": "hoka-clifton-9-cloud-white",
+      "name": "HOKA Clifton 9 \"Cloud White\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Clifton 9",
+      "colorway": "Cloud White",
+      "primaryColor": "white",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2022-01-08",
+      "retailPriceCents": 14500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-clifton-9-cloud-white.jpg",
+      "description": "HOKA Clifton 9 \"Cloud White\" in a mesh and knit build. Running tier, retail $145."
+    },
+    {
+      "id": "STD5166-408",
+      "slug": "saucony-grid-jazz-9-gorge-green",
+      "name": "Saucony Grid Jazz 9 \"Gorge Green\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "Grid Jazz 9",
+      "colorway": "Gorge Green",
+      "primaryColor": "green",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "knit",
+        "corduroy"
+      ],
+      "releaseDate": "2023-06-04",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-grid-jazz-9-gorge-green.jpg",
+      "description": "Saucony Grid Jazz 9 \"Gorge Green\" in a mesh and knit and corduroy build. Running tier, retail $105."
+    },
+    {
+      "id": "DZUK5779-445",
+      "slug": "nike-vomero-5-pure-platinum",
+      "name": "Nike Vomero 5 \"Pure Platinum\"",
+      "brandId": "nike",
+      "categoryId": "running",
+      "silhouette": "Vomero 5",
+      "colorway": "Pure Platinum",
+      "primaryColor": "white",
+      "secondaryColor": "blue",
+      "materials": [
+        "mesh",
+        "knit",
+        "corduroy"
+      ],
+      "releaseDate": "2025-08-11",
+      "retailPriceCents": 16300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/nike-vomero-5-pure-platinum.jpg",
+      "description": "Nike Vomero 5 \"Pure Platinum\" in a mesh and knit and corduroy build. Running tier, retail $163."
+    },
+    {
+      "id": "FQVR6392-482",
+      "slug": "jordan-air-jordan-3-military-blue",
+      "name": "Jordan Air Jordan 3 \"Military Blue\"",
+      "brandId": "jordan",
+      "categoryId": "basketball",
+      "silhouette": "Air Jordan 3",
+      "colorway": "Military Blue",
+      "primaryColor": "blue",
+      "secondaryColor": "orange",
+      "materials": [
+        "leather",
+        "suede",
+        "mesh"
+      ],
+      "releaseDate": "2021-10-01",
+      "retailPriceCents": 20100,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/jordan-air-jordan-3-military-blue.jpg",
+      "description": "Jordan Air Jordan 3 \"Military Blue\" in a leather and suede and mesh build. Basketball tier, retail $201."
+    },
+    {
+      "id": "IEWY7005-519",
+      "slug": "adidas-samba-og-bred",
+      "name": "adidas Samba OG \"Bred\"",
+      "brandId": "adidas",
+      "categoryId": "lifestyle",
+      "silhouette": "Samba OG",
+      "colorway": "Bred",
+      "primaryColor": "red",
+      "secondaryColor": "black",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2022-05-25",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/adidas-samba-og-bred.jpg",
+      "description": "adidas Samba OG \"Bred\" in a leather and suede build. Lifestyle tier, retail $105."
+    },
+    {
+      "id": "MXF7618-556",
+      "slug": "new-balance-530-plum-fog",
+      "name": "New Balance 530 \"Plum Fog\"",
+      "brandId": "new-balance",
+      "categoryId": "running",
+      "silhouette": "530",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2024-04-28",
+      "retailPriceCents": 9500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/new-balance-530-plum-fog.jpg",
+      "description": "New Balance 530 \"Plum Fog\" in a mesh and knit build. Running tier, retail $95."
+    },
+    {
+      "id": "SXYM8231-593",
+      "slug": "asics-gel-1130-violet-shock",
+      "name": "ASICS GEL-1130 \"Violet Shock\"",
+      "brandId": "asics",
+      "categoryId": "running",
+      "silhouette": "GEL-1130",
+      "colorway": "Violet Shock",
+      "primaryColor": "purple",
+      "secondaryColor": "pink",
+      "materials": [
+        "mesh",
+        "knit"
+      ],
+      "releaseDate": "2021-06-09",
+      "retailPriceCents": 11200,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/asics-gel-1130-violet-shock.jpg",
+      "description": "ASICS GEL-1130 \"Violet Shock\" in a mesh and knit build. Running tier, retail $112."
+    },
+    {
+      "id": "LZT8844-630",
+      "slug": "salomon-xa-pro-3d-desert-ore",
+      "name": "Salomon XA Pro 3D \"Desert Ore\"",
+      "brandId": "salomon",
+      "categoryId": "trail",
+      "silhouette": "XA Pro 3D",
+      "colorway": "Desert Ore",
+      "primaryColor": "beige",
+      "secondaryColor": "red",
+      "materials": [
+        "mesh",
+        "ripstop",
+        "gore-tex"
+      ],
+      "releaseDate": "2024-10-31",
+      "retailPriceCents": 16700,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/salomon-xa-pro-3d-desert-ore.jpg",
+      "description": "Salomon XA Pro 3D \"Desert Ore\" in a mesh and ripstop and gore-tex build. Trail tier, retail $167."
+    },
+    {
+      "id": "SXAA9457-667",
+      "slug": "puma-palermo-court-purple",
+      "name": "PUMA Palermo \"Court Purple\"",
+      "brandId": "puma",
+      "categoryId": "lifestyle",
+      "silhouette": "Palermo",
+      "colorway": "Court Purple",
+      "primaryColor": "purple",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede",
+        "patent"
+      ],
+      "releaseDate": "2022-04-19",
+      "retailPriceCents": 8500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/puma-palermo-court-purple.jpg",
+      "description": "PUMA Palermo \"Court Purple\" in a leather and suede and patent build. Lifestyle tier, retail $85."
+    },
+    {
+      "id": "VNBH1071-704",
+      "slug": "vans-sk8-hi-shadow",
+      "name": "Vans Sk8-Hi \"Shadow\"",
+      "brandId": "vans",
+      "categoryId": "skateboarding",
+      "silhouette": "Sk8-Hi",
+      "colorway": "Shadow",
+      "primaryColor": "black",
+      "secondaryColor": "beige",
+      "materials": [
+        "suede",
+        "canvas"
+      ],
+      "releaseDate": "2022-04-23",
+      "retailPriceCents": 7300,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/vans-sk8-hi-shadow.jpg",
+      "description": "Vans Sk8-Hi \"Shadow\" in a suede and canvas build. Skateboarding tier, retail $73."
+    },
+    {
+      "id": "ACO1684-741",
+      "slug": "converse-run-star-hike-plum-fog",
+      "name": "Converse Run Star Hike \"Plum Fog\"",
+      "brandId": "converse",
+      "categoryId": "lifestyle",
+      "silhouette": "Run Star Hike",
+      "colorway": "Plum Fog",
+      "primaryColor": "purple",
+      "secondaryColor": "blue",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2023-10-28",
+      "retailPriceCents": 10500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/converse-run-star-hike-plum-fog.jpg",
+      "description": "Converse Run Star Hike \"Plum Fog\" in a leather and suede build. Lifestyle tier, retail $105."
+    },
+    {
+      "id": "SXDV2297-778",
+      "slug": "reebok-club-c-85-chicago-778",
+      "name": "Reebok Club C 85 \"Chicago\"",
+      "brandId": "reebok",
+      "categoryId": "lifestyle",
+      "silhouette": "Club C 85",
+      "colorway": "Chicago",
+      "primaryColor": "red",
+      "secondaryColor": "white",
+      "materials": [
+        "leather",
+        "suede"
+      ],
+      "releaseDate": "2024-08-09",
+      "retailPriceCents": 8000,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/reebok-club-c-85-chicago-778.jpg",
+      "description": "Reebok Club C 85 \"Chicago\" in a leather and suede build. Lifestyle tier, retail $80."
+    },
+    {
+      "id": "SXEC2910-815",
+      "slug": "hoka-bondi-8-ash-grey",
+      "name": "HOKA Bondi 8 \"Ash Grey\"",
+      "brandId": "hoka",
+      "categoryId": "running",
+      "silhouette": "Bondi 8",
+      "colorway": "Ash Grey",
+      "primaryColor": "grey",
+      "secondaryColor": "yellow",
+      "materials": [
+        "mesh",
+        "knit",
+        "corduroy"
+      ],
+      "releaseDate": "2022-04-04",
+      "retailPriceCents": 16900,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/hoka-bondi-8-ash-grey.jpg",
+      "description": "HOKA Bondi 8 \"Ash Grey\" in a mesh and knit and corduroy build. Running tier, retail $169."
+    },
+    {
+      "id": "SFJ3523-852",
+      "slug": "saucony-progrid-omni-9-mocha",
+      "name": "Saucony ProGrid Omni 9 \"Mocha\"",
+      "brandId": "saucony",
+      "categoryId": "running",
+      "silhouette": "ProGrid Omni 9",
+      "colorway": "Mocha",
+      "primaryColor": "brown",
+      "secondaryColor": "white",
+      "materials": [
+        "mesh",
+        "knit",
+        "gore-tex"
+      ],
+      "releaseDate": "2024-01-02",
+      "retailPriceCents": 14500,
+      "currency": "USD",
+      "imageUrl": "https://images.soleindex.dev/saucony-progrid-omni-9-mocha.jpg",
+      "description": "Saucony ProGrid Omni 9 \"Mocha\" in a mesh and knit and gore-tex build. Running tier, retail $145."
+    }
+  ],
+  "profiles": {
+    "DZAA1000-100": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "FQBH1613-137": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "IECO2226-174": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "MDV2839-211": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXEC3452-248": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "LFJ4065-285": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXGQ4678-322": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "VNHX5291-359": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "AIE5904-396": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXJL6517-433": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXKS7130-470": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SLZ7743-507": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZMG8356-544": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "FQNN8969-581": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "IEOU9582-618": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "MPB1196-655": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXQI1809-692": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "LRP2422-729": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXSW3035-766": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "VNTD3648-803": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "AUK4261-840": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXVR4874-877": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "SXWY5487-914": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXF6100-951": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZYM6713-988": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "FQZT7326-126": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "IEAA7939-163": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "MBH8552-200": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "SXCO9165-237": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LDV9778-274": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXEC1392-311": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "VNFJ2005-348": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "AGQ2618-385": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "SXHX3231-422": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "SXIE3844-459": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SJL4457-496": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZKS5070-533": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQLZ5683-570": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "IEMG6296-607": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "MNN6909-644": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXOU7522-681": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "LPB8135-718": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXQI8748-755": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNRP9361-792": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "ASW9974-829": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXTD1588-866": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXUK2201-903": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SVR2814-940": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZWY3427-977": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQXF4040-115": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "IEYM4653-152": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "MZT5266-189": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXAA5879-226": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "LBH6492-263": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXCO7105-300": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNDV7718-337": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "AEC8331-374": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXFJ8944-411": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXGQ9557-448": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SHX1171-485": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZIE1784-522": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "FQJL2397-559": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "IEKS3010-596": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "MLZ3623-633": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXMG4236-670": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LNN4849-707": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXOU5462-744": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNPB6075-781": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "AQI6688-818": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SXRP7301-855": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXSW7914-892": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "STD8527-929": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZUK9140-966": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQVR9753-104": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "IEWY1367-141": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "MXF1980-178": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXYM2593-215": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "LZT3206-252": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXAA3819-289": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNBH4432-326": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "ACO5045-363": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXDV5658-400": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXEC6271-437": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "SFJ6884-474": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZGQ7497-511": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQHX8110-548": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "IEIE8723-585": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "MJL9336-622": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXKS9949-659": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "LLZ1563-696": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXMG2176-733": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "VNNN2789-770": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "AOU3402-807": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXPB4015-844": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXQI4628-881": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SRP5241-918": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZSW5854-955": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQTD6467-992": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "IEUK7080-130": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "MVR7693-167": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXWY8306-204": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LXF8919-241": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXYM9532-278": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "VNZT1146-315": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "AAA1759-352": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXBH2372-389": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "SXCO2985-426": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SDV3598-463": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZEC4211-500": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "FQFJ4824-537": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "IEGQ5437-574": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "MHX6050-611": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXIE6663-648": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "LJL7276-685": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXKS7889-722": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNLZ8502-759": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "AMG9115-796": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXNN9728-833": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXOU1342-870": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SPB1955-907": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZQI2568-944": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQRP3181-981": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "IESW3794-119": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "MTD4407-156": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXUK5020-193": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "LVR5633-230": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXWY6246-267": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "VNXF6859-304": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "AYM7472-341": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXZT8085-378": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXAA8698-415": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SBH9311-452": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "DZCO9924-489": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "FQDV1538-526": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "IEEC2151-563": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "MFJ2764-600": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXGQ3377-637": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "LHX3990-674": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXIE4603-711": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "VNJL5216-748": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "AKS5829-785": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXLZ6442-822": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXMG7055-859": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SNN7668-896": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZOU8281-933": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQPB8894-970": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "IEQI9507-108": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "MRP1121-145": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SXSW1734-182": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LTD2347-219": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXUK2960-256": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNVR3573-293": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "AWY4186-330": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXXF4799-367": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXYM5412-404": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SZT6025-441": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZAA6638-478": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQBH7251-515": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "IECO7864-552": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "MDV8477-589": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXEC9090-626": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "LFJ9703-663": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXGQ1317-700": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "VNHX1930-737": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "AIE2543-774": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXJL3156-811": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXKS3769-848": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SLZ4382-885": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZMG4995-922": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "FQNN5608-959": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "IEOU6221-996": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "MPB6834-134": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXQI7447-171": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LRP8060-208": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXSW8673-245": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "VNTD9286-282": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "AUK9899-319": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXVR1513-356": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXWY2126-393": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXF2739-430": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZYM3352-467": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQZT3965-504": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "IEAA4578-541": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "MBH5191-578": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXCO5804-615": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LDV6417-652": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXEC7030-689": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "VNFJ7643-726": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "AGQ8256-763": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SXHX8869-800": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXIE9482-837": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SJL1096-874": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "DZKS1709-911": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "FQLZ2322-948": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "IEMG2935-985": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "MNN3548-123": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SXOU4161-160": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "LPB4774-197": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SXQI5387-234": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "VNRP6000-271": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "ASW6613-308": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXTD7226-345": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXUK7839-382": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SVR8452-419": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZWY9065-456": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "FQXF9678-493": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "IEYM1292-530": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "MZT1905-567": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXAA2518-604": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LBH3131-641": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXCO3744-678": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "VNDV4357-715": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "AEC4970-752": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "SXFJ5583-789": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXGQ6196-826": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SHX6809-863": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "DZIE7422-900": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "FQJL8035-937": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "IEKS8648-974": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "MLZ9261-112": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXMG9874-149": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "LNN1488-186": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXOU2101-223": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "VNPB2714-260": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "AQI3327-297": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXRP3940-334": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXSW4553-371": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "STD5166-408": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "DZUK5779-445": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "FQVR6392-482": {
+      "profile": "volatile",
+      "label": "Volatile"
+    },
+    "IEWY7005-519": {
+      "profile": "hyped_launch",
+      "label": "Hyped launch, decaying"
+    },
+    "MXF7618-556": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXYM8231-593": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "LZT8844-630": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXAA9457-667": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "VNBH1071-704": {
+      "profile": "rising",
+      "label": "Rising"
+    },
+    "ACO1684-741": {
+      "profile": "retail_flat",
+      "label": "At retail"
+    },
+    "SXDV2297-778": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    },
+    "SXEC2910-815": {
+      "profile": "cooling",
+      "label": "Cooling"
+    },
+    "SFJ3523-852": {
+      "profile": "stable_premium",
+      "label": "Stable premium"
+    }
+  },
+  "colorMeta": [
+    {
+      "key": "black",
+      "label": "Black",
+      "hex": "#17181A"
+    },
+    {
+      "key": "white",
+      "label": "White",
+      "hex": "#F4F4F2"
+    },
+    {
+      "key": "grey",
+      "label": "Grey",
+      "hex": "#9AA0A6"
+    },
+    {
+      "key": "red",
+      "label": "Red",
+      "hex": "#D7373F"
+    },
+    {
+      "key": "blue",
+      "label": "Blue",
+      "hex": "#2F6FD0"
+    },
+    {
+      "key": "green",
+      "label": "Green",
+      "hex": "#3F8F5B"
+    },
+    {
+      "key": "orange",
+      "label": "Orange",
+      "hex": "#E07A2F"
+    },
+    {
+      "key": "purple",
+      "label": "Purple",
+      "hex": "#7A5AC4"
+    },
+    {
+      "key": "pink",
+      "label": "Pink",
+      "hex": "#E08CA8"
+    },
+    {
+      "key": "brown",
+      "label": "Brown",
+      "hex": "#7A5844"
+    },
+    {
+      "key": "yellow",
+      "label": "Yellow",
+      "hex": "#E3C24A"
+    },
+    {
+      "key": "beige",
+      "label": "Beige",
+      "hex": "#D8C9AE"
+    }
+  ],
+  "materialMeta": [
+    {
+      "key": "leather",
+      "label": "Leather"
+    },
+    {
+      "key": "suede",
+      "label": "Suede"
+    },
+    {
+      "key": "mesh",
+      "label": "Mesh"
+    },
+    {
+      "key": "knit",
+      "label": "Knit"
+    },
+    {
+      "key": "canvas",
+      "label": "Canvas"
+    },
+    {
+      "key": "nubuck",
+      "label": "Nubuck"
+    },
+    {
+      "key": "patent",
+      "label": "Patent"
+    },
+    {
+      "key": "ripstop",
+      "label": "Ripstop"
+    },
+    {
+      "key": "gore-tex",
+      "label": "GORE-TEX"
+    },
+    {
+      "key": "corduroy",
+      "label": "Corduroy"
+    }
+  ]
+}

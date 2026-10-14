@@ -1,0 +1,56 @@
+{
+  "name": "sole-index",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SoleIndex — market intelligence for the sneaker resale market",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "db:seed": "tsx scripts/seed.ts",
+    "analytics:refresh": "tsx scripts/refresh-analytics.ts",
+    "db:reset": "node -e \"require('node:fs').rmSync('.data',{recursive:true,force:true})\" && tsx src/db/migrate.ts && tsx scripts/seed.ts",
+    "ingest": "tsx scripts/ingest.ts",
+    "fixtures:generate": "tsx scripts/generate-fixtures.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.9",
+    "@tiptap/pm": "3.32.0",
+    "@tiptap/react": "3.32.0",
+    "@tiptap/starter-kit": "3.32.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "date-fns": "4.4.0",
+    "drizzle-orm": "0.45.4",
+    "lucide-react": "1.57.0",
+    "marked": "^18.1.1",
+    "next": "16.4.0",
+    "postgres": "3.4.7",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "recharts": "3.10.1",
+    "tailwind-merge": "3.7.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "24.10.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "drizzle-kit": "0.31.11",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "5.0.4"
+  }
+}

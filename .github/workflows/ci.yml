@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Cancel an in-flight run when a newer commit lands on the same ref.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # pnpm needs an explicit store location on hosted runners.
+  NPM_CONFIG_CACHE: ${{ github.workspace }}/.npm-cache
+
+jobs:
+  verify:
+    name: typecheck · test · build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      # The fixture snapshot is committed, so nothing below needs a network call
+      # to a market-data provider. That is the point of ADR-0001: CI is offline
+      # and deterministic.
+      - name: Verify the committed dataset is present and consistent
+        run: pnpm fixtures:generate --check
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Unit tests
+        run: pnpm test
+
+      # `next build` must not require a database. Every route is force-dynamic,
+      # so this is a pure compile step — and this step is what proves it.
+      - name: Build
+        run: pnpm build
+
+      - name: Smoke test the seeded application
+        run: |
+          set -euo pipefail
+          pnpm db:reset
+          pnpm start --port 3000 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
+
+          for i in $(seq 1 45); do
+            if curl -sf -o /dev/null http://127.0.0.1:3000/; then break; fi
+            sleep 1
+          done
+
+          # Every route must render. A 500 here means the data layer, the
+          # migrations or the seeding broke — which no unit test would catch.
+          for route in / /products /compare /trends /trends/methodology \
+                       /editorial /pricing /login /admin /admin/editorial /admin/ops; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "http://127.0.0.1:3000$route")
+            echo "$route -> $code"
+            test "$code" = "200"
+          done
+
+      - name: Upload build output on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: next-build-log
+          path: .next/trace
+          if-no-files-found: ignore
+          retention-days: 3

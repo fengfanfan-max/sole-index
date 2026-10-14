@@ -1,0 +1,462 @@
+{
+  "users": [
+    {
+      "id": "u-fanfan",
+      "email": "analyst@soleindex.dev",
+      "name": "Fanfan Feng",
+      "role": "admin",
+      "tier": "pro"
+    },
+    {
+      "id": "u-editor",
+      "email": "editor@soleindex.dev",
+      "name": "Mira Okafor",
+      "role": "editor",
+      "tier": "pro"
+    },
+    {
+      "id": "u-viewer",
+      "email": "viewer@soleindex.dev",
+      "name": "Demo Viewer",
+      "role": "viewer",
+      "tier": "free"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-kicksdb",
+      "name": "KicksDB (StockX + GOAT aggregate)",
+      "url": "https://kicks.dev",
+      "kind": "api",
+      "notes": "Primary daily price and sales feed."
+    },
+    {
+      "id": "src-ebay",
+      "name": "eBay Browse API",
+      "url": "https://developer.ebay.com",
+      "kind": "api",
+      "notes": "Listed-price cross-check for platforms outside the aggregate."
+    },
+    {
+      "id": "src-complex",
+      "name": "Complex Sneakers",
+      "url": "https://www.complex.com/sneakers",
+      "kind": "editorial",
+      "notes": "Release calendar and editorial context."
+    },
+    {
+      "id": "src-reddit",
+      "name": "r/Sneakers sentiment sample",
+      "url": "https://www.reddit.com/r/Sneakers/",
+      "kind": "social",
+      "notes": "Weekly thread sample for demand-side colour."
+    },
+    {
+      "id": "src-floor",
+      "name": "Retail floor checks (Shenzhen + Hong Kong)",
+      "url": null,
+      "kind": "retailer",
+      "notes": "Physical stock observation at partner retailers."
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins-001",
+      "kind": "market_note",
+      "title": "The premium is narrowing, not disappearing",
+      "body": "Across the 240 tracked silhouettes the volume-weighted resale index has fallen from 1.44x retail to 1.16x over eighteen months, and 119 of 240 pairs now trade below retail. But the top decile is holding above 2x. What is decaying is breadth, not depth: general releases are converging on retail while genuinely scarce pairs hold. Treat \"the market is cooling\" as a statement about the middle of the distribution, not the top.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-kicksdb",
+      "confidence": 5,
+      "signal": "Index 1.44× → 1.16× · 119/240 below retail",
+      "status": "published",
+      "publishedAt": "2026-09-28T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "category",
+          "entityId": "lifestyle"
+        }
+      ]
+    },
+    {
+      "id": "ins-002",
+      "kind": "observation",
+      "title": "Olive is absorbing share from triple-black",
+      "body": "Earth-tone colourways have taken transaction-value share in nearly every month of the window while black and white combinations give ground. The tell is not price — it is listings. Olive pairs clear at a similar price to black but sit on materially fewer active listings, which is what a genuine preference shift looks like rather than a discount cycle.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-reddit",
+      "confidence": 4,
+      "signal": "Green +6.1pp · beige +7.3pp over 18m",
+      "status": "published",
+      "publishedAt": "2026-09-21T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "color",
+          "entityId": "green"
+        },
+        {
+          "entityType": "color",
+          "entityId": "black"
+        },
+        {
+          "entityType": "material",
+          "entityId": "suede"
+        }
+      ]
+    },
+    {
+      "id": "ins-003",
+      "kind": "research",
+      "title": "GORE-TEX commands a durable, boring premium",
+      "body": "Waterproofed trail and running silhouettes trade at a remarkably stable 1.5–1.8x retail with low week-to-week volatility. This is the least exciting and most reliable segment in the dataset: demand is functional, so it does not move with sneaker culture, and supply is constrained by the material rather than by a release strategy.",
+      "authorId": "u-editor",
+      "sourceId": "src-complex",
+      "confidence": 4,
+      "signal": "Volatility 0.9x catalogue median",
+      "status": "published",
+      "publishedAt": "2026-09-14T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "material",
+          "entityId": "gore-tex"
+        },
+        {
+          "entityType": "category",
+          "entityId": "trail"
+        },
+        {
+          "entityType": "product",
+          "entityId": "SXEC3452-248"
+        }
+      ]
+    },
+    {
+      "id": "ins-004",
+      "kind": "observation",
+      "title": "Samba restocks are compressing the entry tier",
+      "body": "Repeated wide restocks have compressed Samba OG from a strong double-digit premium to roughly retail within our window. Volume is up while price is down, which is the signature of supply catching demand rather than demand weakening. Worth watching whether the same pattern follows the Campus and Spezial restocks.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-kicksdb",
+      "confidence": 4,
+      "signal": "Premium compressed to retail, volume up",
+      "status": "published",
+      "publishedAt": "2026-09-07T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "product",
+          "entityId": "IEYM4653-152"
+        },
+        {
+          "entityType": "brand",
+          "entityId": "adidas"
+        }
+      ]
+    },
+    {
+      "id": "ins-005",
+      "kind": "market_note",
+      "title": "Skate tooling is decoupling from basketball heat",
+      "body": "Basketball silhouettes and skate silhouettes used to move together. Over the last two quarters the correlation has broken down: basketball premiums are contracting while skate stays flat to slightly up. The likely driver is that skate demand is local and community-driven, so it is far less exposed to resale-platform speculation.",
+      "authorId": "u-editor",
+      "sourceId": "src-complex",
+      "confidence": 3,
+      "signal": "Rolling 12w correlation 0.71 → 0.22",
+      "status": "published",
+      "publishedAt": "2026-08-31T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "category",
+          "entityId": "skateboarding"
+        }
+      ]
+    },
+    {
+      "id": "ins-006",
+      "kind": "source_digest",
+      "title": "Weekly source digest — restock calendar",
+      "body": "Three wide restocks landed this week across adidas and New Balance. Historically a restock of this size takes four to six weeks to fully reprice the affected silhouette, so expect continued ask-side softening in the entry tier before any recovery.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-complex",
+      "confidence": 3,
+      "signal": "3 wide restocks",
+      "status": "published",
+      "publishedAt": "2026-08-24T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "brand",
+          "entityId": "adidas"
+        },
+        {
+          "entityType": "brand",
+          "entityId": "new-balance"
+        }
+      ]
+    },
+    {
+      "id": "ins-007",
+      "kind": "research",
+      "title": "Sell-through is a better leading indicator than price",
+      "body": "Price moves after supply does. Across the dataset, a sustained rise in the listings-to-volume ratio precedes a price decline by roughly five weeks, consistently enough to be useful. That is why the trend model weights sell-through and listing depth rather than relying on price momentum alone.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-kicksdb",
+      "confidence": 5,
+      "signal": "Lead time ~5 weeks",
+      "status": "published",
+      "publishedAt": "2026-08-17T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "category",
+          "entityId": "running"
+        }
+      ]
+    },
+    {
+      "id": "ins-008",
+      "kind": "observation",
+      "title": "Retail floor check: cream and bone are sold through",
+      "body": "Two Shenzhen partner doors and one Hong Kong door confirm what the online data implies — neutral cream and bone colourways are selling through at full retail while black and white sit. Offline sell-through is a useful independent check because it is not affected by resale-platform bid/ask dynamics.",
+      "authorId": "u-editor",
+      "sourceId": "src-floor",
+      "confidence": 4,
+      "signal": "Full-price sell-through on neutrals",
+      "status": "published",
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "color",
+          "entityId": "beige"
+        },
+        {
+          "entityType": "color",
+          "entityId": "white"
+        }
+      ]
+    },
+    {
+      "id": "ins-009",
+      "kind": "market_note",
+      "title": "Q4 seasonality is weaker than the historical pattern",
+      "body": "The usual October–December demand lift is present but muted, roughly a third of the amplitude we saw three years ago. Two readings: either the market has become less seasonal as it professionalises, or the promotional calendar has shifted earlier. Either way, do not underwrite inventory on the old seasonal curve.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-kicksdb",
+      "confidence": 3,
+      "signal": "Q4 lift ~1.2x vs 1.6x historical",
+      "status": "published",
+      "publishedAt": "2026-08-03T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "category",
+          "entityId": "lifestyle"
+        }
+      ]
+    },
+    {
+      "id": "ins-010",
+      "kind": "research",
+      "title": "Knit uppers are losing the material argument",
+      "body": "Knit-constructed silhouettes have fallen behind across every price band we track. Products carrying knit have dropped from 42% of transaction value to 28%; mesh has fallen 13.6pp alongside it. The mechanism looks structural rather than cyclical: knit photographs poorly, ages visibly, and reads as \"value engineering\" to a buyer who is already paying a premium. Suede and nubuck are picking up exactly that share.",
+      "authorId": "u-editor",
+      "sourceId": "src-reddit",
+      "confidence": 4,
+      "signal": "Knit-bearing value share 42% → 28%",
+      "status": "published",
+      "publishedAt": "2026-07-27T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "material",
+          "entityId": "knit"
+        },
+        {
+          "entityType": "material",
+          "entityId": "suede"
+        },
+        {
+          "entityType": "material",
+          "entityId": "nubuck"
+        }
+      ]
+    },
+    {
+      "id": "ins-011",
+      "kind": "observation",
+      "title": "Air Max 1 colourways are diverging sharply",
+      "body": "Within a single silhouette we now see a spread of more than 2x between the strongest and weakest colourway. That is unusually wide and argues against treating \"Air Max 1\" as one instrument — the silhouette-level index is masking two very different products.",
+      "authorId": "u-fanfan",
+      "sourceId": "src-kicksdb",
+      "confidence": 4,
+      "signal": "Intra-silhouette spread > 2×",
+      "status": "published",
+      "publishedAt": "2026-07-20T09:00:00.000Z",
+      "links": [
+        {
+          "entityType": "product",
+          "entityId": "DZAA1000-100"
+        }
+      ]
+    },
+    {
+      "id": "ins-012",
+      "kind": "market_note",
+      "title": "Draft: possible bid-side manipulation on two pairs",
+      "body": "Two mid-tier Jordan colourways show bid stacks that look implausibly deep relative to their sale volume. Not yet confident enough to publish — needs a second week of data and a cross-check against a platform we do not aggregate.",
+      "authorId": "u-editor",
+      "sourceId": null,
+      "confidence": 2,
+      "signal": "Unconfirmed",
+      "status": "draft",
+      "publishedAt": null,
+      "links": [
+        {
+          "entityType": "brand",
+          "entityId": "jordan"
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-001",
+      "slug": "q3-2026-resale-report",
+      "title": "Q3 2026 Resale Report: The Premium Is Narrowing",
+      "excerpt": "The median resale multiple fell for the sixth consecutive quarter. Depth at the top is intact — what is eroding is the middle of the market.",
+      "categoryId": "lifestyle",
+      "tags": [
+        "market-report",
+        "q3-2026",
+        "pricing"
+      ],
+      "readingMinutes": 9,
+      "authorId": "u-fanfan",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-10-01T08:00:00.000Z",
+      "body": "## The headline number\n\nThe volume-weighted resale index closed Q3 at **1.16x retail**, down from 1.44x eighteen months earlier and 10.5% lower than a year ago. **119 of the 240 silhouettes we track now trade below retail.** On its own, that reads like a market in retreat.\n\nIt is not. The top decile is holding above **2.0x** and the top percentile is closer to 3.4x. The decline is concentrated entirely in the middle of the distribution — the general releases, the wide restocks, the colourways that were never scarce to begin with.\n\n## Where the value went\n\nThree forces are compressing the middle:\n\n1. **Restock cadence.** Brands have shortened the interval between restocks. A silhouette that used to reprice upward for two quarters now reverts within six weeks.\n2. **Listing depth.** Roughly 106,000 pairs sit as active listings against 101,000 units of four-week demand. That is more supply than the market is clearing, and it is a price story waiting to happen.\n3. **Platform liquidity.** Faster clearing means less time for a premium to accumulate.\n\n## What to do with this\n\nIf you are buying to hold, the middle of the catalogue is now a losing trade — the spread does not cover the carrying cost. If you are buying to sell, thinner premiums mean throughput matters more than margin, which favours high-volume general releases over scarce pairs.\n\nThe exception remains functional and material-driven scarcity: GORE-TEX, premium suede, and limited-material builds continue to hold a stable 1.5–1.8x with roughly half the volatility of the rest of the catalogue.\n\n## The forward view\n\nWe expect the index to stabilise between 1.10x and 1.20x rather than revert. Consolidation, not collapse: fewer participants, thinner spreads, and a market that increasingly rewards operations over speculation."
+    },
+    {
+      "id": "art-002",
+      "slug": "olive-is-the-colourway-of-the-year",
+      "title": "Why Olive Is the Colourway of the Year",
+      "excerpt": "Earth tones have taken transaction share in eight of the last nine months. The mechanism is supply, not fashion.",
+      "categoryId": "lifestyle",
+      "tags": [
+        "colour-trends",
+        "materials",
+        "suede"
+      ],
+      "readingMinutes": 6,
+      "authorId": "u-editor",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-09-22T08:00:00.000Z",
+      "body": "## A preference shift you can measure\n\nFashion stories are usually unfalsifiable. This one is not.\n\nOlive and adjacent earth tones have increased their share of transaction value across the window, with green up 6.1 percentage points and beige up 7.3. That alone would be a weak signal — share can rise simply because more olive pairs were released.\n\nThe stronger evidence is the **listings ratio**. Olive pairs clear at roughly the same price as black and white equivalents while sitting on materially fewer active listings. Supply is not what is driving this; demand is absorbing it.\n\n## Why suede is the transmission mechanism\n\nOlive reads differently depending on the substrate. On mesh or knit it looks flat and washed out; on suede and nubuck it deepens and shifts with light. The colour trend and the material trend are the same trend.\n\nThis is why we track them together rather than as independent dimensions, and it is why the material share chart and the colour share chart move in lockstep.\n\n## What breaks the trend\n\nEvery colour cycle ends the same way: over-supply of the colourway by brands chasing the trend, followed by a collapse in the premium while share stays high. Watch the listings ratio, not the price. When olive listings start growing faster than olive volume, the cycle is turning."
+    },
+    {
+      "id": "art-003",
+      "slug": "the-gore-tex-premium",
+      "title": "The GORE-TEX Premium: Waterproofing as a Value Driver",
+      "excerpt": "The most stable segment in the catalogue is also the least fashionable. That is the point.",
+      "categoryId": "trail",
+      "tags": [
+        "materials",
+        "trail",
+        "volatility"
+      ],
+      "readingMinutes": 5,
+      "authorId": "u-editor",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-09-10T08:00:00.000Z",
+      "body": "## Boring is a feature\n\nWaterproofed silhouettes trade at a stable 1.5–1.8x retail with week-to-week volatility at roughly 0.9x the catalogue median.\n\nThat combination — a healthy premium *and* low volatility — is rare, and it exists for a specific reason: the demand is functional. Someone buying a GORE-TEX trail shoe in November is buying it to wear in November, not to flip it in December.\n\n## Why the premium persists\n\n| Driver | Effect |\n| --- | --- |\n| Material cost | GORE-TEX membranes are licensed and expensive, so retail is already elevated |\n| Production complexity | Seam-sealed construction limits how fast a factory can scale output |\n| Functional durability | The product stays useful for years, so it is rarely dumped on the resale market |\n| Low speculative interest | Flippers avoid it, which keeps bid/ask spreads tight and honest |\n\nThat last row is the counter-intuitive one. A segment that speculators ignore is a segment where prices reflect actual use.\n\n## The practical read\n\nIf your goal is to hold inventory with predictable outcomes, this is the segment. If your goal is asymmetric upside, it is the wrong one — nothing here is going to double."
+    },
+    {
+      "id": "art-004",
+      "slug": "skate-vs-basketball-cycles",
+      "title": "Skate vs Basketball: Two Different Cycles",
+      "excerpt": "For a decade these two categories moved together. The correlation has now broken — and the reason is structural.",
+      "categoryId": "skateboarding",
+      "tags": [
+        "category-trends",
+        "correlation",
+        "skateboarding"
+      ],
+      "readingMinutes": 7,
+      "authorId": "u-fanfan",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-08-28T08:00:00.000Z",
+      "body": "## The correlation was never fundamental\n\nBasketball and skate footwear shared a customer for years, so their resale prices moved together. That looked like a market relationship. It was closer to a coincidence of audience.\n\nRolling twelve-week correlation has fallen from **0.71 to 0.22**, and the divergence is not noise — it is persistent across every sub-segment we can slice.\n\n## What changed\n\nSkate demand is **local**. It is transmitted through shops, scenes and people who actually skate. Basketball demand is **global and platform-mediated** — it is transmitted through release calendars, raffles and resale feeds.\n\nThose two transmission mechanisms respond to completely different inputs. When global speculative capital withdrew from the middle of the market, basketball premiums contracted. Skate premiums did not, because speculative capital was never what was setting them.\n\n## The operational consequence\n\nSkate is now the better segment for **inventory stability** and basketball remains the better one for **event-driven upside**. Treating them as one \"sneaker market\" will misprice both."
+    },
+    {
+      "id": "art-005",
+      "slug": "how-restocks-reprice-a-silhouette",
+      "title": "How a Restock Reprices a Silhouette",
+      "excerpt": "We tracked eleven restock events. The repricing takes four to six weeks and follows a consistent shape.",
+      "categoryId": "lifestyle",
+      "tags": [
+        "restock",
+        "supply",
+        "pricing"
+      ],
+      "readingMinutes": 6,
+      "authorId": "u-fanfan",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-08-15T08:00:00.000Z",
+      "body": "## The shape of a restock\n\nA restock does not move the price on the day it happens. It moves the **ask**, and the sale price follows over four to six weeks as the new supply works through.\n\nThe sequence is consistent enough to be tradeable:\n\n1. **Week 0 — restock announced.** Lowest ask drops 6–10%. Last sale is unchanged.\n2. **Weeks 1–2 — supply lands.** Listing count spikes 40–120%. Bid stays flat; the spread widens.\n3. **Weeks 3–4 —** Bids start to follow asks down. Volume rises as the lower price clears scarcity buyers.\n4. **Weeks 5–6 — new equilibrium.** Typically 15–35% below the pre-restock premium for a wide restock.\n\n## Why Samba is the case study\n\nSamba OG went from a 2.3x premium to 1.2x across our window on the back of repeated wide restocks. Volume over the same period rose 38% — supply catching demand, not demand weakening. That distinction matters, because the two look identical in a price chart and imply opposite decisions.\n\n## How to use it\n\nIf you are holding inventory when a restock is announced, the ask tells you what is about to happen. Six weeks is enough time to act, which is the entire reason we track listings alongside price."
+    },
+    {
+      "id": "art-006",
+      "slug": "materials-report-suedes-second-act",
+      "title": "Materials Report: Suede's Second Act",
+      "excerpt": "Suede is absorbing share from knit and mesh across every price band. The driver is photographic, not tactile.",
+      "categoryId": "lifestyle",
+      "tags": [
+        "materials",
+        "suede",
+        "knit"
+      ],
+      "readingMinutes": 5,
+      "authorId": "u-editor",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-08-05T08:00:00.000Z",
+      "body": "## The share transfer\n\nSuede has taken **13.1 percentage points** of transaction share over eighteen months, with nubuck adding more. Knit and mesh have given up **13.8pp and 13.6pp** respectively. (Material shares overlap — a product can carry several — so they do not sum to 100%.)\n\nThat is a large move in a category as conservative as footwear materials, and the explanation is not comfort.\n\n## Why suede wins on a screen\n\nMost sneaker transactions now begin on a phone. Suede and nubuck have directional texture that reads as depth in a photograph; knit reads as flat, and mesh reads as a grid. A buyer scrolling a feed is evaluating a photograph, and one material photographs materially better.\n\nThere is a second, less flattering reason: knit ages visibly. Pilling and stretch are obvious in a resale listing's used-condition photos, which caps what a used pair can ask.\n\n## The cyclical caveat\n\nSuede is the least weather-tolerant material in the catalogue, which normally produces a seasonal dip in winter. That dip is currently being masked by the share trend, and it will be the first thing to test whether this is structural or cyclical."
+    },
+    {
+      "id": "art-007",
+      "slug": "reading-sell-through",
+      "title": "Reading Sell-Through: A Practitioner's Guide",
+      "excerpt": "Price is a lagging indicator. Listings depth is a leading one. Here is how we weight them.",
+      "categoryId": "running",
+      "tags": [
+        "methodology",
+        "sell-through",
+        "indicators"
+      ],
+      "readingMinutes": 8,
+      "authorId": "u-fanfan",
+      "coverImageUrl": null,
+      "status": "published",
+      "publishedAt": "2026-07-30T08:00:00.000Z",
+      "body": "## The problem with price momentum\n\nA price chart tells you what already happened. If you are deciding whether to buy inventory, that is not enough information.\n\nAcross our dataset, a sustained rise in the **listings-to-volume ratio** precedes a price decline by roughly five weeks. The mechanism is straightforward: supply arrives before it clears, and price is the variable that eventually adjusts.\n\n## The five inputs we use\n\nOur Trend Momentum Index combines five signals, each normalised within its category:\n\n| Signal | Weight | Why |\n| --- | --- | --- |\n| Price velocity | 35% | The direct observation, smoothed over 30 days |\n| Volume delta | 25% | Distinguishes a real move from a thin print |\n| Volatility (inverted) | 15% | Rewards stable appreciation over spikes |\n| Sell-through | 15% | The leading indicator described above |\n| Attention | 10% | Editorial mentions and external search interest |\n\nThe full definition, including the known limitations, is published at `/trends/methodology`.\n\n## What the score is not\n\nIt is not a forecast. It is a **summary of the current state**, weighted so that leading and lagging signals both contribute. A high score means \"this is currently in demand, with supply roughly in balance\". It says nothing about next quarter.\n\nAny tool that claims to predict a specific future price on this data is overfitting."
+    },
+    {
+      "id": "art-008",
+      "slug": "2027-outlook-consolidation",
+      "title": "The 2027 Outlook: Consolidation, Not Collapse",
+      "excerpt": "Fewer participants, thinner spreads, and a market that rewards operations over speculation.",
+      "categoryId": null,
+      "tags": [
+        "outlook",
+        "2027",
+        "strategy"
+      ],
+      "readingMinutes": 6,
+      "authorId": "u-fanfan",
+      "coverImageUrl": null,
+      "status": "draft",
+      "publishedAt": null,
+      "body": "## Draft\n\nWorking notes for the annual outlook. Not yet published — the Q4 data needs to close before the seasonal adjustment can be finalised.\n\nThesis: the resale market is professionalising rather than shrinking. Speculative participants are exiting because the middle of the distribution no longer pays for the risk they carry. Operational participants — people who can source, hold and move inventory efficiently — are taking that share at better economics.\n\nIf correct, the implication for tooling is that the valuable features shift from *detection* (what is hot) to *execution* (what should I buy, at what depth, and when do I exit).\n"
+    }
+  ]
+}

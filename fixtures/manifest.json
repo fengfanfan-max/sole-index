@@ -1,0 +1,14 @@
+{
+  "generatedBy": "scripts/generate-fixtures.ts",
+  "seed": 20261014,
+  "asOf": "2026-10-05",
+  "cadence": "weekly",
+  "weeks": 78,
+  "monthBuckets": 19,
+  "firstWeek": "2025-04-14",
+  "productCount": 240,
+  "pricePointCount": 18720,
+  "salesPointCount": 18720,
+  "attributeTrendCount": 513,
+  "dataDisclaimer": "Product names reference real silhouettes. All prices, volumes and listing counts are synthetic, produced by a seeded generator for the purpose of a reproducible offline demo and test suite."
+}

@@ -1,0 +1,4129 @@
+{
+  "months": [
+    "2025-04-01",
+    "2025-05-01",
+    "2025-06-01",
+    "2025-07-01",
+    "2025-08-01",
+    "2025-09-01",
+    "2025-10-01",
+    "2025-11-01",
+    "2025-12-01",
+    "2026-01-01",
+    "2026-02-01",
+    "2026-03-01",
+    "2026-04-01",
+    "2026-05-01",
+    "2026-06-01",
+    "2026-07-01",
+    "2026-08-01",
+    "2026-09-01",
+    "2026-10-01"
+  ],
+  "points": [
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-04-01",
+      "share": 0.0523,
+      "avgPriceCents": 22408,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-04-01",
+      "share": 0.4002,
+      "avgPriceCents": 18151,
+      "productCount": 78
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-04-01",
+      "share": 0.4753,
+      "avgPriceCents": 17719,
+      "productCount": 97
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-04-01",
+      "share": 0.4239,
+      "avgPriceCents": 19183,
+      "productCount": 65
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-04-01",
+      "share": 0.1547,
+      "avgPriceCents": 26083,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-04-01",
+      "share": 0.065,
+      "avgPriceCents": 16636,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-04-01",
+      "share": 0.0652,
+      "avgPriceCents": 17328,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-04-01",
+      "share": 0.5949,
+      "avgPriceCents": 20345,
+      "productCount": 85
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-04-01",
+      "share": 0.2695,
+      "avgPriceCents": 22842,
+      "productCount": 30
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-04-01",
+      "share": 0.1819,
+      "avgPriceCents": 25110,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-04-01",
+      "share": 0.0972,
+      "avgPriceCents": 16602,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-04-01",
+      "share": 0.0748,
+      "avgPriceCents": 18483,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-04-01",
+      "share": 0.2388,
+      "avgPriceCents": 15147,
+      "productCount": 56
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-04-01",
+      "share": 0.3903,
+      "avgPriceCents": 18810,
+      "productCount": 59
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-04-01",
+      "share": 0.0816,
+      "avgPriceCents": 19360,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-04-01",
+      "share": 0.1359,
+      "avgPriceCents": 18747,
+      "productCount": 25
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-04-01",
+      "share": 0.0682,
+      "avgPriceCents": 20902,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-04-01",
+      "share": 0.1051,
+      "avgPriceCents": 16943,
+      "productCount": 23
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-04-01",
+      "share": 0.0343,
+      "avgPriceCents": 11275,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-04-01",
+      "share": 0.0356,
+      "avgPriceCents": 22974,
+      "productCount": 7
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-04-01",
+      "share": 0.0915,
+      "avgPriceCents": 19323,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-04-01",
+      "share": 0.1069,
+      "avgPriceCents": 20745,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-04-01",
+      "share": 0.0708,
+      "avgPriceCents": 21195,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-04-01",
+      "share": 0.1319,
+      "avgPriceCents": 18534,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-04-01",
+      "share": 0.0686,
+      "avgPriceCents": 19124,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-04-01",
+      "share": 0.0602,
+      "avgPriceCents": 20600,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-04-01",
+      "share": 0.0332,
+      "avgPriceCents": 27253,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-05-01",
+      "share": 0.0503,
+      "avgPriceCents": 22108,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-05-01",
+      "share": 0.4068,
+      "avgPriceCents": 17960,
+      "productCount": 78
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-05-01",
+      "share": 0.4764,
+      "avgPriceCents": 17443,
+      "productCount": 97
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-05-01",
+      "share": 0.4251,
+      "avgPriceCents": 18829,
+      "productCount": 68
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-05-01",
+      "share": 0.1528,
+      "avgPriceCents": 26286,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-05-01",
+      "share": 0.0599,
+      "avgPriceCents": 16009,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-05-01",
+      "share": 0.0806,
+      "avgPriceCents": 17625,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-05-01",
+      "share": 0.5901,
+      "avgPriceCents": 19920,
+      "productCount": 88
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-05-01",
+      "share": 0.2512,
+      "avgPriceCents": 22438,
+      "productCount": 30
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-05-01",
+      "share": 0.1722,
+      "avgPriceCents": 24635,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-05-01",
+      "share": 0.0913,
+      "avgPriceCents": 15684,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-05-01",
+      "share": 0.0793,
+      "avgPriceCents": 18465,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-05-01",
+      "share": 0.2469,
+      "avgPriceCents": 15007,
+      "productCount": 56
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-05-01",
+      "share": 0.3924,
+      "avgPriceCents": 18489,
+      "productCount": 62
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-05-01",
+      "share": 0.0798,
+      "avgPriceCents": 19083,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-05-01",
+      "share": 0.1334,
+      "avgPriceCents": 18188,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-05-01",
+      "share": 0.0654,
+      "avgPriceCents": 20204,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-05-01",
+      "share": 0.1172,
+      "avgPriceCents": 16772,
+      "productCount": 24
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-05-01",
+      "share": 0.0357,
+      "avgPriceCents": 11339,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-05-01",
+      "share": 0.0332,
+      "avgPriceCents": 23047,
+      "productCount": 7
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-05-01",
+      "share": 0.0885,
+      "avgPriceCents": 18989,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-05-01",
+      "share": 0.1232,
+      "avgPriceCents": 21451,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-05-01",
+      "share": 0.0701,
+      "avgPriceCents": 21553,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-05-01",
+      "share": 0.1224,
+      "avgPriceCents": 17792,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-05-01",
+      "share": 0.072,
+      "avgPriceCents": 19236,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-05-01",
+      "share": 0.0626,
+      "avgPriceCents": 20426,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-05-01",
+      "share": 0.0301,
+      "avgPriceCents": 24407,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-06-01",
+      "share": 0.048,
+      "avgPriceCents": 21566,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-06-01",
+      "share": 0.4198,
+      "avgPriceCents": 17792,
+      "productCount": 80
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-06-01",
+      "share": 0.4922,
+      "avgPriceCents": 17330,
+      "productCount": 99
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-06-01",
+      "share": 0.4122,
+      "avgPriceCents": 17566,
+      "productCount": 70
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-06-01",
+      "share": 0.155,
+      "avgPriceCents": 25912,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-06-01",
+      "share": 0.059,
+      "avgPriceCents": 15733,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-06-01",
+      "share": 0.0898,
+      "avgPriceCents": 17529,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-06-01",
+      "share": 0.5838,
+      "avgPriceCents": 18799,
+      "productCount": 90
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-06-01",
+      "share": 0.2469,
+      "avgPriceCents": 22089,
+      "productCount": 30
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-06-01",
+      "share": 0.1719,
+      "avgPriceCents": 24345,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-06-01",
+      "share": 0.0875,
+      "avgPriceCents": 15232,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-06-01",
+      "share": 0.0774,
+      "avgPriceCents": 17583,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-06-01",
+      "share": 0.2594,
+      "avgPriceCents": 14978,
+      "productCount": 58
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-06-01",
+      "share": 0.3774,
+      "avgPriceCents": 17206,
+      "productCount": 63
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-06-01",
+      "share": 0.0757,
+      "avgPriceCents": 18332,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-06-01",
+      "share": 0.1233,
+      "avgPriceCents": 16827,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-06-01",
+      "share": 0.0668,
+      "avgPriceCents": 20243,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-06-01",
+      "share": 0.1163,
+      "avgPriceCents": 16376,
+      "productCount": 24
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-06-01",
+      "share": 0.0363,
+      "avgPriceCents": 11513,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-06-01",
+      "share": 0.0475,
+      "avgPriceCents": 21073,
+      "productCount": 8
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-06-01",
+      "share": 0.0835,
+      "avgPriceCents": 18200,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-06-01",
+      "share": 0.1234,
+      "avgPriceCents": 21792,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-06-01",
+      "share": 0.0745,
+      "avgPriceCents": 21750,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-06-01",
+      "share": 0.1276,
+      "avgPriceCents": 16731,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-06-01",
+      "share": 0.068,
+      "avgPriceCents": 18276,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-06-01",
+      "share": 0.0648,
+      "avgPriceCents": 19863,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-06-01",
+      "share": 0.0293,
+      "avgPriceCents": 23808,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-07-01",
+      "share": 0.0491,
+      "avgPriceCents": 21529,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-07-01",
+      "share": 0.4323,
+      "avgPriceCents": 17373,
+      "productCount": 84
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-07-01",
+      "share": 0.5015,
+      "avgPriceCents": 16963,
+      "productCount": 103
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-07-01",
+      "share": 0.3962,
+      "avgPriceCents": 16505,
+      "productCount": 73
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-07-01",
+      "share": 0.1489,
+      "avgPriceCents": 25710,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-07-01",
+      "share": 0.0553,
+      "avgPriceCents": 15020,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-07-01",
+      "share": 0.098,
+      "avgPriceCents": 17486,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-07-01",
+      "share": 0.57,
+      "avgPriceCents": 17882,
+      "productCount": 94
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-07-01",
+      "share": 0.2442,
+      "avgPriceCents": 21526,
+      "productCount": 31
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-07-01",
+      "share": 0.1731,
+      "avgPriceCents": 23609,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-07-01",
+      "share": 0.0855,
+      "avgPriceCents": 14589,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-07-01",
+      "share": 0.0774,
+      "avgPriceCents": 17112,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-07-01",
+      "share": 0.2786,
+      "avgPriceCents": 14837,
+      "productCount": 62
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-07-01",
+      "share": 0.3627,
+      "avgPriceCents": 16139,
+      "productCount": 66
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-07-01",
+      "share": 0.0716,
+      "avgPriceCents": 17824,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-07-01",
+      "share": 0.1131,
+      "avgPriceCents": 15243,
+      "productCount": 27
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-07-01",
+      "share": 0.0689,
+      "avgPriceCents": 20165,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-07-01",
+      "share": 0.1126,
+      "avgPriceCents": 15771,
+      "productCount": 24
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-07-01",
+      "share": 0.0368,
+      "avgPriceCents": 11604,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-07-01",
+      "share": 0.0506,
+      "avgPriceCents": 20711,
+      "productCount": 8
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-07-01",
+      "share": 0.0858,
+      "avgPriceCents": 18100,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-07-01",
+      "share": 0.1253,
+      "avgPriceCents": 21196,
+      "productCount": 20
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-07-01",
+      "share": 0.0833,
+      "avgPriceCents": 22628,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-07-01",
+      "share": 0.0728,
+      "avgPriceCents": 17250,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-07-01",
+      "share": 0.124,
+      "avgPriceCents": 15614,
+      "productCount": 24
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-07-01",
+      "share": 0.0657,
+      "avgPriceCents": 18869,
+      "productCount": 11
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-07-01",
+      "share": 0.0297,
+      "avgPriceCents": 22045,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-08-01",
+      "share": 0.0478,
+      "avgPriceCents": 21446,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-08-01",
+      "share": 0.4522,
+      "avgPriceCents": 17784,
+      "productCount": 86
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-08-01",
+      "share": 0.5215,
+      "avgPriceCents": 17275,
+      "productCount": 105
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-08-01",
+      "share": 0.3829,
+      "avgPriceCents": 15965,
+      "productCount": 76
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-08-01",
+      "share": 0.1502,
+      "avgPriceCents": 26522,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-08-01",
+      "share": 0.0545,
+      "avgPriceCents": 14572,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-08-01",
+      "share": 0.0876,
+      "avgPriceCents": 16753,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-08-01",
+      "share": 0.5475,
+      "avgPriceCents": 17314,
+      "productCount": 97
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-08-01",
+      "share": 0.2302,
+      "avgPriceCents": 20919,
+      "productCount": 31
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-08-01",
+      "share": 0.1628,
+      "avgPriceCents": 23018,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-08-01",
+      "share": 0.0824,
+      "avgPriceCents": 14329,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-08-01",
+      "share": 0.0715,
+      "avgPriceCents": 16753,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-08-01",
+      "share": 0.2961,
+      "avgPriceCents": 15268,
+      "productCount": 64
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-08-01",
+      "share": 0.3514,
+      "avgPriceCents": 15642,
+      "productCount": 69
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-08-01",
+      "share": 0.0674,
+      "avgPriceCents": 17557,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-08-01",
+      "share": 0.1068,
+      "avgPriceCents": 14437,
+      "productCount": 27
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-08-01",
+      "share": 0.0741,
+      "avgPriceCents": 18936,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-08-01",
+      "share": 0.1079,
+      "avgPriceCents": 15105,
+      "productCount": 24
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-08-01",
+      "share": 0.0395,
+      "avgPriceCents": 11843,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-08-01",
+      "share": 0.1394,
+      "avgPriceCents": 16715,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-08-01",
+      "share": 0.0451,
+      "avgPriceCents": 20317,
+      "productCount": 8
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-08-01",
+      "share": 0.0841,
+      "avgPriceCents": 17574,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-08-01",
+      "share": 0.1301,
+      "avgPriceCents": 21520,
+      "productCount": 20
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-08-01",
+      "share": 0.0833,
+      "avgPriceCents": 22162,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-08-01",
+      "share": 0.0807,
+      "avgPriceCents": 18153,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-08-01",
+      "share": 0.0753,
+      "avgPriceCents": 18621,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-08-01",
+      "share": 0.0289,
+      "avgPriceCents": 22346,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-09-01",
+      "share": 0.0853,
+      "avgPriceCents": 15922,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-09-01",
+      "share": 0.5419,
+      "avgPriceCents": 16500,
+      "productCount": 99
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-09-01",
+      "share": 0.3681,
+      "avgPriceCents": 15034,
+      "productCount": 77
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-09-01",
+      "share": 0.3344,
+      "avgPriceCents": 14629,
+      "productCount": 70
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-09-01",
+      "share": 0.051,
+      "avgPriceCents": 22014,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-09-01",
+      "share": 0.4571,
+      "avgPriceCents": 17334,
+      "productCount": 86
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-09-01",
+      "share": 0.5249,
+      "avgPriceCents": 16891,
+      "productCount": 105
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-09-01",
+      "share": 0.1575,
+      "avgPriceCents": 25695,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-09-01",
+      "share": 0.0531,
+      "avgPriceCents": 13992,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-09-01",
+      "share": 0.2389,
+      "avgPriceCents": 20310,
+      "productCount": 32
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-09-01",
+      "share": 0.1743,
+      "avgPriceCents": 22043,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-09-01",
+      "share": 0.0844,
+      "avgPriceCents": 13748,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-09-01",
+      "share": 0.0736,
+      "avgPriceCents": 16717,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-09-01",
+      "share": 0.295,
+      "avgPriceCents": 14813,
+      "productCount": 64
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-09-01",
+      "share": 0.07,
+      "avgPriceCents": 17035,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-09-01",
+      "share": 0.1009,
+      "avgPriceCents": 13604,
+      "productCount": 27
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-09-01",
+      "share": 0.0738,
+      "avgPriceCents": 18317,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-09-01",
+      "share": 0.105,
+      "avgPriceCents": 14820,
+      "productCount": 24
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-09-01",
+      "share": 0.0388,
+      "avgPriceCents": 11893,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-09-01",
+      "share": 0.1269,
+      "avgPriceCents": 15062,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-09-01",
+      "share": 0.0466,
+      "avgPriceCents": 20385,
+      "productCount": 8
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-09-01",
+      "share": 0.0804,
+      "avgPriceCents": 16944,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-09-01",
+      "share": 0.1334,
+      "avgPriceCents": 21381,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-09-01",
+      "share": 0.0941,
+      "avgPriceCents": 18060,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-09-01",
+      "share": 0.0844,
+      "avgPriceCents": 22163,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-09-01",
+      "share": 0.0767,
+      "avgPriceCents": 18545,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-09-01",
+      "share": 0.0261,
+      "avgPriceCents": 21179,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-10-01",
+      "share": 0.0842,
+      "avgPriceCents": 15873,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-10-01",
+      "share": 0.5336,
+      "avgPriceCents": 16673,
+      "productCount": 100
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-10-01",
+      "share": 0.3665,
+      "avgPriceCents": 15206,
+      "productCount": 79
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-10-01",
+      "share": 0.3331,
+      "avgPriceCents": 14902,
+      "productCount": 71
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-10-01",
+      "share": 0.0505,
+      "avgPriceCents": 22069,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-10-01",
+      "share": 0.4641,
+      "avgPriceCents": 17901,
+      "productCount": 88
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-10-01",
+      "share": 0.5341,
+      "avgPriceCents": 17410,
+      "productCount": 107
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-10-01",
+      "share": 0.1648,
+      "avgPriceCents": 26583,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-10-01",
+      "share": 0.0528,
+      "avgPriceCents": 13672,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-10-01",
+      "share": 0.2331,
+      "avgPriceCents": 20333,
+      "productCount": 32
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-10-01",
+      "share": 0.1657,
+      "avgPriceCents": 22053,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-10-01",
+      "share": 0.0888,
+      "avgPriceCents": 14747,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-10-01",
+      "share": 0.0759,
+      "avgPriceCents": 17016,
+      "productCount": 13
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-10-01",
+      "share": 0.2946,
+      "avgPriceCents": 15174,
+      "productCount": 66
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-10-01",
+      "share": 0.0722,
+      "avgPriceCents": 17632,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-10-01",
+      "share": 0.0923,
+      "avgPriceCents": 13319,
+      "productCount": 27
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-10-01",
+      "share": 0.0843,
+      "avgPriceCents": 20770,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-10-01",
+      "share": 0.1037,
+      "avgPriceCents": 14897,
+      "productCount": 24
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-10-01",
+      "share": 0.0419,
+      "avgPriceCents": 12564,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-10-01",
+      "share": 0.1199,
+      "avgPriceCents": 14833,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-10-01",
+      "share": 0.0479,
+      "avgPriceCents": 20857,
+      "productCount": 8
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-10-01",
+      "share": 0.0785,
+      "avgPriceCents": 17148,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-10-01",
+      "share": 0.1373,
+      "avgPriceCents": 22081,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-10-01",
+      "share": 0.0911,
+      "avgPriceCents": 18000,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-10-01",
+      "share": 0.0789,
+      "avgPriceCents": 21579,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-10-01",
+      "share": 0.0721,
+      "avgPriceCents": 18880,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-10-01",
+      "share": 0.0271,
+      "avgPriceCents": 23068,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-11-01",
+      "share": 0.0844,
+      "avgPriceCents": 15407,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-11-01",
+      "share": 0.5263,
+      "avgPriceCents": 16290,
+      "productCount": 102
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-11-01",
+      "share": 0.3586,
+      "avgPriceCents": 14779,
+      "productCount": 81
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-11-01",
+      "share": 0.324,
+      "avgPriceCents": 14453,
+      "productCount": 72
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-11-01",
+      "share": 0.0529,
+      "avgPriceCents": 21872,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-11-01",
+      "share": 0.4734,
+      "avgPriceCents": 17708,
+      "productCount": 89
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-11-01",
+      "share": 0.5418,
+      "avgPriceCents": 17183,
+      "productCount": 108
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-11-01",
+      "share": 0.1672,
+      "avgPriceCents": 26178,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-11-01",
+      "share": 0.0517,
+      "avgPriceCents": 13584,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-11-01",
+      "share": 0.2326,
+      "avgPriceCents": 19871,
+      "productCount": 33
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-11-01",
+      "share": 0.1641,
+      "avgPriceCents": 21627,
+      "productCount": 23
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-11-01",
+      "share": 0.0856,
+      "avgPriceCents": 14029,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-11-01",
+      "share": 0.0804,
+      "avgPriceCents": 16704,
+      "productCount": 14
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-11-01",
+      "share": 0.3021,
+      "avgPriceCents": 15068,
+      "productCount": 67
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-11-01",
+      "share": 0.0669,
+      "avgPriceCents": 17433,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-11-01",
+      "share": 0.0854,
+      "avgPriceCents": 12369,
+      "productCount": 27
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-11-01",
+      "share": 0.0853,
+      "avgPriceCents": 20271,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-11-01",
+      "share": 0.1065,
+      "avgPriceCents": 15015,
+      "productCount": 25
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-11-01",
+      "share": 0.0426,
+      "avgPriceCents": 12452,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-11-01",
+      "share": 0.1164,
+      "avgPriceCents": 14336,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-11-01",
+      "share": 0.0558,
+      "avgPriceCents": 20999,
+      "productCount": 9
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-11-01",
+      "share": 0.0814,
+      "avgPriceCents": 17457,
+      "productCount": 17
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-11-01",
+      "share": 0.1433,
+      "avgPriceCents": 21947,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-11-01",
+      "share": 0.0908,
+      "avgPriceCents": 17690,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-11-01",
+      "share": 0.0771,
+      "avgPriceCents": 21695,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-11-01",
+      "share": 0.0724,
+      "avgPriceCents": 18401,
+      "productCount": 13
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-11-01",
+      "share": 0.0281,
+      "avgPriceCents": 22062,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2025-12-01",
+      "share": 0.0821,
+      "avgPriceCents": 15215,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2025-12-01",
+      "share": 0.5155,
+      "avgPriceCents": 15952,
+      "productCount": 104
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2025-12-01",
+      "share": 0.3381,
+      "avgPriceCents": 14016,
+      "productCount": 82
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2025-12-01",
+      "share": 0.3067,
+      "avgPriceCents": 13736,
+      "productCount": 73
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2025-12-01",
+      "share": 0.0499,
+      "avgPriceCents": 21211,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2025-12-01",
+      "share": 0.4787,
+      "avgPriceCents": 17617,
+      "productCount": 91
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2025-12-01",
+      "share": 0.5539,
+      "avgPriceCents": 17039,
+      "productCount": 112
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2025-12-01",
+      "share": 0.1641,
+      "avgPriceCents": 26239,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2025-12-01",
+      "share": 0.0459,
+      "avgPriceCents": 12598,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2025-12-01",
+      "share": 0.2377,
+      "avgPriceCents": 20182,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2025-12-01",
+      "share": 0.1715,
+      "avgPriceCents": 22166,
+      "productCount": 24
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2025-12-01",
+      "share": 0.0824,
+      "avgPriceCents": 13496,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2025-12-01",
+      "share": 0.0736,
+      "avgPriceCents": 16631,
+      "productCount": 14
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2025-12-01",
+      "share": 0.311,
+      "avgPriceCents": 15060,
+      "productCount": 69
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2025-12-01",
+      "share": 0.0686,
+      "avgPriceCents": 23759,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2025-12-01",
+      "share": 0.0911,
+      "avgPriceCents": 22949,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2025-12-01",
+      "share": 0.0664,
+      "avgPriceCents": 16771,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2025-12-01",
+      "share": 0.0813,
+      "avgPriceCents": 11533,
+      "productCount": 29
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2025-12-01",
+      "share": 0.0851,
+      "avgPriceCents": 19554,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2025-12-01",
+      "share": 0.1055,
+      "avgPriceCents": 14324,
+      "productCount": 26
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2025-12-01",
+      "share": 0.0467,
+      "avgPriceCents": 12549,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2025-12-01",
+      "share": 0.1215,
+      "avgPriceCents": 14537,
+      "productCount": 27
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2025-12-01",
+      "share": 0.0798,
+      "avgPriceCents": 16710,
+      "productCount": 17
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2025-12-01",
+      "share": 0.1481,
+      "avgPriceCents": 22074,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2025-12-01",
+      "share": 0.0887,
+      "avgPriceCents": 17417,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2025-12-01",
+      "share": 0.0878,
+      "avgPriceCents": 19490,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2025-12-01",
+      "share": 0.0292,
+      "avgPriceCents": 22230,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-01-01",
+      "share": 0.0815,
+      "avgPriceCents": 14193,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-01-01",
+      "share": 0.5117,
+      "avgPriceCents": 14954,
+      "productCount": 106
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-01-01",
+      "share": 0.3354,
+      "avgPriceCents": 13051,
+      "productCount": 84
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-01-01",
+      "share": 0.3062,
+      "avgPriceCents": 12825,
+      "productCount": 75
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-01-01",
+      "share": 0.0472,
+      "avgPriceCents": 19571,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-01-01",
+      "share": 0.4803,
+      "avgPriceCents": 16893,
+      "productCount": 93
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-01-01",
+      "share": 0.553,
+      "avgPriceCents": 16396,
+      "productCount": 114
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-01-01",
+      "share": 0.1737,
+      "avgPriceCents": 25203,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-01-01",
+      "share": 0.0458,
+      "avgPriceCents": 11639,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-01-01",
+      "share": 0.2382,
+      "avgPriceCents": 18904,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-01-01",
+      "share": 0.1722,
+      "avgPriceCents": 20877,
+      "productCount": 24
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-01-01",
+      "share": 0.08,
+      "avgPriceCents": 12818,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-01-01",
+      "share": 0.0848,
+      "avgPriceCents": 16072,
+      "productCount": 15
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-01-01",
+      "share": 0.3027,
+      "avgPriceCents": 14271,
+      "productCount": 70
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-01-01",
+      "share": 0.0677,
+      "avgPriceCents": 23692,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-01-01",
+      "share": 0.0947,
+      "avgPriceCents": 20644,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-01-01",
+      "share": 0.0663,
+      "avgPriceCents": 15769,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-01-01",
+      "share": 0.0791,
+      "avgPriceCents": 10577,
+      "productCount": 30
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-01-01",
+      "share": 0.0864,
+      "avgPriceCents": 19191,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-01-01",
+      "share": 0.1,
+      "avgPriceCents": 13606,
+      "productCount": 26
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-01-01",
+      "share": 0.0452,
+      "avgPriceCents": 12250,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-01-01",
+      "share": 0.123,
+      "avgPriceCents": 13754,
+      "productCount": 28
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-01-01",
+      "share": 0.0798,
+      "avgPriceCents": 15436,
+      "productCount": 18
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-01-01",
+      "share": 0.1437,
+      "avgPriceCents": 21374,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-01-01",
+      "share": 0.0996,
+      "avgPriceCents": 17431,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-01-01",
+      "share": 0.082,
+      "avgPriceCents": 18290,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-01-01",
+      "share": 0.0311,
+      "avgPriceCents": 22898,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-02-01",
+      "share": 0.0788,
+      "avgPriceCents": 13942,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-02-01",
+      "share": 0.4939,
+      "avgPriceCents": 14608,
+      "productCount": 107
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-02-01",
+      "share": 0.3098,
+      "avgPriceCents": 12469,
+      "productCount": 85
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-02-01",
+      "share": 0.2831,
+      "avgPriceCents": 12304,
+      "productCount": 76
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-02-01",
+      "share": 0.0444,
+      "avgPriceCents": 19041,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-02-01",
+      "share": 0.487,
+      "avgPriceCents": 16912,
+      "productCount": 94
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-02-01",
+      "share": 0.5791,
+      "avgPriceCents": 16495,
+      "productCount": 116
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-02-01",
+      "share": 0.1739,
+      "avgPriceCents": 26982,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-02-01",
+      "share": 0.0482,
+      "avgPriceCents": 11065,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-02-01",
+      "share": 0.1184,
+      "avgPriceCents": 12992,
+      "productCount": 29
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-02-01",
+      "share": 0.0925,
+      "avgPriceCents": 19362,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-02-01",
+      "share": 0.2327,
+      "avgPriceCents": 18686,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-02-01",
+      "share": 0.1709,
+      "avgPriceCents": 20524,
+      "productCount": 24
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-02-01",
+      "share": 0.0772,
+      "avgPriceCents": 12483,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-02-01",
+      "share": 0.0855,
+      "avgPriceCents": 17874,
+      "productCount": 15
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-02-01",
+      "share": 0.3096,
+      "avgPriceCents": 14037,
+      "productCount": 71
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-02-01",
+      "share": 0.0663,
+      "avgPriceCents": 22270,
+      "productCount": 10
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-02-01",
+      "share": 0.0641,
+      "avgPriceCents": 15672,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-02-01",
+      "share": 0.071,
+      "avgPriceCents": 9919,
+      "productCount": 30
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-02-01",
+      "share": 0.1038,
+      "avgPriceCents": 19661,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-02-01",
+      "share": 0.1135,
+      "avgPriceCents": 13908,
+      "productCount": 27
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-02-01",
+      "share": 0.0626,
+      "avgPriceCents": 13752,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-02-01",
+      "share": 0.0762,
+      "avgPriceCents": 15116,
+      "productCount": 18
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-02-01",
+      "share": 0.1483,
+      "avgPriceCents": 21816,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-02-01",
+      "share": 0.1034,
+      "avgPriceCents": 19131,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-02-01",
+      "share": 0.0867,
+      "avgPriceCents": 18837,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-02-01",
+      "share": 0.0344,
+      "avgPriceCents": 22045,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-03-01",
+      "share": 0.0788,
+      "avgPriceCents": 13854,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-03-01",
+      "share": 0.4773,
+      "avgPriceCents": 14197,
+      "productCount": 107
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-03-01",
+      "share": 0.3004,
+      "avgPriceCents": 12046,
+      "productCount": 85
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-03-01",
+      "share": 0.2765,
+      "avgPriceCents": 11897,
+      "productCount": 76
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-03-01",
+      "share": 0.0444,
+      "avgPriceCents": 18867,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-03-01",
+      "share": 0.5065,
+      "avgPriceCents": 16875,
+      "productCount": 95
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-03-01",
+      "share": 0.5943,
+      "avgPriceCents": 16458,
+      "productCount": 117
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-03-01",
+      "share": 0.1794,
+      "avgPriceCents": 26162,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-03-01",
+      "share": 0.0472,
+      "avgPriceCents": 10674,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-03-01",
+      "share": 0.1154,
+      "avgPriceCents": 12572,
+      "productCount": 29
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-03-01",
+      "share": 0.0943,
+      "avgPriceCents": 19643,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-03-01",
+      "share": 0.2205,
+      "avgPriceCents": 18081,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-03-01",
+      "share": 0.1625,
+      "avgPriceCents": 20118,
+      "productCount": 24
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-03-01",
+      "share": 0.0779,
+      "avgPriceCents": 12231,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-03-01",
+      "share": 0.0859,
+      "avgPriceCents": 17037,
+      "productCount": 15
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-03-01",
+      "share": 0.3241,
+      "avgPriceCents": 14157,
+      "productCount": 72
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-03-01",
+      "share": 0.085,
+      "avgPriceCents": 23996,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-03-01",
+      "share": 0.0645,
+      "avgPriceCents": 15417,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-03-01",
+      "share": 0.0653,
+      "avgPriceCents": 9201,
+      "productCount": 30
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-03-01",
+      "share": 0.0963,
+      "avgPriceCents": 19389,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-03-01",
+      "share": 0.1182,
+      "avgPriceCents": 14314,
+      "productCount": 28
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-03-01",
+      "share": 0.0575,
+      "avgPriceCents": 13512,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-03-01",
+      "share": 0.072,
+      "avgPriceCents": 14492,
+      "productCount": 18
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-03-01",
+      "share": 0.1498,
+      "avgPriceCents": 21788,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-03-01",
+      "share": 0.1034,
+      "avgPriceCents": 18207,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-03-01",
+      "share": 0.0844,
+      "avgPriceCents": 17991,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-03-01",
+      "share": 0.0315,
+      "avgPriceCents": 21519,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-04-01",
+      "share": 0.0822,
+      "avgPriceCents": 13782,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-04-01",
+      "share": 0.4779,
+      "avgPriceCents": 13893,
+      "productCount": 107
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-04-01",
+      "share": 0.2936,
+      "avgPriceCents": 11613,
+      "productCount": 85
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-04-01",
+      "share": 0.2707,
+      "avgPriceCents": 11492,
+      "productCount": 76
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-04-01",
+      "share": 0.0458,
+      "avgPriceCents": 18284,
+      "productCount": 9
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-04-01",
+      "share": 0.5069,
+      "avgPriceCents": 16772,
+      "productCount": 96
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-04-01",
+      "share": 0.597,
+      "avgPriceCents": 16297,
+      "productCount": 118
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-04-01",
+      "share": 0.1761,
+      "avgPriceCents": 25981,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-04-01",
+      "share": 0.0433,
+      "avgPriceCents": 10142,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-04-01",
+      "share": 0.1094,
+      "avgPriceCents": 12094,
+      "productCount": 29
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-04-01",
+      "share": 0.0953,
+      "avgPriceCents": 19997,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-04-01",
+      "share": 0.2235,
+      "avgPriceCents": 17841,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-04-01",
+      "share": 0.1661,
+      "avgPriceCents": 20003,
+      "productCount": 24
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-04-01",
+      "share": 0.076,
+      "avgPriceCents": 11969,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-04-01",
+      "share": 0.0837,
+      "avgPriceCents": 16455,
+      "productCount": 15
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-04-01",
+      "share": 0.3279,
+      "avgPriceCents": 14160,
+      "productCount": 73
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-04-01",
+      "share": 0.085,
+      "avgPriceCents": 23443,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-04-01",
+      "share": 0.0696,
+      "avgPriceCents": 15061,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-04-01",
+      "share": 0.0605,
+      "avgPriceCents": 8679,
+      "productCount": 30
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-04-01",
+      "share": 0.1011,
+      "avgPriceCents": 19156,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-04-01",
+      "share": 0.1194,
+      "avgPriceCents": 13602,
+      "productCount": 28
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-04-01",
+      "share": 0.0592,
+      "avgPriceCents": 13003,
+      "productCount": 16
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-04-01",
+      "share": 0.0647,
+      "avgPriceCents": 13734,
+      "productCount": 18
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-04-01",
+      "share": 0.1568,
+      "avgPriceCents": 21960,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-04-01",
+      "share": 0.1055,
+      "avgPriceCents": 18000,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-04-01",
+      "share": 0.0818,
+      "avgPriceCents": 18148,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-04-01",
+      "share": 0.0329,
+      "avgPriceCents": 21693,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-05-01",
+      "share": 0.0805,
+      "avgPriceCents": 13692,
+      "productCount": 20
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-05-01",
+      "share": 0.4754,
+      "avgPriceCents": 14007,
+      "productCount": 110
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-05-01",
+      "share": 0.2767,
+      "avgPriceCents": 11340,
+      "productCount": 86
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-05-01",
+      "share": 0.2567,
+      "avgPriceCents": 11252,
+      "productCount": 77
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-05-01",
+      "share": 0.0428,
+      "avgPriceCents": 17656,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-05-01",
+      "share": 0.5079,
+      "avgPriceCents": 16794,
+      "productCount": 100
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-05-01",
+      "share": 0.5917,
+      "avgPriceCents": 16396,
+      "productCount": 122
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-05-01",
+      "share": 0.177,
+      "avgPriceCents": 26185,
+      "productCount": 23
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-05-01",
+      "share": 0.0411,
+      "avgPriceCents": 9806,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-05-01",
+      "share": 0.1174,
+      "avgPriceCents": 12946,
+      "productCount": 30
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-05-01",
+      "share": 0.0966,
+      "avgPriceCents": 20183,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-05-01",
+      "share": 0.2454,
+      "avgPriceCents": 18225,
+      "productCount": 37
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-05-01",
+      "share": 0.1833,
+      "avgPriceCents": 20478,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-05-01",
+      "share": 0.0865,
+      "avgPriceCents": 12326,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-05-01",
+      "share": 0.0933,
+      "avgPriceCents": 17830,
+      "productCount": 16
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-05-01",
+      "share": 0.321,
+      "avgPriceCents": 14164,
+      "productCount": 75
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-05-01",
+      "share": 0.0826,
+      "avgPriceCents": 23886,
+      "productCount": 11
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-05-01",
+      "share": 0.0637,
+      "avgPriceCents": 15540,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-05-01",
+      "share": 0.0574,
+      "avgPriceCents": 8559,
+      "productCount": 30
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-05-01",
+      "share": 0.0971,
+      "avgPriceCents": 19117,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-05-01",
+      "share": 0.124,
+      "avgPriceCents": 13655,
+      "productCount": 31
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-05-01",
+      "share": 0.062,
+      "avgPriceCents": 13471,
+      "productCount": 17
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-05-01",
+      "share": 0.0722,
+      "avgPriceCents": 14193,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-05-01",
+      "share": 0.1523,
+      "avgPriceCents": 22078,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-05-01",
+      "share": 0.1063,
+      "avgPriceCents": 18101,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-05-01",
+      "share": 0.0838,
+      "avgPriceCents": 18094,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-05-01",
+      "share": 0.0311,
+      "avgPriceCents": 22055,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-06-01",
+      "share": 0.0848,
+      "avgPriceCents": 14437,
+      "productCount": 21
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-06-01",
+      "share": 0.4627,
+      "avgPriceCents": 13822,
+      "productCount": 115
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-06-01",
+      "share": 0.2795,
+      "avgPriceCents": 11431,
+      "productCount": 91
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-06-01",
+      "share": 0.2608,
+      "avgPriceCents": 11380,
+      "productCount": 82
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-06-01",
+      "share": 0.039,
+      "avgPriceCents": 17240,
+      "productCount": 10
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-06-01",
+      "share": 0.5147,
+      "avgPriceCents": 17088,
+      "productCount": 103
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-06-01",
+      "share": 0.6024,
+      "avgPriceCents": 16639,
+      "productCount": 126
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-06-01",
+      "share": 0.1793,
+      "avgPriceCents": 27016,
+      "productCount": 23
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-06-01",
+      "share": 0.0405,
+      "avgPriceCents": 9652,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-06-01",
+      "share": 0.1007,
+      "avgPriceCents": 18087,
+      "productCount": 18
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-06-01",
+      "share": 0.1084,
+      "avgPriceCents": 12081,
+      "productCount": 32
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-06-01",
+      "share": 0.0943,
+      "avgPriceCents": 19779,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-06-01",
+      "share": 0.2249,
+      "avgPriceCents": 17671,
+      "productCount": 38
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-06-01",
+      "share": 0.1655,
+      "avgPriceCents": 19825,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-06-01",
+      "share": 0.0855,
+      "avgPriceCents": 12492,
+      "productCount": 19
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-06-01",
+      "share": 0.3271,
+      "avgPriceCents": 14383,
+      "productCount": 78
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-06-01",
+      "share": 0.0914,
+      "avgPriceCents": 24352,
+      "productCount": 13
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-06-01",
+      "share": 0.0612,
+      "avgPriceCents": 14589,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-06-01",
+      "share": 0.0588,
+      "avgPriceCents": 8274,
+      "productCount": 32
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-06-01",
+      "share": 0.1012,
+      "avgPriceCents": 19754,
+      "productCount": 16
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-06-01",
+      "share": 0.129,
+      "avgPriceCents": 13805,
+      "productCount": 32
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-06-01",
+      "share": 0.0673,
+      "avgPriceCents": 13763,
+      "productCount": 18
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-06-01",
+      "share": 0.0692,
+      "avgPriceCents": 14285,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-06-01",
+      "share": 0.1583,
+      "avgPriceCents": 23458,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-06-01",
+      "share": 0.1017,
+      "avgPriceCents": 18120,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-06-01",
+      "share": 0.0794,
+      "avgPriceCents": 17913,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-06-01",
+      "share": 0.0283,
+      "avgPriceCents": 20569,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-07-01",
+      "share": 0.0785,
+      "avgPriceCents": 13991,
+      "productCount": 21
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-07-01",
+      "share": 0.4696,
+      "avgPriceCents": 13510,
+      "productCount": 119
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-07-01",
+      "share": 0.2869,
+      "avgPriceCents": 11275,
+      "productCount": 94
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-07-01",
+      "share": 0.2693,
+      "avgPriceCents": 11263,
+      "productCount": 85
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-07-01",
+      "share": 0.0449,
+      "avgPriceCents": 15852,
+      "productCount": 11
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-07-01",
+      "share": 0.5081,
+      "avgPriceCents": 16907,
+      "productCount": 105
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-07-01",
+      "share": 0.5944,
+      "avgPriceCents": 16524,
+      "productCount": 128
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-07-01",
+      "share": 0.1758,
+      "avgPriceCents": 27399,
+      "productCount": 23
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-07-01",
+      "share": 0.0448,
+      "avgPriceCents": 9724,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-07-01",
+      "share": 0.106,
+      "avgPriceCents": 17668,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-07-01",
+      "share": 0.1032,
+      "avgPriceCents": 11639,
+      "productCount": 32
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-07-01",
+      "share": 0.1139,
+      "avgPriceCents": 19955,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-07-01",
+      "share": 0.2134,
+      "avgPriceCents": 17268,
+      "productCount": 38
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-07-01",
+      "share": 0.1635,
+      "avgPriceCents": 19378,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-07-01",
+      "share": 0.0783,
+      "avgPriceCents": 11938,
+      "productCount": 19
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-07-01",
+      "share": 0.3103,
+      "avgPriceCents": 14150,
+      "productCount": 78
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-07-01",
+      "share": 0.1072,
+      "avgPriceCents": 20105,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-07-01",
+      "share": 0.1368,
+      "avgPriceCents": 13693,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-07-01",
+      "share": 0.081,
+      "avgPriceCents": 14127,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-07-01",
+      "share": 0.1043,
+      "avgPriceCents": 24227,
+      "productCount": 14
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-07-01",
+      "share": 0.058,
+      "avgPriceCents": 14488,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-07-01",
+      "share": 0.0598,
+      "avgPriceCents": 8078,
+      "productCount": 33
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-07-01",
+      "share": 0.0653,
+      "avgPriceCents": 14222,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-07-01",
+      "share": 0.1567,
+      "avgPriceCents": 23036,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-07-01",
+      "share": 0.0992,
+      "avgPriceCents": 17907,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-07-01",
+      "share": 0.0746,
+      "avgPriceCents": 17847,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-07-01",
+      "share": 0.0272,
+      "avgPriceCents": 19883,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-08-01",
+      "share": 0.0801,
+      "avgPriceCents": 13890,
+      "productCount": 21
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-08-01",
+      "share": 0.4623,
+      "avgPriceCents": 13337,
+      "productCount": 119
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-08-01",
+      "share": 0.2804,
+      "avgPriceCents": 11062,
+      "productCount": 94
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-08-01",
+      "share": 0.2625,
+      "avgPriceCents": 11041,
+      "productCount": 85
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-08-01",
+      "share": 0.0529,
+      "avgPriceCents": 17103,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-08-01",
+      "share": 0.5182,
+      "avgPriceCents": 17008,
+      "productCount": 107
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-08-01",
+      "share": 0.6062,
+      "avgPriceCents": 16638,
+      "productCount": 130
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-08-01",
+      "share": 0.1823,
+      "avgPriceCents": 27659,
+      "productCount": 24
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-08-01",
+      "share": 0.0428,
+      "avgPriceCents": 9548,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-08-01",
+      "share": 0.1042,
+      "avgPriceCents": 17835,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-08-01",
+      "share": 0.0965,
+      "avgPriceCents": 10893,
+      "productCount": 32
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-08-01",
+      "share": 0.1068,
+      "avgPriceCents": 19678,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-08-01",
+      "share": 0.2056,
+      "avgPriceCents": 16820,
+      "productCount": 38
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-08-01",
+      "share": 0.1556,
+      "avgPriceCents": 18903,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-08-01",
+      "share": 0.0754,
+      "avgPriceCents": 11822,
+      "productCount": 19
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-08-01",
+      "share": 0.3153,
+      "avgPriceCents": 14164,
+      "productCount": 79
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-08-01",
+      "share": 0.1074,
+      "avgPriceCents": 20103,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-08-01",
+      "share": 0.1392,
+      "avgPriceCents": 13760,
+      "productCount": 34
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-08-01",
+      "share": 0.0842,
+      "avgPriceCents": 14459,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-08-01",
+      "share": 0.1096,
+      "avgPriceCents": 24490,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-08-01",
+      "share": 0.0574,
+      "avgPriceCents": 14479,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-08-01",
+      "share": 0.0598,
+      "avgPriceCents": 7976,
+      "productCount": 33
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-08-01",
+      "share": 0.0636,
+      "avgPriceCents": 13550,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-08-01",
+      "share": 0.1559,
+      "avgPriceCents": 23338,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-08-01",
+      "share": 0.0986,
+      "avgPriceCents": 18075,
+      "productCount": 17
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-08-01",
+      "share": 0.0773,
+      "avgPriceCents": 17894,
+      "productCount": 14
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-08-01",
+      "share": 0.0255,
+      "avgPriceCents": 19566,
+      "productCount": 5
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-09-01",
+      "share": 0.0725,
+      "avgPriceCents": 13445,
+      "productCount": 21
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-09-01",
+      "share": 0.4553,
+      "avgPriceCents": 13052,
+      "productCount": 122
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-09-01",
+      "share": 0.2796,
+      "avgPriceCents": 10948,
+      "productCount": 97
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-09-01",
+      "share": 0.2634,
+      "avgPriceCents": 10940,
+      "productCount": 88
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-09-01",
+      "share": 0.0507,
+      "avgPriceCents": 16575,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-09-01",
+      "share": 0.5178,
+      "avgPriceCents": 16931,
+      "productCount": 108
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-09-01",
+      "share": 0.6114,
+      "avgPriceCents": 16434,
+      "productCount": 133
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-09-01",
+      "share": 0.1865,
+      "avgPriceCents": 28031,
+      "productCount": 25
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-09-01",
+      "share": 0.0456,
+      "avgPriceCents": 9541,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-09-01",
+      "share": 0.1064,
+      "avgPriceCents": 17908,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-09-01",
+      "share": 0.0966,
+      "avgPriceCents": 10542,
+      "productCount": 34
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-09-01",
+      "share": 0.1056,
+      "avgPriceCents": 19176,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-09-01",
+      "share": 0.1976,
+      "avgPriceCents": 16391,
+      "productCount": 38
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-09-01",
+      "share": 0.1481,
+      "avgPriceCents": 18377,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-09-01",
+      "share": 0.0778,
+      "avgPriceCents": 11582,
+      "productCount": 19
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-09-01",
+      "share": 0.3136,
+      "avgPriceCents": 13975,
+      "productCount": 79
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-09-01",
+      "share": 0.107,
+      "avgPriceCents": 18979,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-09-01",
+      "share": 0.1399,
+      "avgPriceCents": 13341,
+      "productCount": 37
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-09-01",
+      "share": 0.0885,
+      "avgPriceCents": 13903,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-09-01",
+      "share": 0.1108,
+      "avgPriceCents": 24424,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-09-01",
+      "share": 0.0565,
+      "avgPriceCents": 14165,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-09-01",
+      "share": 0.0578,
+      "avgPriceCents": 7911,
+      "productCount": 33
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-09-01",
+      "share": 0.0625,
+      "avgPriceCents": 13599,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-09-01",
+      "share": 0.1617,
+      "avgPriceCents": 23793,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-09-01",
+      "share": 0.1004,
+      "avgPriceCents": 17914,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-09-01",
+      "share": 0.0755,
+      "avgPriceCents": 17061,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-09-01",
+      "share": 0.0312,
+      "avgPriceCents": 17903,
+      "productCount": 6
+    },
+    {
+      "attribute": "color",
+      "value": "yellow",
+      "month": "2026-10-01",
+      "share": 0.0717,
+      "avgPriceCents": 14035,
+      "productCount": 21
+    },
+    {
+      "attribute": "material",
+      "value": "mesh",
+      "month": "2026-10-01",
+      "share": 0.4586,
+      "avgPriceCents": 13395,
+      "productCount": 122
+    },
+    {
+      "attribute": "material",
+      "value": "knit",
+      "month": "2026-10-01",
+      "share": 0.2857,
+      "avgPriceCents": 11309,
+      "productCount": 97
+    },
+    {
+      "attribute": "category",
+      "value": "running",
+      "month": "2026-10-01",
+      "share": 0.2682,
+      "avgPriceCents": 11279,
+      "productCount": 88
+    },
+    {
+      "attribute": "color",
+      "value": "orange",
+      "month": "2026-10-01",
+      "share": 0.0507,
+      "avgPriceCents": 16845,
+      "productCount": 12
+    },
+    {
+      "attribute": "material",
+      "value": "leather",
+      "month": "2026-10-01",
+      "share": 0.5142,
+      "avgPriceCents": 17690,
+      "productCount": 108
+    },
+    {
+      "attribute": "material",
+      "value": "suede",
+      "month": "2026-10-01",
+      "share": 0.6061,
+      "avgPriceCents": 17099,
+      "productCount": 133
+    },
+    {
+      "attribute": "category",
+      "value": "basketball",
+      "month": "2026-10-01",
+      "share": 0.1927,
+      "avgPriceCents": 29654,
+      "productCount": 25
+    },
+    {
+      "attribute": "color",
+      "value": "grey",
+      "month": "2026-10-01",
+      "share": 0.0417,
+      "avgPriceCents": 9499,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "nubuck",
+      "month": "2026-10-01",
+      "share": 0.1013,
+      "avgPriceCents": 17920,
+      "productCount": 21
+    },
+    {
+      "attribute": "color",
+      "value": "white",
+      "month": "2026-10-01",
+      "share": 0.0952,
+      "avgPriceCents": 10838,
+      "productCount": 34
+    },
+    {
+      "attribute": "material",
+      "value": "gore-tex",
+      "month": "2026-10-01",
+      "share": 0.1022,
+      "avgPriceCents": 20086,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "ripstop",
+      "month": "2026-10-01",
+      "share": 0.1966,
+      "avgPriceCents": 16733,
+      "productCount": 38
+    },
+    {
+      "attribute": "category",
+      "value": "trail",
+      "month": "2026-10-01",
+      "share": 0.1478,
+      "avgPriceCents": 18860,
+      "productCount": 26
+    },
+    {
+      "attribute": "color",
+      "value": "purple",
+      "month": "2026-10-01",
+      "share": 0.0732,
+      "avgPriceCents": 11790,
+      "productCount": 19
+    },
+    {
+      "attribute": "category",
+      "value": "lifestyle",
+      "month": "2026-10-01",
+      "share": 0.305,
+      "avgPriceCents": 14490,
+      "productCount": 79
+    },
+    {
+      "attribute": "color",
+      "value": "brown",
+      "month": "2026-10-01",
+      "share": 0.1092,
+      "avgPriceCents": 19774,
+      "productCount": 18
+    },
+    {
+      "attribute": "material",
+      "value": "canvas",
+      "month": "2026-10-01",
+      "share": 0.1409,
+      "avgPriceCents": 13442,
+      "productCount": 37
+    },
+    {
+      "attribute": "category",
+      "value": "skateboarding",
+      "month": "2026-10-01",
+      "share": 0.0864,
+      "avgPriceCents": 13949,
+      "productCount": 22
+    },
+    {
+      "attribute": "color",
+      "value": "beige",
+      "month": "2026-10-01",
+      "share": 0.1081,
+      "avgPriceCents": 24575,
+      "productCount": 15
+    },
+    {
+      "attribute": "color",
+      "value": "blue",
+      "month": "2026-10-01",
+      "share": 0.0595,
+      "avgPriceCents": 14031,
+      "productCount": 12
+    },
+    {
+      "attribute": "color",
+      "value": "black",
+      "month": "2026-10-01",
+      "share": 0.0544,
+      "avgPriceCents": 8127,
+      "productCount": 33
+    },
+    {
+      "attribute": "color",
+      "value": "red",
+      "month": "2026-10-01",
+      "share": 0.0616,
+      "avgPriceCents": 13743,
+      "productCount": 19
+    },
+    {
+      "attribute": "color",
+      "value": "green",
+      "month": "2026-10-01",
+      "share": 0.1682,
+      "avgPriceCents": 24710,
+      "productCount": 20
+    },
+    {
+      "attribute": "color",
+      "value": "pink",
+      "month": "2026-10-01",
+      "share": 0.1064,
+      "avgPriceCents": 18666,
+      "productCount": 19
+    },
+    {
+      "attribute": "material",
+      "value": "corduroy",
+      "month": "2026-10-01",
+      "share": 0.0798,
+      "avgPriceCents": 18031,
+      "productCount": 15
+    },
+    {
+      "attribute": "material",
+      "value": "patent",
+      "month": "2026-10-01",
+      "share": 0.0304,
+      "avgPriceCents": 18304,
+      "productCount": 6
+    }
+  ]
+}

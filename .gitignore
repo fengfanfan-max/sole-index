@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# local database (PGlite data directory — recreated from fixtures with `pnpm db:reset`)
+/.data/
+
+# env
+.env
+.env*.local
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+*.pem
+/coverage
+/.turbo
+tsconfig.tsbuildinfo
