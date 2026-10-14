@@ -12,6 +12,10 @@ collected observations, and an editorial CMS — built on Next.js, PostgreSQL an
 market-data provider.
 
 <p align="center">
+  <img src="docs/screenshots/00-cover.jpg" alt="SoleIndex — sneaker resale market intelligence platform" width="880" />
+</p>
+
+<p align="center">
   <img src="docs/screenshots/01-overview.jpg" alt="SoleIndex market overview: resale index chart, breadth stats, category momentum" width="880" />
 </p>
 
