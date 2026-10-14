@@ -1,5 +1,9 @@
 # SoleIndex
 
+[![CI](https://github.com/fengfanfan-max/sole-index/actions/workflows/ci.yml/badge.svg)](https://github.com/fengfanfan-max/sole-index/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-c6f24e.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-90%20passing-3ddc97.svg)](#run-it)
+
 **Market intelligence for the sneaker resale market.** Interactive dashboards, a searchable
 catalogue with comparison, colourway and material trend radar, an analyst desk for manually
 collected observations, and an editorial CMS — built on Next.js, PostgreSQL and a swappable

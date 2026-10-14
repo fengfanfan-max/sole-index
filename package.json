@@ -53,5 +53,26 @@
     "tsx": "4.20.6",
     "typescript": "5.9.3",
     "vitest": "5.0.4"
-  }
+  },
+  "author": "Fanfan Feng <fanfan-feng@foxmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengfanfan-max/sole-index.git"
+  },
+  "homepage": "https://github.com/fengfanfan-max/sole-index#readme",
+  "bugs": {
+    "url": "https://github.com/fengfanfan-max/sole-index/issues"
+  },
+  "keywords": [
+    "sneaker-resale",
+    "market-intelligence",
+    "analytics-dashboard",
+    "nextjs",
+    "typescript",
+    "postgresql",
+    "drizzle-orm",
+    "pglite",
+    "recharts",
+    "trend-analysis"
+  ]
 }
