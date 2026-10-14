@@ -234,7 +234,9 @@ export default async function ProductsPage({
             <span className="label-caps">Active</span>
             {activeFilters.map((f) => (
               <Link
-                key={f.label}
+                // Keyed by the clearing href, which is unique per filter; two
+                // filters can legitimately share a display label.
+                key={f.href}
                 href={f.href}
                 className="inline-flex items-center gap-1 rounded-full border border-line bg-raised px-2 py-0.5 text-[11px] text-ink-muted transition-colors hover:border-line-strong hover:text-ink"
               >

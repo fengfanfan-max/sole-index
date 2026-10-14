@@ -25,8 +25,17 @@ a persona signed in as noted.
 ## Capturing them
 
 ```bash
-pnpm dev            # or: pnpm build && pnpm start
+pnpm build && pnpm start      # preferred for screenshots
+# or, on a normal local machine: pnpm dev
 ```
+
+> **If the charts render blank**, check whether you are in `next dev` behind a proxy that blocks
+> WebSocket upgrades. Recharts' `ResponsiveContainer` measures the DOM on the client, so it renders
+> nothing during SSR — if the page never hydrates, every chart is an empty panel while the
+> server-rendered tables and text look fine. In `next dev` the HMR socket is what fails; in
+> production there is no HMR client, so `pnpm build && pnpm start` renders correctly. This is an
+> environment issue, not a data one: `pnpm verify` will still pass, because it asserts on
+> server-rendered markup.
 
 Then, for the admin shots, the default persona already is admin. For `11` and `12`, switch persona in
 the header to **Demo Viewer** (free tier) — the switcher submits on change.

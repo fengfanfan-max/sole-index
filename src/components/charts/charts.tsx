@@ -35,6 +35,7 @@ import {
 } from 'recharts';
 import type { ComponentProps } from 'react';
 
+import { buildCompareRows, type CompareSeries } from '@/lib/charts/compare';
 import { formatDayMonth, formatMoney, formatMoneyCompact, formatMonth, formatNumber } from '@/lib/format';
 import { AXIS_PROPS, CHART, GRID_PROPS, TOOLTIP_STYLE, seriesColor } from '@/lib/palette';
 
@@ -379,21 +380,12 @@ export function CompareChart({
   series,
   height = 320,
 }: {
-  series: { label: string; points: { date: string; value: number | null }[] }[];
+  series: CompareSeries[];
   height?: number;
 }) {
-  const dates = [...new Set(series.flatMap((s) => s.points.map((p) => p.date)))].sort();
-
-  const rows = dates.map((date) => {
-    const row: Record<string, string | number> = { date };
-    for (const s of series) {
-      const point = s.points.find((p) => p.date === date);
-      if (!point || point.value === null || point.value <= 0) continue;
-      const base = s.points.find((p) => p.value !== null && p.value > 0)?.value ?? point.value;
-      row[s.label] = Number(((point.value / base) * 100).toFixed(2));
-    }
-    return row;
-  });
+  // Rows are keyed by series id, never by display label — see
+  // src/lib/charts/compare.ts for why that distinction is load-bearing.
+  const rows = buildCompareRows(series);
 
   return (
     <div style={{ height }}>
@@ -425,9 +417,11 @@ export function CompareChart({
           />
           {series.map((s, i) => (
             <Line
-              key={s.label}
+              // `id` is the identity; `name` is what the legend and tooltip show.
+              key={s.id}
               type="monotone"
-              dataKey={s.label}
+              dataKey={s.id}
+              name={s.label}
               stroke={seriesColor(i)}
               strokeWidth={1.75}
               dot={false}
@@ -485,10 +479,17 @@ export function RankBars({
   items,
   height = 220,
 }: {
-  items: { label: string; value: number; colour?: string }[];
+  items: { id?: string; label: string; value: number; colour?: string }[];
   height?: number;
 }) {
-  const data = items.map((item) => ({ ...item, label: item.label }));
+  // A category axis collapses rows that share a key, so the axis uses a
+  // guaranteed-unique field and a formatter maps it back to the display label.
+  const labelByAxis = new Map<string, string>();
+  const data = items.map((item, i) => {
+    const axis = item.id ?? `${item.label}-${i}`;
+    labelByAxis.set(axis, item.label);
+    return { axis, label: item.label, value: item.value, colour: item.colour };
+  });
 
   return (
     <div style={{ height }}>
@@ -498,7 +499,8 @@ export function RankBars({
           <XAxis type="number" {...AXIS_PROPS} tickFormatter={(v: number) => formatNumber(v, 1)} />
           <YAxis
             type="category"
-            dataKey="label"
+            dataKey="axis"
+            tickFormatter={(value: string) => labelByAxis.get(value) ?? value}
             {...AXIS_PROPS}
             width={96}
             tick={{ fill: CHART.hex.axis, fontSize: 11 }}
@@ -510,7 +512,7 @@ export function RankBars({
           <Bar dataKey="value" radius={[0, 3, 3, 0]} barSize={12}>
             {data.map((item, i) => (
               <Cell
-                key={item.label}
+                key={item.axis}
                 fill={
                   item.colour ??
                   (item.value >= 60 ? CHART.hex.up : item.value >= 40 ? CHART.hex.accent : CHART.hex.down)

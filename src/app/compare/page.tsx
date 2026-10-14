@@ -37,6 +37,7 @@ import {
 import { formatDate, formatMoney, formatMultiple, formatNumber, formatPercent, titleCase } from '@/lib/format';
 import { COLOR_HEX } from '@/lib/palette';
 import { cn } from '@/lib/utils';
+import { toCompareSeries } from '@/lib/charts/compare';
 
 export const dynamic = 'force-dynamic';
 
@@ -106,10 +107,26 @@ export default async function ComparePage({
     }),
   );
 
-  const compareSeries = seriesSets.map(({ product, prices }) => ({
-    label: product.silhouette === undefined ? product.name : `${product.brandName} ${product.silhouette}`,
-    points: prices.map((p) => ({ date: p.date, value: p.lastSaleCents })),
-  }));
+  // `toCompareSeries` derives labels that are unique across the selection and
+  // keeps the style code as the series identity. Keying by the display label
+  // silently dropped a line whenever two colourways of one silhouette were
+  // compared — which is exactly what the product page's "Compare these" button
+  // pre-selects.
+  const compareSeries = toCompareSeries(
+    seriesSets.map(({ product }) => ({
+      id: product.id,
+      name: product.name,
+      brandName: product.brandName,
+      silhouette: product.silhouette,
+      colorway: product.colorway,
+    })),
+    new Map(
+      seriesSets.map(({ product, prices }) => [
+        product.id,
+        prices.map((p) => ({ date: p.date, value: p.lastSaleCents })),
+      ]),
+    ),
+  );
 
   // Ranking of the metric that matters: total return over the window.
   const performance = seriesSets
