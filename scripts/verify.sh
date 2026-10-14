@@ -187,6 +187,35 @@ assert "/compare with no selection shows an empty state" "1" "$(contains 'Nothin
 # ---------------------------------------------------------------------------
 
 echo
+echo "8. Navigation highlights exactly one section per route"
+# Regression guard. A prefix-matching active check lit both /trends and
+# /trends/methodology on the methodology page (and /admin alongside /admin/ops and
+# /admin/editorial). Nothing failed — it simply looked wrong — so it is asserted
+# here. Expected count is 2: the desktop sidebar plus the mobile nav.
+for route in / /products /compare /trends /trends/methodology /editorial \
+             /pricing /admin /admin/editorial /admin/ops; do
+  body=$(curl -s --max-time 60 -H "Cookie: si_session=$ADMIN" "${BASE_URL}${route}")
+  n=$(printf '%s' "$body" | grep -ao 'aria-current="page"' | wc -l | tr -d ' ')
+  if [ "$n" = "2" ]; then
+    ok "$route marks exactly one section current (desktop + mobile)"
+  else
+    bad "$route marks exactly one section current" "found $n aria-current attributes, expected 2"
+  fi
+done
+
+# And the specific case that was wrong.
+fetch "$ADMIN" "/trends/methodology" "$COOKIE_DIR/method.html" >/dev/null
+if grep -aq 'href="/trends/methodology"[^>]*' "$COOKIE_DIR/method.html" \
+   && ! grep -aq 'aria-current="page"[^>]*href="/trends"' "$COOKIE_DIR/method.html"; then
+  ok "the /trends parent is not marked current on the methodology page"
+else
+  bad "the /trends parent is not marked current on the methodology page" \
+      "the parent section is still highlighted"
+fi
+
+# ---------------------------------------------------------------------------
+
+echo
 echo "─────────────────────────────────────────────"
 printf '  %s  %s  %s\n' "$(green "$pass passed")" "$(red "$fail failed")" "$(dim "$skip skipped")"
 echo

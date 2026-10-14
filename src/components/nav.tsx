@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+import { resolveActiveHref } from '@/lib/nav';
 import { cn } from '@/lib/utils';
 
 export interface NavItem {
@@ -12,6 +13,7 @@ export interface NavItem {
   icon?: React.ReactNode;
   /** Optional trailing badge, e.g. a count. */
   badge?: string;
+  /** Shows a lock glyph for a section the current persona cannot open. */
   locked?: boolean;
 }
 
@@ -23,13 +25,28 @@ export interface NavSection {
 /**
  * A link that knows whether it is current.
  *
- * `exact` matters for `/trends` vs `/trends/methodology`: without it the parent
- * would stay highlighted on the child, so the reader loses track of where they
- * are.
+ * The active href is resolved across the **whole** navigation with
+ * `resolveActiveHref`, not per link. Per-link prefix matching marked both
+ * `/trends` and `/trends/methodology` as current on the methodology page, and the
+ * same for `/admin` against `/admin/ops` and `/admin/editorial`.
+ *
+ * It stays a client component because an App Router layout is preserved across
+ * navigations between its children, so a server-computed active state would go
+ * stale the moment the reader clicked a sibling.
  */
-export function NavLink({ item, exact = false }: { item: NavItem; exact?: boolean }) {
+export function NavLink({
+  item,
+  allHrefs,
+  /** Set when the list is rendered on its own and cannot see its siblings. */
+  activeHref,
+}: {
+  item: NavItem;
+  allHrefs: readonly string[];
+  activeHref?: string | null;
+}) {
   const pathname = usePathname();
-  const active = exact ? pathname === item.href : pathname === item.href || pathname.startsWith(`${item.href}/`);
+  const current = activeHref !== undefined ? activeHref : resolveActiveHref(pathname, allHrefs);
+  const active = current === item.href;
 
   return (
     <Link
@@ -57,7 +74,14 @@ export function NavLink({ item, exact = false }: { item: NavItem; exact?: boolea
         </span>
       ) : null}
       {item.locked ? (
-        <svg viewBox="0 0 24 24" className="h-3 w-3 text-ink-subtle" fill="none" stroke="currentColor" strokeWidth="2" aria-label="Requires a paid tier">
+        <svg
+          viewBox="0 0 24 24"
+          className="h-3 w-3 text-ink-subtle"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          aria-label="Requires a paid tier"
+        >
           <rect x="4" y="10" width="16" height="10" rx="2" />
           <path d="M8 10V7a4 4 0 0 1 8 0v3" />
         </svg>
@@ -69,24 +93,28 @@ export function NavLink({ item, exact = false }: { item: NavItem; exact?: boolea
 export function MobileNav({ sections }: { sections: NavSection[] }) {
   const pathname = usePathname();
   const flat = sections.flatMap((s) => s.items);
+  const activeHref = resolveActiveHref(
+    pathname,
+    flat.map((item) => item.href),
+  );
 
   return (
     <nav className="flex gap-1 overflow-x-auto border-b border-line bg-surface px-3 py-2 lg:hidden">
-      {flat.map((item) => {
-        const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
-        return (
-          <Link
-            key={item.href}
-            href={item.href}
-            className={cn(
-              'shrink-0 rounded-control px-2.5 py-1 text-xs whitespace-nowrap transition-colors',
-              active ? 'bg-raised font-medium text-ink' : 'text-ink-muted hover:text-ink',
-            )}
-          >
-            {item.label}
-          </Link>
-        );
-      })}
+      {flat.map((item) => (
+        <Link
+          key={item.href}
+          href={item.href}
+          aria-current={activeHref === item.href ? 'page' : undefined}
+          className={cn(
+            'shrink-0 rounded-control px-2.5 py-1 text-xs whitespace-nowrap transition-colors',
+            activeHref === item.href
+              ? 'bg-raised font-medium text-ink'
+              : 'text-ink-muted hover:text-ink',
+          )}
+        >
+          {item.label}
+        </Link>
+      ))}
     </nav>
   );
 }

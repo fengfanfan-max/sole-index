@@ -85,6 +85,9 @@ export async function AppShell({ children }: { children: React.ReactNode }) {
     },
   ];
 
+  // Every href in the navigation, for longest-match active resolution.
+  const allHrefs = sections.flatMap((section) => section.items.map((item) => item.href));
+
   const provider = (process.env.SOLEINDEX_PROVIDER ?? 'fixture').toLowerCase();
   const driver = (process.env.SOLEINDEX_DB_DRIVER ?? 'pglite').toLowerCase();
 
@@ -110,7 +113,7 @@ export async function AppShell({ children }: { children: React.ReactNode }) {
               <p className="mb-1.5 px-2.5 label-caps">{section.title}</p>
               <div className="flex flex-col gap-0.5">
                 {section.items.map((item) => (
-                  <NavLink key={item.href} item={item} exact={item.href === '/'} />
+                  <NavLink key={item.href} item={item} allHrefs={allHrefs} />
                 ))}
               </div>
             </div>
