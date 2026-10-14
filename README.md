@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-c6f24e.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-90%20passing-3ddc97.svg)](#run-it)
 
+**Live demo:** <https://sole-index-maxfff.vercel.app>
+
 **Market intelligence for the sneaker resale market.** Interactive dashboards, a searchable
 catalogue with comparison, colourway and material trend radar, an analyst desk for manually
 collected observations, and an editorial CMS — built on Next.js, PostgreSQL and a swappable
@@ -197,6 +199,38 @@ Four decisions are worth the reader's time, and each has a document:
 
 ---
 
+## Deploying
+
+The project is deployed on Vercel and verified live by
+[`verify-live.yml`](.github/workflows/verify-live.yml) — workflow-dispatch triggered, so the check
+runs from GitHub's runners rather than from a local machine.
+
+Two things surprise people about deploying this, and both are consequences of the embedded database:
+
+**The data directory must be writable.** Vercel's function filesystem is read-only, so
+`SOLEINDEX_DATA_DIR` is set to `/tmp/soleindex`. The database is then rebuilt from the committed
+snapshot on every **cold start** — about 4 seconds, once per instance. Reads are unaffected. Writes
+made through the analyst desk or the content studio work for the life of the instance and are
+discarded when it recycles; the admin pages say so in a banner when they detect this. For durable
+writes, set `SOLEINDEX_DB_DRIVER=postgres` and `DATABASE_URL` to a managed server (Neon, Supabase,
+RDS) — no code change.
+
+**The WASM assets have to be traced explicitly.** `@electric-sql/pglite` locates its `.wasm` and
+`.data` files through a runtime path that Next's file tracer cannot follow, so
+`outputFileTracingIncludes` in `next.config.ts` declares them. Without it the build succeeds and
+every request fails at import time.
+
+```bash
+vercel link --project sole-index --scope <team>
+vercel env add SOLEINDEX_DATA_DIR    production --value /tmp/soleindex -y --type secret
+vercel env add SOLEINDEX_SESSION_SECRET production --value "$(openssl rand -base64 32)" -y --type secret
+vercel deploy --prod -y
+```
+
+> **Note for readers in mainland China:** `*.vercel.app` is DNS-blocked, so the live URL will not
+> resolve locally without a proxy. The deployment itself is fine — the checks above run from GitHub's
+> runners and pass. Configure a custom domain if you need to browse your own demo directly.
+
 ## Honest status
 
 Everything in the table above is implemented and runs. This section is what is *not* finished, so
@@ -209,6 +243,8 @@ nobody has to discover it.
 | Stripe | `subscriptions` table is shaped like a Stripe subscription | No integration. Needs real credentials and webhooks; the tier model is in place. |
 | Auth | Real HMAC-signed sessions, three personas | Not OAuth. Swapping in Auth.js replaces one module — call sites only use `getSession()` and `hasTier()`. |
 | Editorial rich text | Markdown authoring, full render | No WYSIWYG and no image upload. Both belong to a purpose-built integration, not a half-built one. |
+| Hosted database | Live and verified, but **ephemeral** | Cold starts rebuild it from the snapshot. Writes do not survive; reads are exact. Point `DATABASE_URL` at a managed server to fix. |
+| Auto-deploy on push | Not connected | The Vercel account has no GitHub login connection, so a push does not trigger a build. `vercel deploy --prod` works today; connecting GitHub in Vercel's account settings fixes it. |
 | Mobile | Responsive to 360 px, mobile nav bar | Not designed mobile-first; the dense tables are the weakest case. |
 | AI insights | Flagged as `ai.summaries` (Enterprise) | Not implemented. |
 

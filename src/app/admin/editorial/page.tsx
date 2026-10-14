@@ -21,6 +21,7 @@ import {
   Stat,
 } from '@/components/ui/primitives';
 import { canWriteContent, getSession } from '@/lib/auth/session';
+import { isEphemeralDatabase } from '@/lib/db-mode';
 import { listArticles, listSources } from '@/lib/data/editorial';
 import { getFilterOptions } from '@/lib/data/catalog';
 import { formatDate, pluralize } from '@/lib/format';
@@ -70,6 +71,16 @@ export default async function ContentStudioPage() {
           </Link>
         }
       />
+
+      {isEphemeralDatabase() ? (
+        <Callout tone="warn" title="This deployment rebuilds its database on every cold start">
+          The hosted demo runs embedded PostgreSQL in the platform&apos;s temporary filesystem, seeded
+          from the committed snapshot on each new instance. Reads are unaffected — every dashboard,
+          chart and report is real data. Writes you make here work for the life of the instance and
+          are then discarded. Point <code className="text-ink">DATABASE_URL</code> at a managed
+          PostgreSQL server to make them durable; see the README&apos;s deployment notes.
+        </Callout>
+      ) : null}
 
       <section className="grid gap-4 sm:grid-cols-3">
         <Card className="p-4">

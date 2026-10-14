@@ -24,6 +24,7 @@ import {
   Stat,
 } from '@/components/ui/primitives';
 import { canWriteContent, getSession } from '@/lib/auth/session';
+import { isEphemeralDatabase } from '@/lib/db-mode';
 import { getAdminStats } from '@/lib/data/admin';
 import { getEntityLabels, listInsights, listSources } from '@/lib/data/editorial';
 import { formatDate, pluralize, titleCase } from '@/lib/format';
@@ -82,6 +83,16 @@ export default async function AnalystDeskPage() {
         title="Analyst desk"
         description="Manual observations, research notes and source digests. Attaching a note to a catalogue entity makes it appear on every surface that entity appears on — the product page, the colourway radar, the category list — from a single write."
       />
+
+      {isEphemeralDatabase() ? (
+        <Callout tone="warn" title="This deployment rebuilds its database on every cold start">
+          The hosted demo runs embedded PostgreSQL in the platform&apos;s temporary filesystem, seeded
+          from the committed snapshot on each new instance. Reads are unaffected — every dashboard,
+          chart and report is real data. Writes you make here work for the life of the instance and
+          are then discarded. Point <code className="text-ink">DATABASE_URL</code> at a managed
+          PostgreSQL server to make them durable; see the README&apos;s deployment notes.
+        </Callout>
+      ) : null}
 
       {/* ------------------------------- stats ------------------------------- */}
       <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
