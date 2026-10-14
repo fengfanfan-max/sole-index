@@ -28,3 +28,5 @@ yarn-error.log*
 /coverage
 /.turbo
 tsconfig.tsbuildinfo
+.vercel
+.env*
