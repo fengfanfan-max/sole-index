@@ -42,6 +42,7 @@ That is the whole setup. No API key, no database server, no seed step you have t
 ### Everything else
 
 ```bash
+pnpm verify            # 37 behavioural checks against a running server
 pnpm test              # 52 unit tests for the trend index
 pnpm typecheck         # tsc --noEmit, strict
 pnpm build             # production build (never touches the database)
@@ -146,6 +147,19 @@ $ curl -H "Cookie: si_session=<pro-tier>"   /trends   →  HTTP 200, 138 KB, ful
 The 100 KB difference is the gate working. Blurring content the browser already has is the most
 common way a paywall demo turns out to be decorative; this one is not. Switch persona in the header,
 or from `/login`, to see it.
+
+### Falsify it yourself
+
+```bash
+pnpm dev          # in one terminal
+pnpm verify       # in another — 37 assertions against the running app
+```
+
+`scripts/verify.sh` builds three HMAC-signed session cookies, then asserts the claims above rather
+than describing them: that the free tier's response omits the chart markup entirely, that an
+unpublished report 404s for a viewer but renders for an editor, and that a tampered cookie is demoted
+to least privilege instead of falling back to the most privileged persona. If any of that were
+decorative, the script would fail.
 
 ---
 

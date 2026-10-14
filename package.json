@@ -2,7 +2,7 @@
   "name": "sole-index",
   "version": "0.1.0",
   "private": true,
-  "description": "SoleIndex — market intelligence for the sneaker resale market",
+  "description": "SoleIndex \u2014 market intelligence for the sneaker resale market",
   "license": "MIT",
   "type": "module",
   "engines": {
@@ -21,7 +21,8 @@
     "analytics:refresh": "tsx scripts/refresh-analytics.ts",
     "db:reset": "node -e \"require('node:fs').rmSync('.data',{recursive:true,force:true})\" && tsx src/db/migrate.ts && tsx scripts/seed.ts",
     "ingest": "tsx scripts/ingest.ts",
-    "fixtures:generate": "tsx scripts/generate-fixtures.ts"
+    "fixtures:generate": "tsx scripts/generate-fixtures.ts",
+    "verify": "bash scripts/verify.sh"
   },
   "dependencies": {
     "@electric-sql/pglite": "0.5.9",
