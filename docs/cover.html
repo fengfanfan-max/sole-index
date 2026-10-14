@@ -1,0 +1,122 @@
+<!doctype html>
+<!--
+  SoleIndex portfolio cover.
+
+  Rendered in a browser and screenshotted at a 1200x675 viewport, rather than
+  drawn with an image library, so the typography and colour are the product's
+  own design tokens. Only the headline, the strapline and the four chips change
+  between versions.
+
+  To regenerate:
+    1. put this file next to a copy of 01-overview.jpg
+    2. python3 -m http.server 8099 --bind 127.0.0.1
+    3. open http://127.0.0.1:8099/cover.html and screenshot at 1200x675
+
+  The browser's own chrome costs roughly 143px of height, so the *window* is
+  requested at 1200x818 to yield a 1200x675 viewport. Capturing at the target
+  size matters: padding a taller capture with a flat fill leaves a visible band,
+  because the canvas carries a radial glow that the padding does not.
+
+  Upwork shows a portfolio cover in a grid, so the composition is built to
+  survive being scaled down: one large word, one short strapline, four numbers.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SoleIndex — portfolio cover</title>
+<style>
+  :root{
+    --canvas:#08090b; --surface:#0e1014; --elevated:#14171c; --raised:#1a1e24;
+    --line:#22272f; --line-strong:#333a44;
+    --ink:#f2f4f7; --ink-muted:#98a1ac; --ink-subtle:#626b76;
+    --accent:#c6f24e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;width:100%}
+  body{
+    background:var(--canvas); color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    -webkit-font-smoothing:antialiased; overflow:hidden;
+  }
+  /* Glow and grid span the full canvas, so the image stays seamless even if a
+     platform crops it to a ratio other than the one captured. */
+  .glow{
+    position:fixed; inset:0;
+    background:
+      radial-gradient(circle 430px at 13% 4%, rgba(198,242,78,.15), transparent 68%),
+      radial-gradient(circle 580px at 90% 98%, rgba(76,201,240,.055), transparent 70%);
+  }
+  .grid{
+    position:fixed; inset:0;
+    background-image:linear-gradient(to right,rgba(34,39,47,.7) 1px,transparent 1px),
+                     linear-gradient(to bottom,rgba(34,39,47,.7) 1px,transparent 1px);
+    background-size:42px 42px;
+    -webkit-mask-image:radial-gradient(ellipse 74% 76% at 26% 44%,black 6%,transparent 82%);
+            mask-image:radial-gradient(ellipse 74% 76% at 26% 44%,black 6%,transparent 82%);
+  }
+  .wrap{
+    position:relative; height:100%;
+    display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr);
+    align-items:center; gap:38px; padding:34px 42px 44px;
+  }
+  .badge{
+    display:inline-flex; align-items:center; gap:6px;
+    border:1px solid rgba(198,242,78,.32); background:rgba(198,242,78,.08);
+    color:var(--accent); border-radius:999px;
+    padding:5px 11px; font-size:11px; font-weight:520;
+  }
+  .badge i{width:5px;height:5px;border-radius:50%;background:var(--accent);display:block}
+  h1{margin-top:15px; font-size:57px; line-height:.94; font-weight:640; letter-spacing:-.035em}
+  h1 span{color:var(--accent)}
+  .sub{margin-top:13px; font-size:14px; line-height:1.55; color:var(--ink-muted); max-width:35ch}
+  .chips{margin-top:20px; display:flex; flex-wrap:wrap; gap:7px}
+  .chips span{
+    border:1px solid var(--line); background:var(--surface); border-radius:8px;
+    padding:6px 10px; font-size:11px; color:var(--ink-muted);
+    font-variant-numeric:tabular-nums;
+  }
+  .chips span b{color:var(--ink); font-weight:600}
+  .frame{
+    border:1px solid var(--line-strong); border-radius:12px; overflow:hidden;
+    background:var(--surface);
+    box-shadow:0 30px 66px -24px rgba(0,0,0,.92);
+  }
+  .bar{
+    height:24px; display:flex; align-items:center; gap:6px; padding:0 10px;
+    border-bottom:1px solid var(--line); background:var(--elevated);
+  }
+  .bar i{width:8px;height:8px;border-radius:50%;background:var(--raised);display:block}
+  .bar u{margin-left:7px; flex:1; height:14px; border-radius:5px; background:var(--canvas); border:1px solid var(--line)}
+  .frame img{display:block; width:100%; height:auto}
+  .foot{
+    position:absolute; left:42px; bottom:15px; font-size:10.5px; color:var(--ink-subtle);
+    font-variant-numeric:tabular-nums;
+  }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="grid"></div>
+  <div class="wrap">
+    <div>
+      <div class="badge"><i></i>Case study · 2026</div>
+      <h1>Sole<span>Index</span></h1>
+      <p class="sub">
+        Sneaker resale market intelligence — interactive dashboards, an explainable
+        trend index, and an analyst CMS. Next.js, PostgreSQL, TypeScript.
+      </p>
+      <div class="chips">
+        <span><b>240</b> silhouettes</span>
+        <span><b>28,320</b> observations</span>
+        <span><b>90</b> unit tests</span>
+        <span><b>14</b> routes</span>
+      </div>
+    </div>
+    <div class="frame">
+      <div class="bar"><i></i><i></i><i></i><u></u></div>
+      <img src="screenshots/01-overview.jpg" alt="">
+    </div>
+  </div>
+  <div class="foot">github.com/fengfanfan-max/sole-index</div>
+</body>
+</html>

@@ -58,13 +58,17 @@ For `04`, build a basket first: open `/products`, click the `+` at the start of 
 
 ## Regenerating the cover
 
-The cover is HTML rendered in a browser, not text drawn onto an image — which is why the typography
-matches the product exactly. To change it:
+The markup is committed at [`docs/cover.html`](cover.html) and renders in a browser rather than being
+drawn with an image library — which is why the typography and colour match the product exactly.
 
-1. Copy `01-overview.jpg` and the cover markup into one directory and serve it
-   (`python3 -m http.server 8099 --bind 127.0.0.1`).
-2. Open it at a 1600 × 900 viewport and screenshot.
-3. Crop to 1200 × 675, padding top and bottom with `#08090b`. The padding is invisible because that is
-   the canvas colour.
+```bash
+cd docs && python3 -m http.server 8099 --bind 127.0.0.1
+# open http://127.0.0.1:8099/cover.html and screenshot at a 1200x675 viewport
+```
 
-Only the headline, the strapline and the four chips need editing between versions.
+**Capture at the target size.** The first version of this cover padded a 1600 × 757 capture to
+1200 × 675 with a flat fill, and the band was visible: the canvas carries a radial glow that the
+padding did not. A browser's own chrome costs roughly 143 px of height, so the window is requested at
+1200 × 818 to yield a 1200 × 675 viewport.
+
+Only the headline, the strapline and the four chips change between versions.
